@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <div classname="main-cainter">
+    <div className="main-cainter">
       <div className="flex justify-center my-4">
         <Image
           src="/asset/nova-mission_image.png"
