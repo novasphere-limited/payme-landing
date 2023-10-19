@@ -47,7 +47,7 @@ export default function AllAdmin() {
           </thead>
           <tbody>
             {dummyData.map((user) => (
-              <tr>
+              <tr key={user.id}>
                 <td className="flex items-center gap-3 mb-4">
                   <form>
                     <input
