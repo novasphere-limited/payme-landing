@@ -5,7 +5,7 @@ export default function Choose() {
     <div className="main-container">
       <h2 className="header-2_bold text-center mb-4">Why Choose Us</h2>
       <h6 className="text-2_regular mb-5 text-center">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud
       </h6>

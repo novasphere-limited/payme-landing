@@ -365,9 +365,9 @@ body {
 }
 .testimony-abs {
   position: absolute;
-  bottom: 0;
-  right: -60%;
-  margin-left: 15rem;
+  bottom: -12px;
+  right: 19%;
+  margin-left: 25rem;
 }
 .help-container {
   text-align: center;

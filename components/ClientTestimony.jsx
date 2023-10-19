@@ -5,7 +5,7 @@ export default function ClientTestimony() {
         What do our clients say about Us
       </h2>
       <h6 className="label-2_regular mb-4 text-center">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud
       </h6>

@@ -8,7 +8,10 @@ export default function LatestBlogPost() {
       <h4 className="header-4_medium mb-3">Latest Post</h4>
       <div>
         {dummyBlogPostData.map((blog) => (
-          <div className="blog-post_grid2 rounded-md shadow-md p-3 mb-4">
+          <div
+            className="blog-post_grid2 rounded-md shadow-md p-3 mb-4"
+            key={blog.id}
+          >
             <div>
               <Image
                 src={blog.imagePath}

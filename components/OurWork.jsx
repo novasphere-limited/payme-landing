@@ -7,7 +7,7 @@ export default function OurWork() {
       <div className="main-container">
         <h2 className="header-2_bold mb-3">Our Works</h2>
         <p className="text-2_regular mb-10">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud
         </p>
@@ -24,7 +24,7 @@ export default function OurWork() {
           <div className="w-full">
             <h6 className="label-2_bold mb-4">Afrigold</h6>
             <h6 className="label-2_regular">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud
             </h6>

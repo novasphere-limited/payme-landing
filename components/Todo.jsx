@@ -5,7 +5,7 @@ export default function Todo() {
     <div className="main-container">
       <h2 className="header-2_bold text-center mb-3">What do we do?</h2>
       <p className="text-2_regular mb-5">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud
       </p>
@@ -23,7 +23,7 @@ export default function Todo() {
             <span className="pe-2">01</span> Digital Advertising
           </h6>
           <p className="text-2_regular mb-5">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud
           </p>
@@ -50,7 +50,7 @@ export default function Todo() {
             <span className="pe-2">01</span> Digital Advertising
           </h6>
           <p className="text-2_regular mb-5">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud
           </p>
@@ -77,7 +77,7 @@ export default function Todo() {
             <span className="pe-2">01</span> Digital Advertising
           </h6>
           <p className="text-2_regular mb-5">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud
           </p>
@@ -104,7 +104,7 @@ export default function Todo() {
             <span className="pe-2">01</span> Digital Advertising
           </h6>
           <p className="text-2_regular mb-5">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud
           </p>
