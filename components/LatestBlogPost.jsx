@@ -1,6 +1,7 @@
 import { dummyBlogPostData } from "@/contants";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function LatestBlogPost() {
   return (
