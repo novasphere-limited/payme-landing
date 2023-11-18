@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./Button";
 
 export default function HeroSection() {
   return (
@@ -13,7 +14,7 @@ export default function HeroSection() {
         Presence{" "}
       </h6>
       <Link href="/">
-        <button className="btn-nova_bg">Get started</button>
+        <Button btnText="Get started" />
       </Link>
       <div className="flex justify-center my-4">
         <Image

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./Button";
 
 export default function AboutHerosection() {
   return (
@@ -36,7 +37,7 @@ export default function AboutHerosection() {
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <Link href="/">
-            <button className="btn-nova_bg">Get started</button>
+            <Button btnText="Get started" />
           </Link>
         </div>
       </div>

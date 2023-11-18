@@ -1,14 +1,19 @@
 import Image from "next/image";
 
-export default function Todo() {
+export default function ServiceHeroSection() {
   return (
-    <div className="main-container">
-      <h2 className="header-2_bold text-center mb-3">What do we do?</h2>
-      <p className="text-2_regular mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud
-      </p>
+    <>
+      <div className="text-center">
+        <h1 className="header-1_bold mb-3">
+          We help give the perfect
+          <span className="text-warning500 ps-2">Solution</span> to your
+          Business.
+        </h1>
+        <h6 className="header-4_regular mb-3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </h6>
+      </div>
       <div className="grid-2">
         <div className="bg-blue100 py-10 px-4 rounded-md">
           <div className="mb-3">
@@ -120,6 +125,6 @@ export default function Todo() {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }

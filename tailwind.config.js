@@ -13,9 +13,9 @@ module.exports = {
         whiteSec: "#FEFCFC",
         warning100: "#FBE8CE24",
         warning200: "#FBE8CE33",
-        warning500: "#F0A132",
+        warning500: "#4158EF",
         warning700: "#C57608",
-        blue100: "#D6E9FE33",
+        blue100: "#D6E9FE",
         blue500: "#53A2F9",
       },
       fontSize: {

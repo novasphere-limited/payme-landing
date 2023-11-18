@@ -19,7 +19,7 @@ export default function LatestBlogPost() {
                 alt={blog.name}
                 width={409}
                 height={333}
-                className="rounded-md"
+                className="rounded-md w-full"
               />
             </div>
             <div>
@@ -27,7 +27,7 @@ export default function LatestBlogPost() {
               <p className="text-2_regular mb-2">{blog.content}</p>
               <Link
                 href={`/blog/${blog.id}`}
-                className="text-1_medium text-warning700"
+                className="text-1_medium text-warning500"
               >
                 Read more
               </Link>

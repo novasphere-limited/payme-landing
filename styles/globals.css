@@ -356,7 +356,6 @@ body {
   gap: 3rem;
 }
 .navbar_outline {
-  border: 2px solid #0b8657;
   padding: 1rem 2rem;
   border-radius: 8px;
 }
@@ -386,7 +385,7 @@ body {
   text-align: center;
 }
 .footer-container {
-  background-color: #032015;
+  background-color: #5758ef1c;
   padding: 2rem 0rem;
 }
 .footer-container_inner {
@@ -403,7 +402,7 @@ body {
   border-radius: 8px;
 }
 .btn-nova_bg {
-  background: #f0a132 !important;
+  background: #4158ef !important;
   color: #fefcfc;
   padding: 0.5rem 4rem;
   border-radius: 8px;
@@ -438,7 +437,7 @@ body {
 }
 .grid-3 {
   display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 8px;
   row-gap: 8px;
 }
@@ -504,6 +503,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.footer_grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  column-gap: 0.75rem;
+  row-gap: 0.75rem;
 }
 
 @media (max-width: 1180px) {
@@ -824,6 +829,10 @@ body {
     font-size: 0.75rem;
     line-height: 18px;
   }
+
+  .footer_grid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
 }
 @media (max-width: 1000px) {
   .btn-primary_bg {
@@ -1137,6 +1146,21 @@ body {
     font-size: 0.75rem;
     line-height: 18px;
   }
+  .grid-2_diff1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 8px;
+  }
+  .grid-2_diff2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 8px;
+  }
+  .blog-post_grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1149,6 +1173,18 @@ body {
   .footer-flex_2 {
     flex: 2;
   }
+  .grid-2_diff1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 8px;
+  }
+  .grid-2_diff2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 8px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1160,6 +1196,15 @@ body {
   }
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-post_grid2 {
+    grid-template-columns: 1fr;
+  }
+  .footer_grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .main-container {
@@ -1468,7 +1513,7 @@ body {
   }
 }
 
-@media (max-width: 500) {
+@media (max-width: 500px) {
   .main-container {
     margin: 0.5rem 0.5rem;
   }
@@ -1480,5 +1525,8 @@ body {
   }
   .testimony-img {
     height: 1000px;
+  }
+  .footer_grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
