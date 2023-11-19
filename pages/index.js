@@ -11,7 +11,9 @@ export default function NovasphereHome() {
   return (
     <div>
       <Layout>
-        <HeroSection />
+        <div className="bg-image">
+          <HeroSection />
+        </div>
         <Todo />
         <OurWork />
         <Choose />
