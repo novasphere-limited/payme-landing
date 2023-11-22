@@ -31,7 +31,7 @@ export default function Choose() {
         </div>
       </div>
       <div className="grid-2_diff2 items-center">
-        <div>
+        <div className="col-1">
           <h6 className="label-2_bold mb-3">Result Oriented</h6>
           <h6 className="label-2_regular mb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

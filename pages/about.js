@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div>
       <Layout>
-        <div className="bg-image">
+        <div className="bg-image abs-margin">
           <AboutHerosection />
         </div>
         <OurWork />

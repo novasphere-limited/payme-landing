@@ -35,7 +35,7 @@ export default function ContactUs() {
       </div>
       <div className="w-full">
         <Image
-          src="/asset/nova-blog_img.png"
+          src="/asset/nova-contact_img.png"
           alt="Novasphere contact picture"
           width={593}
           height={752}

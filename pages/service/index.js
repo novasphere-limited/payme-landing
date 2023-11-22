@@ -10,8 +10,8 @@ export default function Service() {
         <div className="main-container">
           <ServiceHeroSection />
           <ContactSection />
-          <Subscribe />
         </div>
+        <Subscribe />
       </Layout>
     </div>
   );

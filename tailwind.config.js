@@ -15,8 +15,9 @@ module.exports = {
         warning200: "#FBE8CE33",
         warning500: "#4158EF",
         warning700: "#C57608",
-        blue100: "#D6E9FE",
+        blue100: "#0EC9FC05",
         blue500: "#53A2F9",
+        gray100: "#03042305",
       },
       fontSize: {
         xs: ".75rem",

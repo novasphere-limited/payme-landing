@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <div classname="main-cainter">
+    <div>
       <div className="flex justify-center my-4">
         <Image
           src="/asset/nova-mission_image.png"
@@ -12,8 +12,8 @@ export default function Mission() {
           className="rounded-md"
         />
       </div>
-      <div className="flex justify-center text-center">
-        <div className="w-3/4">
+      <div className="flex justify-center text-center main-container">
+        <div className="" style={{ maxWidth: "50rem" }}>
           <h1 className="header-2_bold mt-3 text-center">Our Vision</h1>
           <p className="text-2_regular mt-3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

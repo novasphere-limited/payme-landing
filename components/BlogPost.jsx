@@ -11,7 +11,7 @@ export default function BlogPost() {
             alt="Novasphere blog hero picture"
             width={753}
             height={410}
-            className="rounded-md"
+            className="rounded-md "
           />
         </div>
         <div className="m-3">

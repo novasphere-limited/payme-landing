@@ -12,7 +12,7 @@ export default function HeroSection() {
         </h1>
         <h6 className="header-4_regular mb-3">
           Transforming Your Online Presence for Success Transforming Your Online
-          Presence{" "}
+          Presence.
         </h6>
       </div>
       <Link href="/">
