@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+import LinkBtn from "./LinkButton";
+import { ROUTES } from "@/contants/ROUTES";
 
 export default function Contact() {
   return (
@@ -14,20 +15,14 @@ export default function Contact() {
         />
       </div>
       <div className="w-full">
-        <h1 className="header-1_black lg:mb-4 mb-2 pt-0">
-          Our contact team is always here for you.
+        <h1 className="header-3_medium lg:mb-4 mb-2 pt-0">
+          Our Team Is Always Here To Help{" "}
         </h1>
-        <h6 className="label-2_regular lg:mb-5 mb-1">
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in
-          Technology Evolution Transforming Ideas into Digital Realities, Where
-          Vision Meets Innovation. Your Partner in Technology Evolution
-          Transforming Ideas into.
+        <h6 className="text-2_regular lg:mb-5 mb-1">
+          Your journey to inclusion starts today.  If you have any more
+          questions, contact our support team for any enquiries.
         </h6>
-        <Link href="/contact">
-          <button className="btn-primary_bg label-2_medium">Contact Us</button>
-        </Link>
+        <LinkBtn href={ROUTES.CONTACT} text="Contact Us" />
       </div>
     </div>
   );

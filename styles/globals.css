@@ -366,7 +366,7 @@ body {
 .testimony-abs {
   position: absolute;
   bottom: 0;
-  right: -60%;
+  right: -15%;
   margin-left: 15rem;
 }
 .help-container {
@@ -378,7 +378,7 @@ body {
 }
 .contact-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 3rem;
 }
 .subscribe-container {
@@ -436,12 +436,7 @@ body {
   column-gap: 16px;
   row-gap: 8px;
 }
-.grid-3 {
-  display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
-  column-gap: 8px;
-  row-gap: 8px;
-}
+
 .social-icon {
   padding: 8px;
   border-radius: 50%;
@@ -481,7 +476,25 @@ body {
   text-align: start;
 }
 
+.footer-flex_2 {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 1rem;
+}
+
 @media (max-width: 1180px) {
+  .testimony-abs {
+    position: absolute;
+    bottom: 0;
+    margin-left: 10rem;
+  }
+
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -801,6 +814,12 @@ body {
   }
 }
 @media (max-width: 1000px) {
+  .testimony-abs {
+    position: absolute;
+    bottom: 0;
+    margin-left: 8rem;
+  }
+
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -1115,18 +1134,30 @@ body {
 }
 
 @media (max-width: 900px) {
+  .testimony-abs {
+    position: absolute;
+    bottom: 0;
+    margin-left: 7rem;
+  }
+
   .contact-container {
     display: block;
   }
   .footer-flex_1 {
     flex: 1;
   }
-  .footer-flex_2 {
+  /* .footer-flex_2 {
     flex: 2;
-  }
+  } */
 }
 
 @media (max-width: 800px) {
+  .testimony-abs {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5rem;
+  }
+
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -1443,17 +1474,19 @@ body {
   }
 }
 
-@media (max-width: 500) {
+@media (max-width: 500px) {
   .main-container {
     margin: 0.5rem 0.5rem;
   }
   .testimony-abs {
     position: absolute;
     bottom: 0;
-    right: -150%;
-    margin-left: 0rem;
+    margin-left: 2rem;
   }
   .testimony-img {
     height: 1000px;
+  }
+  .footer-flex_2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

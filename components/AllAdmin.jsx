@@ -3,6 +3,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
+import Dropdown from "./Dropdown";
 
 export default function AllAdmin() {
   return (
@@ -39,10 +40,8 @@ export default function AllAdmin() {
           <thead>
             <tr className="text-center">
               <th className="label-4_regular">Name</th>
-              <th className="label-4_regular whitespace-nowrap">
-                Phone Number
-              </th>
-              <th className="label-4_regular">Date</th>
+              <th className="label-4_regular whitespace-nowrap">Team</th>
+              <th className="label-4_regular">Role</th>
             </tr>
           </thead>
           <tbody>
@@ -66,17 +65,20 @@ export default function AllAdmin() {
                   <div>
                     <p className="text-1_regular">{user.name}</p>
                     <p className="text-1_regular whitespace-nowrap">
-                      {user.email} + ajayiabiodunsamson05@gmail.com
+                      {user.email}
                     </p>
                   </div>
                 </td>
 
                 <td>
-                  <p className="text-1_regular">{user.phoneNumber}</p>
+                  <p className="text-1_regular">Product</p>
                 </td>
                 <td>
-                  <p className="text-1_regular">3/03/23</p>
+                  <p className="text-1_regular">Designer</p>
                 </td>
+                <div className="flex items-center justify-center">
+                  <Dropdown />
+                </div>
               </tr>
             ))}
           </tbody>

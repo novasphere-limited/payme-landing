@@ -1,31 +1,29 @@
 import Image from "next/image";
-import Link from "next/link";
+import LinkBtn from "./LinkButton";
+import { ROUTES } from "@/contants/ROUTES";
 
 export default function Herosection() {
   return (
     <div className="main-container md:flex">
-      <div className="w-full">
+      <div className="w-full lg:mt-[65px] md:mt-[45px] sm:mt:[30px] mt-[25px]">
         <h6 className="label-2_bold text-grnSec mb-4">PayyME</h6>
-        <h2 className="header-2_black mb-3">
-          Elevating Possibilities Through Technology{" "}
-          <span className="text-grnSec">Excellence</span>
+        <h2 className="header-2_medium mb-3">
+          Revolutionising payment through inclusion and innovation - one
+          <span className="text-grnSec"> SMS </span> at a time.
         </h2>
-        <h3 className="header-3_regular mb-4">
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution
+        <h3 className="label-2_regular mb-4">
+          Without worrying about connectivity, PayyME helps small businesses
+          and  individuals pay and get paid
         </h3>
-        <Link href="/">
-          <button className="label-2_medium btn-primary_bg my-5">
-            Get Started
-          </button>
-        </Link>
+
+        <LinkBtn href={ROUTES.LOGIN} text="Get Started" />
       </div>
       <div className="w-full">
         <Image
-          src="/asset/hero-img.png"
+          src="/asset/hero-img1.png"
           alt="Farmer image"
-          width={644}
-          height={644}
+          width={648}
+          height={712}
           className="rounded-lg w-full"
         />
       </div>

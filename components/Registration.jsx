@@ -1,10 +1,10 @@
-import Image from "next/image";
-import SliderRegistration from "./SliderRegistration";
+import Slider from "./Slider";
+import { RegistrationSliderData } from "@/contants";
 
 export default function Registration() {
   return (
     <div className="main-container">
-      <SliderRegistration />
+      <Slider ArrayList={RegistrationSliderData} width={250} height={221} />
     </div>
   );
 }

@@ -1,18 +1,19 @@
+import { ROUTES } from "@/contants/ROUTES";
 import Image from "next/image";
 import Link from "next/link";
-import {useState} from "react";
+import { useState } from "react";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
-  
-  const handleNavbar = () =>{
+
+  const handleNavbar = () => {
     setShowNavbar(!showNavbar);
-  }
+  };
 
   return (
     <>
       <div className="navbar">
-        <Link href="/">
+        <Link href={ROUTES.HOME}>
           <Image
             src="/asset/Paymee.png"
             width={160}
@@ -21,33 +22,36 @@ export default function Navbar() {
           />
         </Link>
         <ul>
-          <Link href="/">
+          <Link href={ROUTES.HOME}>
             <li className="label-3_medium">Home</li>
           </Link>
-          <Link href="/about">
+          <Link href={ROUTES.ABOUT}>
             <li className="label-3_medium">About us</li>
           </Link>
-          <Link href="/how">
+          <Link href={ROUTES.HOWITWORKS}>
             <li className="label-3_medium">How it works</li>
           </Link>
-          <Link href="/blog">
+          <Link href={ROUTES.BLOG}>
             <li className="label-3_medium">Blog</li>
+          </Link>
+          <Link href={ROUTES.CONTACT}>
+            <li className="label-3_medium">Contact Us</li>
           </Link>
         </ul>
         <div>
-          <Link href="/contact">
+          <Link href={ROUTES.LOGIN}>
             <h1
               className="label-2_medium navbar_outline"
               style={{ color: "#075134" }}
             >
-              Contact Us
+              Get Started
             </h1>
           </Link>
         </div>
       </div>
       <div className="navbar-mobile">
         <div className="flex justify-between items-center">
-          <Link href="/" className="mb-2">
+          <Link href={ROUTES.HOME} className="mb-2">
             <Image
               src="/asset/Paymee.png"
               width={100}
@@ -56,7 +60,7 @@ export default function Navbar() {
             />
           </Link>
           <button onClick={handleNavbar}>
-            <Image 
+            <Image
               src="/favicon_io/hamburger.svg"
               width={28}
               height={20}
@@ -64,25 +68,33 @@ export default function Navbar() {
             />
           </button>
         </div>
-        {showNavbar && 
+        {showNavbar && (
           <ul>
-            <Link href="/">
+            <Link href={ROUTES.HOME}>
               <li className="label-3_medium mb-2">Home</li>
             </Link>
-            <Link href="/about">
+            <Link href={ROUTES.ABOUT}>
               <li className="label-3_medium mb-2">About us</li>
             </Link>
-            <Link href="/how">
-             <li className="label-3_medium mb-2">How it works</li>
+            <Link href={ROUTES.HOWITWORKS}>
+              <li className="label-3_medium mb-2">How it works</li>
             </Link>
-            <Link href="/blog">
+            <Link href={ROUTES.BLOG}>
               <li className="label-3_medium mb-2">Blog</li>
             </Link>
-            <Link href="/contact">
-              <li className="label-3_medium mb-2" style={{ color: "#075134" }}>Contact Us</li>
+            <Link href={ROUTES.CONTACT}>
+              <li className="label-3_medium mb-2">Contact Us</li>
+            </Link>
+            <Link href={ROUTES.LOGIN}>
+              <li
+                className="label-3_medium mb-2 navbar_outline text-center"
+                style={{ color: "#075134" }}
+              >
+                Get Started
+              </li>
             </Link>
           </ul>
-        }     
+        )}
       </div>
     </>
   );

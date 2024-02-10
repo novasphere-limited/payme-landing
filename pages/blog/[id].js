@@ -1,10 +1,9 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
-import Link from "next/link";
 import SocialPage from "@/components/SocialPage";
 import Subscribe from "@/components/Subscribe";
 import Layout from "@/components/Layout";
-import { useEffect } from "react";
+import { NewsOneList } from "@/contants";
 
 export default function BlogInfo() {
   const router = useRouter();
@@ -33,114 +32,96 @@ export default function BlogInfo() {
             className="rounded-lg"
           />
         </div>
-        <h1 className="label-4_regular my-4">
-          <span className="ms-10 header-1_black">T</span>ransforming Ideas into
-          Digital Realities, Where Vision Meets Innovation. Your Partner in
-          Technology Evolution Transforming Ideas into Digital Realities, Where
-          Vision Meets Innovation. Your Partner in Technology Evolution
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in
-          Technology Evolution Transforming Ideas into Digital Realities, Where
-          Vision Meets Innovation. Your Partner in Technology Evolution
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in
-          Technology Evolution Transforming Ideas into Digital Realities, Where
-          Vision Meets Innovation. Your Partner in Technology Evolution
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in
-          Technology Evolution deas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in
-          Technology Evolution Transforming Ideas into Digital Realities, Where
-          Vision Meets Innovation. Your Partner in Technology Evolution
+        <h1 className="text-2_regular my-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor
+          sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum
         </h1>
-        <div className="flex my-5 justify-end">
+        <div className="flex my-5 justify-start">
           <SocialPage color="#000000" />
         </div>
-        <div>
-          <div className="grid-3 mb-4">
-            <div className="w-100 rounded-md shadow-md p-4">
-              <div className="mb-2 flex justify-center">
-                <Image
-                  src="/asset/news-img.png"
-                  width={424}
-                  height={380}
-                  alt="News picture"
-                  className="rounded-lg"
-                />
+        <div className="grid grid-cols-1 gap-3 mb-4 sm:grid-cols-2 lg:grid-cols-3">
+          {NewsOneList.map((news) => (
+            <>
+              <div className="w-100 rounded-md shadow-md p-4">
+                <div className="mb-2 flex justify-center">
+                  <Image
+                    src={news.imgSrc}
+                    width={424}
+                    height={380}
+                    alt={news.author}
+                    className="rounded-lg w-full"
+                  />
+                </div>
+                <div>
+                  <h4 className="label-1_medium mb-3">{news.title}</h4>
+                  <p className="text-1_regular mb-3">{news.text}</p>
+                  <p className="text-1_medium mb-3">{news.author}</p>
+                  <p className="text-1_regular">May 20, 2023. 2 mins read</p>
+                </div>
               </div>
-              <div>
-                <h4 className="label-1_medium mb-3">
-                  {" "}
-                  Finance: Insights, Tips, and Trends
-                </h4>
-                <p className="text-1_regular mb-3">
-                  Transforming Ideas into Digital Realities, Where Vision Meets
-                  Innovation. Your Partner in Technology Evolution Transforming
-                  Ideas into Digital Realities, Where Vision Meets Innovation.
-                  Your Partner in Technology Evolution.
-                </p>
-                <p className="text-1_medium mb-3">Felix Ade</p>
-                <p className="text-1_regular">May 20, 2023. 2 mins read</p>
-              </div>
-            </div>
-            <div className="w-100 rounded-md shadow-md p-4">
-              <div className="mb-2 flex justify-center">
-                <Image
-                  src="/asset/news-img.png"
-                  width={424}
-                  height={380}
-                  alt="News picture"
-                  className="rounded-lg"
-                />
-              </div>
-              <div>
-                <h4 className="label-1_medium mb-3">
-                  {" "}
-                  Finance: Insights, Tips, and Trends
-                </h4>
-                <p className="text-1_regular mb-3">
-                  Transforming Ideas into Digital Realities, Where Vision Meets
-                  Innovation. Your Partner in Technology Evolution Transforming
-                  Ideas into Digital Realities, Where Vision Meets Innovation.
-                  Your Partner in Technology Evolution.
-                </p>
-                <p className="text-1_medium mb-3">Felix Ade</p>
-                <p className="text-1_regular">May 20, 2023. 2 mins read</p>
-              </div>
-            </div>
-            <div className="w-100 rounded-md shadow-md p-4">
-              <div className="mb-2 flex justify-center">
-                <Image
-                  src="/asset/news-img.png"
-                  width={424}
-                  height={380}
-                  alt="News picture"
-                  className="rounded-lg"
-                />
-              </div>
-              <div>
-                <h4 className="label-1_medium mb-3">
-                  {" "}
-                  Finance: Insights, Tips, and Trends
-                </h4>
-                <p className="text-1_regular mb-3">
-                  Transforming Ideas into Digital Realities, Where Vision Meets
-                  Innovation. Your Partner in Technology Evolution Transforming
-                  Ideas into Digital Realities, Where Vision Meets Innovation.
-                  Your Partner in Technology Evolution.
-                </p>
-                <p className="text-1_medium mb-3">Felix Ade</p>
-                <p className="text-1_regular">May 20, 2023. 2 mins read</p>
-              </div>
-            </div>
-          </div>
+            </>
+          ))}
         </div>
-        <Subscribe />
       </div>
+      <Subscribe />
     </Layout>
   );
 }

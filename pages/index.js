@@ -19,7 +19,7 @@ export default function Home() {
         <Herosection />
         <Features />
         <Testimony />
-        <Registration />
+        {/* <Registration /> */}
         <Choose />
         <HelpPayment />
         <Partnership />

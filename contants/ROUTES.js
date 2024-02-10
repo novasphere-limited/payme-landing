@@ -1,0 +1,18 @@
+export const ROUTES = {
+  HOME: "/",
+  ABOUT: "/about",
+  CONTACT: "/contact",
+  FORGOTPASSWORD: "/forgotpassword",
+  HOWITWORKS: "/how",
+  LOGIN: "/login",
+  OTPVERIFY: "/otpverify",
+  RESETPASSWORD: "/resetpassword",
+  SIGNUP: "/signup",
+  BLOG: "/blog",
+  BLOGSINGLE: "/blog/[id]",
+  DASHBOARD: "/dashboard",
+  DASHBOARDALLADMIN: "/dashboard/alladmin",
+  DASHBOARDADDADMIN: "/dashboard/addadmin",
+  DASHBOARDALLREGISTRATION: "/dashboard/allregistration",
+  DASHBOARDNOTIFICATION: "/dashboard/notification",
+};
