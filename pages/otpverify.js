@@ -1,4 +1,4 @@
-import OtpVerify from "@/components/OtpVerify";
+import OtpVerify from "@/paymee/Form/OtpVerify";
 
 export default function OtpPage() {
   return (

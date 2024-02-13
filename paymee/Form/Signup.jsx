@@ -1,10 +1,11 @@
 import { ROUTES } from "@/contants/ROUTES";
 import Link from "next/link";
-import CustomInput from "./CustomInput";
+import CustomInput from "../../components/CustomInput";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
-import Button from "./Button";
-import FormLayout from "./FormLayout";
+import Button from "../../components/Button";
+import FormLayout from "../../components/FormLayout";
+import ImageComponent from "@/components/ImageComponent";
 
 export default function Signup() {
   const { handleSubmit, control } = useForm();
@@ -15,14 +16,7 @@ export default function Signup() {
 
   return (
     <FormLayout>
-      {/* <div className="flex justify-center">
-        <Image
-          src="/asset/Paymee.png"
-          width={160}
-          height={63}
-          alt="Company logo"
-        />
-      </div> */}
+      <ImageComponent />
       <h2 className="header-2_bold mb-3 text-[#0DA168] text-center">
         Create your account
       </h2>

@@ -1,4 +1,4 @@
-import HowSection from "@/components/HowSection";
+import HowSection from "@/paymee/LandingPage/HowSection";
 import Subscribe from "@/components/Subscribe";
 import Layout from "@/components/Layout";
 

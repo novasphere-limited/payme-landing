@@ -2,14 +2,14 @@ import Head from "next/head";
 import React, { useState, useEffect } from "react";
 import styles from "@/styles/noAuth/Home.module.scss";
 import Subscribe from "@/components/Subscribe";
-import Contact from "@/components/Contact";
-import Partnership from "@/components/Partnership";
-import HelpPayment from "@/components/HelpPayment";
-import Choose from "@/components/Choose";
-import Registration from "@/components/Registration";
-import Testimony from "@/components/Testimony";
-import Features from "@/components/Features";
-import Herosection from "@/components/Herosection";
+import Contact from "@/paymee/LandingPage/Contact";
+import Partnership from "@/paymee/LandingPage/Partnership";
+import HelpPayment from "@/paymee/LandingPage/HelpPayment";
+import Choose from "@/paymee/LandingPage/Choose";
+import Registration from "@/paymee/LandingPage/Registration";
+import Testimony from "@/paymee/LandingPage/Testimony";
+import Features from "@/paymee/LandingPage/Features";
+import Herosection from "@/paymee/LandingPage/Herosection";
 import Layout from "@/components/Layout";
 
 export default function Home() {

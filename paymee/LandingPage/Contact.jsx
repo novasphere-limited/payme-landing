@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LinkBtn from "./LinkButton";
+import LinkBtn from "../../components/LinkButton";
 import { ROUTES } from "@/contants/ROUTES";
 
 export default function Contact() {

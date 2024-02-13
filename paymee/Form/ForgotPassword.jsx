@@ -1,10 +1,10 @@
 import Link from "next/link";
-import CustomInput from "./CustomInput";
+import CustomInput from "../../components/CustomInput";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
-import FormLayout from "./FormLayout";
-import Button from "./Button";
-import ImageComponent from "./ImageComponent";
+import FormLayout from "../../components/FormLayout";
+import Button from "../../components/Button";
+import ImageComponent from "../../components/ImageComponent";
 
 export default function ForgotPassword() {
   const { handleSubmit, control } = useForm();
@@ -15,10 +15,10 @@ export default function ForgotPassword() {
 
   return (
     <FormLayout>
+      <ImageComponent />
       <h2 className="header-2_bold mb-10 text-[#0DA168] text-center">
         Forgot password?
       </h2>
-
       <form onSubmit={handleSubmit(onSubmit)} className="p-5">
         <CustomInput
           label="Enter the phone number you registered with"

@@ -1,6 +1,6 @@
 import { dummyData } from "@/contants";
-import SelectComponent from "./SelectComponent";
-import PaginationComponent from "./Pagination";
+import SelectComponent from "../../components/SelectComponent";
+import PaginationComponent from "../../components/Pagination";
 import { useState } from "react";
 
 export default function Notification() {

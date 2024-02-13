@@ -1,8 +1,9 @@
-import Button from "./Button";
-import CustomInput from "./CustomInput";
+import Button from "../../components/Button";
+import CustomInput from "../../components/CustomInput";
 import { useForm } from "react-hook-form";
 import Image from "next/image";
-import FormLayout from "./FormLayout";
+import FormLayout from "../../components/FormLayout";
+import ImageComponent from "@/components/ImageComponent";
 
 export default function ResetPassword() {
   const { handleSubmit, control } = useForm();
@@ -13,14 +14,7 @@ export default function ResetPassword() {
 
   return (
     <FormLayout>
-      {/* <div className="flex justify-center">
-        <Image
-          src="/asset/Paymee.png"
-          width={160}
-          height={63}
-          alt="Company logo"
-        />
-      </div> */}
+      <ImageComponent />
       <h2 className="header-2_bold mb-3 grnDrk text-center">Reset password</h2>
       <p className="label-4_regular mb-10 text-center">
         Enter your new password

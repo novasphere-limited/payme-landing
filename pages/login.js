@@ -1,4 +1,4 @@
-import Login from "@/components/Login";
+import Login from "@/paymee/Form/Login";
 
 export default function LoginPage() {
   return (

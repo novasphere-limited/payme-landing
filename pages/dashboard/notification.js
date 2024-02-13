@@ -1,5 +1,5 @@
 import DashboardLayout from "@/components/DashboardLayout";
-import Notification from "@/components/Notification";
+import Notification from "@/paymee/LandingPage/Notification";
 
 export default function NotificationPage() {
   return (

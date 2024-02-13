@@ -1,4 +1,4 @@
-import Slider from "./Slider";
+import Slider from "../../components/Slider";
 import { RegistrationSliderData } from "@/contants";
 
 export default function Registration() {

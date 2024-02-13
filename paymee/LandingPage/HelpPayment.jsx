@@ -1,4 +1,4 @@
-import LinkBtn from "./LinkButton";
+import LinkBtn from "../../components/LinkButton";
 
 export default function HelpPayment() {
   return (

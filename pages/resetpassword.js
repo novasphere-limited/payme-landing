@@ -1,4 +1,4 @@
-import ResetPassword from "@/components/ResetPassword";
+import ResetPassword from "@/paymee/Form/ResetPassword";
 
 export default function ResetPage() {
   return (

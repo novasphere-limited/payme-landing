@@ -1,5 +1,5 @@
 import { FeaturesSliderData } from "@/contants";
-import FeaturesSlider from "./FeaturesSlider";
+import FeaturesSlider from "../../components/FeaturesSlider";
 
 export default function Features() {
   return (

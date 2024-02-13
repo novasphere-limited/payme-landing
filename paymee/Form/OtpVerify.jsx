@@ -1,9 +1,10 @@
 import Link from "next/link";
-import CustomInput from "./CustomInput";
+import CustomInput from "../../components/CustomInput";
 import { useForm } from "react-hook-form";
-import Button from "./Button";
+import Button from "../../components/Button";
 import Image from "next/image";
-import FormLayout from "./FormLayout";
+import FormLayout from "../../components/FormLayout";
+import ImageComponent from "@/components/ImageComponent";
 
 export default function OtpVerify() {
   const { handleSubmit, control } = useForm();
@@ -14,14 +15,7 @@ export default function OtpVerify() {
 
   return (
     <FormLayout>
-      {/* <div className="flex justify-center">
-        <Image
-          src="/asset/Paymee.png"
-          width={160}
-          height={63}
-          alt="Company logo"
-        />
-      </div> */}
+      <ImageComponent />
       <h2 className="header-2_bold text-grnDrk text-center">
         OTP verification
       </h2>

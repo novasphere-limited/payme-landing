@@ -1,10 +1,10 @@
-import AboutHerosection from "@/components/AboutHerosection";
-import Mission from "@/components/Mission";
-import Team from "@/components/Team";
-import Ceo from "@/components/Ceo";
-import Trust from "@/components/Trust";
+import AboutHerosection from "@/paymee/LandingPage/AboutHerosection";
+import Mission from "@/paymee/LandingPage/Mission";
+import Team from "@/paymee/LandingPage/Team";
+import Ceo from "@/paymee/LandingPage/Ceo";
+import Trust from "@/paymee/LandingPage/Trust";
 import Layout from "@/components/Layout";
-import OurGoal from "@/components/OurGoal";
+import OurGoal from "@/paymee/LandingPage/OurGoal";
 import Subscribe from "@/components/Subscribe";
 
 export default function About() {

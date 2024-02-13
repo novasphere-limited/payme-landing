@@ -1,7 +1,7 @@
 import { ROUTES } from "@/contants/ROUTES";
 import Image from "next/image";
 import Link from "next/link";
-import LinkBtn from "./LinkButton";
+import LinkBtn from "../../components/LinkButton";
 
 export default function AboutHerosection() {
   return (
