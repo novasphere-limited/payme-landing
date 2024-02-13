@@ -11,13 +11,6 @@ function Dropdown() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  const showMinuteModal = () => {
-    setBalanceModal(true);
-    setAnchorEl(null);
-  };
-  //   const handleValueChange = (value) => {
-  //     setBalanceModal(value);
-  //   };
 
   return (
     <div>
@@ -35,8 +28,8 @@ function Dropdown() {
         onClose={handleClose}
         keepMounted
       >
-        <div>
-          <MenuItem>
+        <div className="p-5">
+          <MenuItem onClick={handleClose}>
             <form>
               <input type="checkbox" />
               <label className="ps-2">Role</label>

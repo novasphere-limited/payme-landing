@@ -27,8 +27,9 @@ export default function TestimonySlider({ ArrayList }) {
               <div
                 className="w-full flex gap-5 items-center"
                 style={{ flex: "0 0 auto" }}
+                key={testimony.id}
               >
-                <div className="relative w-3/4">
+                <div className="relative" style={{ maxWidth: "1400px" }}>
                   <div>
                     <Image
                       src={testimony.imgSrc}
@@ -39,7 +40,7 @@ export default function TestimonySlider({ ArrayList }) {
                     />
                   </div>
                   <div
-                    className="rounded-md shadow-lg p-2 testimony-abs"
+                    className="rounded-md shadow-lg sm:px-4 sm:py-8 p-2 testimony-abs"
                     style={{ background: "#fff" }}
                   >
                     <p className="text-1_regular mb-3">
@@ -54,7 +55,7 @@ export default function TestimonySlider({ ArrayList }) {
                     <h6 className="label-4_regular">Trader</h6>
                   </div>
                 </div>
-                <div className="w-1/4 md:block hidden">
+                <div className="md:block hidden" style={{ maxWidth: "500px" }}>
                   <h1 className="header-3_medium text-center">
                     Innovation, Inclusion and Freedom
                   </h1>

@@ -13,7 +13,7 @@ export default function BlogHerosection() {
           minim veniam, quis
           <br /> nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu{" "}
+          velit esse cillum dolore eu
         </p>
       </div>
       <div className="main-container">
@@ -31,7 +31,10 @@ export default function BlogHerosection() {
             <h2 className="label-1_bold mb-4">Popular Blogs this week</h2>
 
             {InnerBlogList.map((blog) => (
-              <div className="my-5 py-5 bg-[#CFECE117] ps-3 rounded-[8px]">
+              <div
+                className="my-5 py-5 bg-[#CFECE117] ps-3 rounded-[8px]"
+                key={blog.id}
+              >
                 <div>
                   <h2 className="text-2_bold grnSec mb-1 text-grnSec">
                     {blog.header}

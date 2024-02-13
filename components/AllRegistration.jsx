@@ -1,42 +1,46 @@
-import { dummyData } from "@/contants";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { RegList, dummyData } from "@/contants";
 import Image from "next/image";
+import { useForm } from "react-hook-form";
+import SelectComponent from "./SelectComponent";
+import CustomInput from "./CustomInput";
+import PaginationComponent from "./Pagination";
+import { useState } from "react";
 
 export default function AllRegistration() {
+  const [curPaginatedValue, setCurPaginatedValue] = useState(1);
+  console.log(curPaginatedValue);
+  const { handleSubmit, control } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div>
-      <div className="flex justify-between border-2 rounded-md p-2 mb-5">
-        <form className="flex gap-1 items-center">
-          <FontAwesomeIcon
-            icon={faSearch}
-            style={{ width: "20px", height: "20px" }}
-          />
-          <input
-            type="email"
-            placeholder="Enter your email to subscribe to our daily news"
-            className="p-2 w-full border-2 lg:mb-0 rounded-md"
-          />
-        </form>
+      <div className="flex items-center gap-10">
+        <div className="w-full">
+          <SelectComponent />
+        </div>
         <div>
           <Image
             src="/asset/dashboard-profile.png"
-            width={43}
-            height={43}
+            width={70}
+            height={70}
             alt="User image"
           />
         </div>
       </div>
-      <form className="rounded-md">
-        <select id="mySelect" className="p-4">
-          <option value="option1" className="label-4_regular p-2">
-            Registration this week
-          </option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option4">Option 4</option>
-        </select>
-      </form>
+      <div className="flex">
+        <form className="rounded-md" onSubmit={handleSubmit(onSubmit)}>
+          <CustomInput
+            type="select"
+            name="select"
+            control={control}
+            options={RegList}
+            style={{ marginBottom: "0px", backgroundColor: "#E8ECF04D" }}
+          />
+        </form>
+      </div>
       <div className="">
         <table className="w-full tabble">
           <thead>
@@ -69,7 +73,7 @@ export default function AllRegistration() {
                   <div>
                     <p className="text-1_regular">{user.name}</p>
                     <p className="text-1_regular whitespace-nowrap">
-                      {user.email} + ajayiabiodunsamson05@gmail.com
+                      {user.email}
                     </p>
                   </div>
                 </td>
@@ -85,6 +89,10 @@ export default function AllRegistration() {
           </tbody>
         </table>
       </div>
+      <PaginationComponent
+        curPaginatedValue={curPaginatedValue}
+        onPaginatedChange={setCurPaginatedValue}
+      />
     </div>
   );
 }

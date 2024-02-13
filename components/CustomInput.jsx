@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { useForm, useController } from "react-hook-form";
 
@@ -26,11 +27,15 @@ const CustomInput = ({
         return (
           <select
             {...field}
-            className="p-3 w-full mb-6 border-2 border-[#096B45] rounded-lg"
+            className="p-3 w-full mb-6 mt-1 rounded-lg"
             style={style}
           >
             {options.map((option) => (
-              <option key={option.value} value={option.value}>
+              <option
+                key={option.value}
+                value={option.value}
+                disabled={option.value === ""}
+              >
                 {option.label}
               </option>
             ))}
@@ -40,7 +45,7 @@ const CustomInput = ({
         return (
           <textarea
             {...field}
-            className="p-3 w-full mb-6 border-2 border-[#096B45] rounded-lg"
+            className="p-3 w-full mb-6 mt-1 border-2 border-[#096B45] rounded-lg"
             placeholder={placeholder}
             style={style}
           />
@@ -50,7 +55,7 @@ const CustomInput = ({
           <input
             type="date"
             {...field}
-            className="p-3 w-full mb-6 border-2 border-[#096B45] rounded-lg"
+            className="p-3 w-full mb-6 mt-1 border-2 border-[#096B45] rounded-lg"
             style={style}
           />
         );
@@ -60,7 +65,7 @@ const CustomInput = ({
             type={type}
             placeholder={placeholder}
             {...field}
-            className="p-3 w-full mb-6 border-2 border-[#096B45] rounded-lg"
+            className="p-3 w-full mb-6 mt-1 border-2 border-[#096B45] rounded-lg"
             style={style}
           />
         );
@@ -69,7 +74,7 @@ const CustomInput = ({
 
   return (
     <div>
-      <label className="mb-4 label-3_medium">{label}</label>
+      <label className="label-3_medium">{label}</label>
       {renderInput()}
       {fieldState.error && (
         <p style={{ color: "red" }}>{fieldState.error.message}</p>

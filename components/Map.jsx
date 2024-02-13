@@ -1,25 +1,25 @@
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import {useState, useEffect} from "react"
+import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import { useState, useEffect } from "react";
 
 const Map = () => {
-    const mapContainerStyle = {
-    width: '100%',
-    height: '400px',
-    };
-    
-    const [center, setCenter] = useState(null);
-    
-    useEffect(() => {
-        const getUserLocation = () => {
-            if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function (position) {
-            const userLocation = {
+  const mapContainerStyle = {
+    width: "100%",
+    height: "400px",
+  };
+
+  const [center, setCenter] = useState(null);
+
+  useEffect(() => {
+    const getUserLocation = () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+          const userLocation = {
             lat: position.coords.latitude,
             lng: position.coords.longitude,
-            };
-            setCenter(userLocation);
-            });
-        }
+          };
+          setCenter(userLocation);
+        });
+      }
     };
     getUserLocation();
   }, []);

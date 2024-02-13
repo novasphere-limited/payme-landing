@@ -1,39 +1,25 @@
 import { dummyData } from "@/contants";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import Link from "next/link";
 import Dropdown from "./Dropdown";
+import SelectComponent from "./SelectComponent";
+import LinkBtn from "./LinkButton";
+import { ROUTES } from "@/contants/ROUTES";
+import PaginationComponent from "./Pagination";
+import { useState } from "react";
 
 export default function AllAdmin() {
+  const [curPaginatedValue, setCurPaginatedValue] = useState(1);
+  console.log(curPaginatedValue);
+
   return (
     <div>
-      <div className="flex justify-between border-2 rounded-md p-2 mb-5">
-        <form className="flex gap-1 items-center">
-          <FontAwesomeIcon
-            icon={faSearch}
-            style={{ width: "20px", height: "20px" }}
-          />
-          <input
-            type="email"
-            placeholder="Enter your email to subscribe to our daily news"
-            className="p-2 w-full border-2 lg:mb-0 rounded-md"
-          />
-        </form>
-        <div>
-          <Image
-            src="/asset/dashboard-profile.png"
-            width={43}
-            height={43}
-            alt="User image"
-          />
-        </div>
-      </div>
+      <SelectComponent />
       <div className="flex justify-between mb-5 items-center">
         <h5 className="label-4_light">All Admin</h5>
-        <Link href="/dashboard/addadmin">
+        {/* <Link href="/dashboard/addadmin">
           <button className="btn-sec_bg">+ Add Admin</button>
-        </Link>
+        </Link> */}
+        <LinkBtn href={ROUTES.DASHBOARDADDADMIN} text="+ Add Admin" />
       </div>
       <div className="">
         <table className="w-full tabble">
@@ -76,13 +62,17 @@ export default function AllAdmin() {
                 <td>
                   <p className="text-1_regular">Designer</p>
                 </td>
-                <div className="flex items-center justify-center">
+                <td className="flex items-center justify-center">
                   <Dropdown />
-                </div>
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
+        <PaginationComponent
+          curPaginatedValue={curPaginatedValue}
+          onPaginatedChange={setCurPaginatedValue}
+        />
       </div>
     </div>
   );

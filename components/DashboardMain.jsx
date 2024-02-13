@@ -3,31 +3,13 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import BarComponent from "./BarComponent";
 import PieComponent from "./PieComponent";
+import SelectComponent from "./SelectComponent";
 
 export default function DashboardMain() {
   return (
     <div>
-      <div className="flex justify-between border-2 rounded-md p-2">
-        <form className="flex gap-1 items-center">
-          <FontAwesomeIcon
-            icon={faSearch}
-            style={{ width: "20px", height: "20px" }}
-          />
-          <input
-            type="email"
-            placeholder="Enter your email to subscribe to our daily news"
-            className="p-2 w-full border-2 lg:mb-0 rounded-md"
-          />
-        </form>
-        <div>
-          <Image
-            src="/asset/dashboard-profile.png"
-            width={43}
-            height={43}
-            alt="User image"
-          />
-        </div>
-      </div>
+      <SelectComponent showFilter={false} showProfile={true} />
+
       <div className="flex gap-5 my-10">
         <div className="main-flex">
           <div style={{ background: "#CDE3CF3D", height: "48px" }}>

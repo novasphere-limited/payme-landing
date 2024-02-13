@@ -4,7 +4,9 @@ export default function LinkBtn({ href, text }) {
   return (
     <>
       <Link href={href}>
-        <button className="label-2_medium btn-primary_bg my-5">{text}</button>
+        <button className="label-2_medium btn-primary_bg my-5 px-[34px] py-[17px]">
+          {text}
+        </button>
       </Link>
     </>
   );

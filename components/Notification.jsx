@@ -1,34 +1,16 @@
 import { dummyData } from "@/contants";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
-import Link from "next/link";
+import SelectComponent from "./SelectComponent";
+import PaginationComponent from "./Pagination";
+import { useState } from "react";
 
 export default function Notification() {
+  const [curPaginatedValue, setCurPaginatedValue] = useState(1);
+  console.log(curPaginatedValue);
+
   return (
     <div>
       <h6 className="mb-5">Notifications</h6>
-      <div className="flex justify-between border-2 rounded-md p-2 mb-5">
-        <form className="flex gap-1 items-center">
-          <FontAwesomeIcon
-            icon={faSearch}
-            style={{ width: "20px", height: "20px" }}
-          />
-          <input
-            type="email"
-            placeholder="Search notification by date ,time, name"
-            className="p-2 w-full border-2 lg:mb-0 rounded-md"
-          />
-        </form>
-        <div>
-          <Image
-            src="/asset/dashboard-profile.png"
-            width={43}
-            height={43}
-            alt="User image"
-          />
-        </div>
-      </div>
+      <SelectComponent />
       <div className="">
         <table className="w-full tabble">
           <thead>
@@ -41,7 +23,7 @@ export default function Notification() {
           <tbody>
             {dummyData.map((user) => (
               <tr key={user.id}>
-                <td className="flex items-center gap-3 mb-4">
+                <td className="flex items-center gap-3 mb-6">
                   <form>
                     <input
                       type="checkbox"
@@ -58,11 +40,18 @@ export default function Notification() {
                 <td>
                   <p className="text-1_regular">2 mins ago</p>
                 </td>
+                <td>
+                  <p className="text-1_regular">see details</p>
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <PaginationComponent
+        curPaginatedValue={curPaginatedValue}
+        onPaginatedChange={setCurPaginatedValue}
+      />
     </div>
   );
 }

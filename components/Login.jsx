@@ -4,6 +4,8 @@ import LinkBtn from "./LinkButton";
 import { useForm } from "react-hook-form";
 import CustomInput from "./CustomInput";
 import Image from "next/image";
+import Button from "./Button";
+import FormLayout from "./FormLayout";
 
 export default function Login() {
   const { handleSubmit, control } = useForm();
@@ -13,11 +15,16 @@ export default function Login() {
   };
 
   return (
-    <div className="flex justify-center page-center mb-[110px]">
-      <div className="w-1/2">
-        <div className="flex justify-center">
-          <Image src="/asset/Paymee.png" width={160} height={63} />
-        </div>
+    <>
+      <FormLayout>
+        {/* <div className="flex justify-center">
+          <Image
+            src="/asset/Paymee.png"
+            width={160}
+            height={63}
+            alt="Company logo"
+          />
+        </div> */}
         <h2 className="header-2_bold mb-3 text-[#0DA168] text-center">
           Login Into your account
         </h2>
@@ -60,9 +67,11 @@ export default function Login() {
             <p className="label-4_black grnDrk">Forgot password?</p>
           </Link>
           <div className="px-10">
-            <button type="submit" className="w-full btn-primary_bg">
-              Login{" "}
-            </button>
+            <Button
+              text="Login"
+              type="submit"
+              classname="w-3/4 btn-primary_bg p-3"
+            />
           </div>
         </form>
         <h6 className="label-3_medium text-center">
@@ -71,7 +80,7 @@ export default function Login() {
             Signup
           </Link>
         </h6>
-      </div>
-    </div>
+      </FormLayout>
+    </>
   );
 }

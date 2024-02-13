@@ -302,3 +302,44 @@ export const NewsThreeList = [
     author: "Felix Ade",
   },
 ];
+
+export const OptionsList = [
+  { id: 1, value: "", label: "Filter" },
+  {
+    id: 2,
+    label: "Name",
+    value: "Name",
+  },
+  {
+    id: 3,
+    label: "Email",
+    value: "Email",
+  },
+  {
+    id: 4,
+    label: "Acc No.",
+    value: "Acc No.",
+  },
+];
+export const RegList = [
+  {
+    id: 1,
+    value: "",
+    label: "Select registration week ",
+  },
+  {
+    id: 2,
+    value: "Reg2",
+    label: "Option 2",
+  },
+  {
+    id: 3,
+    value: "Reg3",
+    label: "Option3",
+  },
+  {
+    id: 4,
+    value: "Reg4",
+    label: "Registration this week",
+  },
+];

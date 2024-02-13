@@ -12,7 +12,10 @@ export default function Subscribe() {
           placeholder="Enter your email to subscribe to our daily news"
           className="p-3 w-full mb-3 lg:mb-0 rounded-md"
         />
-        <button type="submit" className="btn-primary_bg label-2_medium">
+        <button
+          type="submit"
+          className="btn-primary_bg label-2_medium px-[34px] py-[17px]"
+        >
           Subscribe
         </button>
       </form>

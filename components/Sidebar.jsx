@@ -1,10 +1,11 @@
+import { ROUTES } from "@/contants/ROUTES";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Sidebar() {
   return (
     <div className="sidebar-container">
-      <Link href="/dashboard">
+      <Link href={ROUTES.DASHBOARD}>
         <Image
           src="/asset/Paymee.png"
           width={160}
@@ -14,7 +15,7 @@ export default function Sidebar() {
       </Link>
       <ul>
         <li>
-          <Link href="/dashboard">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/dashboard.svg"
@@ -27,7 +28,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard/allregistration">
+          <Link href={ROUTES.DASHBOARDALLREGISTRATION}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/register.svg"
@@ -40,7 +41,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/user-paymee.svg"
@@ -53,7 +54,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard/topups">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/user-paymee.svg"
@@ -66,7 +67,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/user-paymee.svg"
@@ -79,7 +80,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/user-paymee.svg"
@@ -92,7 +93,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard/notification">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/notification.svg"
@@ -105,7 +106,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard/messages">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/message.svg"
@@ -118,7 +119,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/dashboard/settings">
+          <Link href={ROUTES.DASHBOARD}>
             <div className="side-bar_flex">
               <Image
                 src="/favicon_io/settings.svg"
@@ -130,7 +131,7 @@ export default function Sidebar() {
             </div>
           </Link>
         </li>
-        <button className="mt-5">
+        <button className="mt-10">
           <div className="side-bar_flex">
             <Image
               src="/favicon_io/log-out.svg"

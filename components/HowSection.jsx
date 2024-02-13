@@ -31,6 +31,8 @@ export default function HowSection() {
           alt="Info picture"
           width={1166}
           height={812}
+          sizes="(max-width: 1166px) (max-height: 812px)"
+          fill={false}
         />
       </div>
     </div>

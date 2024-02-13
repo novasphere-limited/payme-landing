@@ -399,7 +399,7 @@ body {
 .btn-primary_bg {
   background: #35b181 !important;
   color: #fefcfc;
-  padding: 0.5rem 4rem;
+  /* padding: 0.5rem 4rem; */
   border-radius: 8px;
 }
 .btn-nova_bg {
@@ -443,8 +443,7 @@ body {
   border: 2px solid;
 }
 .page-center {
-  height: 100vh;
-  align-items: center;
+  padding: 4rem 0rem;
 }
 
 .sidebar-container {
@@ -498,7 +497,7 @@ body {
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
-    padding: 0.5rem 3rem;
+    /* padding: 0.5rem 3rem; */
     border-radius: 8px;
   }
   .navbar {
@@ -823,7 +822,7 @@ body {
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
-    padding: 0.5rem 2rem;
+    /* padding: 0.5rem 2rem; */
     border-radius: 8px;
   }
 
@@ -1161,7 +1160,7 @@ body {
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
-    padding: 0.5rem 1.5rem;
+    /* padding: 0.5rem 1.5rem; */
     border-radius: 8px;
   }
   .grid-2 {

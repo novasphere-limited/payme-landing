@@ -30,6 +30,7 @@ export default function FeaturesSlider({ ArrayList, width, height }) {
               <div
                 className="w-full flex gap-5 items-center justify-center"
                 style={{ flex: "0 0 auto" }}
+                key={feature.id}
               >
                 <div>
                   {feature.top && (
@@ -87,6 +88,7 @@ export default function FeaturesSlider({ ArrayList, width, height }) {
                   width: "20px",
                   background: `${index === currentSlide ? "#096B45" : ""}`,
                 }}
+                key={index}
                 onClick={() => instantSlide(index)}
               ></div>
             ))}

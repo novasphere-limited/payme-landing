@@ -42,9 +42,15 @@ export default function SlideManual({ arrayList }) {
               <div
                 className="w-full flex justify-center"
                 style={{ flex: "0 0 auto" }}
+                key={ray.id}
               >
                 <div className="relative">
-                  <Image src={ray.imgSrc} height={500} width={500} />
+                  <Image
+                    src={ray.imgSrc}
+                    height={500}
+                    width={500}
+                    alt="Slider images"
+                  />
                   <button
                     className="cursor-pointer absolute top-[50%] left-[36px] translate-y-[-50%]"
                     onClick={prevSlide}

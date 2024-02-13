@@ -1,41 +1,76 @@
 import Link from "next/link";
+import { useForm } from "react-hook-form";
+import CustomInput from "./CustomInput";
+import Image from "next/image";
+import Button from "./Button";
 
 export default function AddAdmin() {
+  const { handleSubmit, control } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div className="flex justify-center page-center">
-      <div style={{ maxWidth: "43.625rem" }}>
+      <div className="w-3/4">
         <h2 className="header-2_bold mb-3 grnDrk">Add new admin</h2>
+        <form onSubmit={handleSubmit(onSubmit)} className="py-5">
+          <CustomInput
+            label="Admin Name"
+            placeholder="Enter admin name"
+            type="text"
+            name="adminName"
+            rules={{
+              required: "Admin name field is required",
+              minLength: {
+                value: 3,
+                message: "Minimum length is 3 characters",
+              },
+            }}
+            control={control}
+          />
+          <CustomInput
+            label="Email Address"
+            placeholder="Enter admin email address"
+            type="text"
+            name="adminEmail"
+            rules={{
+              required: "Admin email field is required",
+              minLength: {
+                value: 3,
+                message: "Minimum length is 3 characters",
+              },
+            }}
+            control={control}
+          />
+          <CustomInput
+            label="Admin Type"
+            placeholder="Enter admin type"
+            type="text"
+            name="adminType"
+            rules={{
+              required: "Admin type field is required",
+              minLength: {
+                value: 3,
+                message: "Minimum length is 3 characters",
+              },
+            }}
+            control={control}
+          />
 
-        <form className="">
-          <div className="mb-5">
-            <label className="label-3_medium">Admin Name</label>
-            <input
-              type="text"
-              placeholder="Enter admin full name"
-              className="p-3 w-full border-2"
+          <div className="flex gap-3 px-10">
+            <Button
+              text="submit"
+              type="Submit"
+              classname="w-full btn-primary_bg p-3"
             />
-          </div>
-          <div className="mb-5">
-            <label className="label-3_medium">Email Address</label>
-            <input
-              type="email"
-              placeholder="Enter admin email address"
-              className="p-3 w-full border-2"
+            <Button
+              text="Cancel"
+              type="reset"
+              classname="w-full p-3"
+              style={{ background: "#ffffff", text: "#000000" }}
             />
-          </div>
-          <div className="mb-5">
-            <label className="label-3_medium">Admin Type</label>
-            <input
-              type="text"
-              placeholder="Enter admin email address"
-              className="p-3 w-full border-2"
-            />
-          </div>
-          <div className="flex gap-3">
-            <button type="submit" className="w-full btn-sec_bg">
-              Submit
-            </button>
-            <button className="w-full">Cancel</button>
           </div>
         </form>
       </div>
