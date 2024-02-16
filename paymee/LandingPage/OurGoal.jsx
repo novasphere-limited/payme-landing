@@ -4,7 +4,7 @@ export default function OurGoal() {
   return (
     <div className="main-container">
       <div className="md:flex mt-5 gap-5 items-center">
-        <div className="w-full lg:ps-[96px] md:ps-[48px]">
+        <div className="w-full lg:ps-[96px] md:ps-[48px] margin-extra">
           <Image
             src="/asset/goalImg.png"
             alt="Company goal picture description"

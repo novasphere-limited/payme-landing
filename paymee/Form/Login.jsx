@@ -43,8 +43,8 @@ export default function Login() {
           <CustomInput
             label="Password"
             placeholder="Password"
-            type="email"
-            name="email"
+            type="password"
+            name="password"
             rules={{
               required: "Email is required",
               pattern: {

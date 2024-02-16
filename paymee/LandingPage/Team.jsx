@@ -4,12 +4,16 @@ import Image from "next/image";
 export default function Team() {
   return (
     <div className="main-container">
-      <h1 className="header-2_bold mb-4 text-center">Meet the Team</h1>
-      <h3 className="text-2_regular mb-5 text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud
-      </h3>
+      <h1 className="header-2_bold mb-4 text-center margin-extra">
+        Meet the Team
+      </h1>
+      <div className="flex justify-center">
+        <h3 className="text-2_regular mb-5 text-center text-contain">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud
+        </h3>
+      </div>
       <div className="grid sm:grid-cols-3 gap-4 grid-cols-1">
         {TeamList.map((team) => (
           <div className="flex items-center flex-col" key={team.id}>

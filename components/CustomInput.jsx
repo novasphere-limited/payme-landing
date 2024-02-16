@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { useForm, useController } from "react-hook-form";
 
 const CustomInput = ({
@@ -13,7 +13,7 @@ const CustomInput = ({
   style,
   ...rest
 }) => {
-  //   const { control } = useForm();
+  const [showPassword, setShowPassword] = useState(false);
   const { field, fieldState } = useController({
     name: rest.name,
     control,
@@ -58,6 +58,39 @@ const CustomInput = ({
             className="p-3 w-full mb-6 mt-1 border-2 border-[#096B45] rounded-lg"
             style={style}
           />
+        );
+      case "password":
+        return (
+          <div className="relative">
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder={placeholder}
+              {...field}
+              className="p-3 w-full mb-4 mt-1 border-2 border-[#096B45] rounded-lg"
+              style={style}
+            />
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute top-[40%] right-4 transform -translate-y-1/2"
+            >
+              {showPassword ? (
+                <Image
+                  src="/asset/close-eye.png"
+                  height={24}
+                  width={24}
+                  alt="Close eye ison"
+                />
+              ) : (
+                <Image
+                  src="/asset/view-eye.png"
+                  height={24}
+                  width={24}
+                  alt="Close eye ison"
+                />
+              )}
+            </button>
+          </div>
         );
       default:
         return (

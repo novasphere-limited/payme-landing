@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Ceo() {
   return (
     <div className="main-container">
-      <div className="md:flex mt-5 gap-4 items-center">
+      <div className="md:flex mt-5 gap-10 items-center">
         <div className="w-full">
           <Image
-            src="/asset/CEO-img.png"
+            src="/asset/ce_o.jpg"
             alt="Info picture"
             width={703}
             height={470}

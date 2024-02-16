@@ -1,10 +1,13 @@
+import { NavList } from "@/contants";
 import { ROUTES } from "@/contants/ROUTES";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState } from "react";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
+  const router = useRouter();
 
   const handleNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -12,7 +15,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar bg-[#CDE3CF1A]">
         <Link href={ROUTES.HOME}>
           <Image
             src="/asset/Paymee.png"
@@ -22,21 +25,17 @@ export default function Navbar() {
           />
         </Link>
         <ul>
-          <Link href={ROUTES.HOME}>
-            <li className="label-3_medium">Home</li>
-          </Link>
-          <Link href={ROUTES.ABOUT}>
-            <li className="label-3_medium">About us</li>
-          </Link>
-          <Link href={ROUTES.HOWITWORKS}>
-            <li className="label-3_medium">How it works</li>
-          </Link>
-          <Link href={ROUTES.BLOG}>
-            <li className="label-3_medium">Blog</li>
-          </Link>
-          <Link href={ROUTES.CONTACT}>
-            <li className="label-3_medium">Contact Us</li>
-          </Link>
+          {NavList.map((nav) => (
+            <Link
+              key={nav.id}
+              href={nav.route}
+              className={` ${
+                router.pathname === nav.route ? "active-link" : ""
+              }`}
+            >
+              <li className="label-3_medium">{nav.name}</li>
+            </Link>
+          ))}
         </ul>
         <div>
           <Link href={ROUTES.LOGIN}>
@@ -70,21 +69,17 @@ export default function Navbar() {
         </div>
         {showNavbar && (
           <ul>
-            <Link href={ROUTES.HOME}>
-              <li className="label-3_medium mb-2">Home</li>
-            </Link>
-            <Link href={ROUTES.ABOUT}>
-              <li className="label-3_medium mb-2">About us</li>
-            </Link>
-            <Link href={ROUTES.HOWITWORKS}>
-              <li className="label-3_medium mb-2">How it works</li>
-            </Link>
-            <Link href={ROUTES.BLOG}>
-              <li className="label-3_medium mb-2">Blog</li>
-            </Link>
-            <Link href={ROUTES.CONTACT}>
-              <li className="label-3_medium mb-2">Contact Us</li>
-            </Link>
+            {NavList.map((nav) => (
+              <Link
+                key={nav.id}
+                href={nav.route}
+                className={` ${
+                  router.pathname === nav.route ? "active-link-mob" : ""
+                }`}
+              >
+                <li className="label-3_medium mb-2">{nav.name}</li>
+              </Link>
+            ))}
             <Link href={ROUTES.LOGIN}>
               <li
                 className="label-3_medium mb-2 navbar_outline text-center"

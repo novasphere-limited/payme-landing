@@ -12,10 +12,8 @@ export default function AboutHerosection() {
       </h2>
       <div className="md:flex mt-5 gap-5 items-center">
         <div className="w-full">
-          <h2 className="header-3_bold text-grnSec md:mb-4 sm:mb-2">
-            Our Company
-          </h2>
-          <p className="label-4_regular mb-4">
+          <h2 className="header-3_bold md:mb-4 sm:mb-2">Our Company</h2>
+          <p className="label-4_regular md:mb-4 sm:mb-2">
             Innovation meets inclusion to redefine financial freedom. At PayyME,
             we plan to make financial services accessible to everyone,
             especially those with little knowledge about how technology works.

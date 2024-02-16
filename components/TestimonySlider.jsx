@@ -15,9 +15,13 @@ export default function TestimonySlider({ ArrayList }) {
     SetCurrentSlide(newSlide);
   };
 
+  const instantSlide = (i) => {
+    SetCurrentSlide(i);
+  };
+
   return (
     <>
-      <div className="relative">
+      <div className="relative pt-10">
         <div className="overflow-hidden">
           <div
             className="flex"
@@ -25,11 +29,11 @@ export default function TestimonySlider({ ArrayList }) {
           >
             {ArrayList.map((testimony) => (
               <div
-                className="w-full flex gap-5 items-center"
+                className="w-full flex gap-5"
                 style={{ flex: "0 0 auto" }}
                 key={testimony.id}
               >
-                <div className="relative" style={{ maxWidth: "1400px" }}>
+                <div className="relative">
                   <div>
                     <Image
                       src={testimony.imgSrc}
@@ -55,8 +59,8 @@ export default function TestimonySlider({ ArrayList }) {
                     <h6 className="label-4_regular">Trader</h6>
                   </div>
                 </div>
-                <div className="md:block hidden" style={{ maxWidth: "500px" }}>
-                  <h1 className="header-3_medium text-center">
+                <div className="" style={{ maxWidth: "500px" }}>
+                  <h1 className="header-3_medium text-center mt-10">
                     Innovation, Inclusion and Freedom
                   </h1>
                 </div>
@@ -64,30 +68,46 @@ export default function TestimonySlider({ ArrayList }) {
             ))}
           </div>
         </div>
-        {currentSlide !== 0 && (
+        <div className="lg:block hidden">
+          {currentSlide !== 0 && (
+            <button
+              className="cursor-pointer absolute bottom-[4px] right-[56px]"
+              onClick={prevSlide}
+            >
+              <Image
+                alt="Left icon"
+                width={32}
+                height={32}
+                src="/asset/left-slider__icon.png"
+              />
+            </button>
+          )}
           <button
-            className="cursor-pointer absolute bottom-[4px] right-[72px]"
-            onClick={prevSlide}
+            className="cursor-pointer absolute bottom-[4px] right-[12px]"
+            onClick={nextSlide}
           >
             <Image
-              alt="Left icon"
+              alt="Right icon"
               width={32}
               height={32}
-              src="/asset/left-slider__icon.png"
+              src="/asset/right-slider__icon.png"
             />
           </button>
-        )}
-        <button
-          className="cursor-pointer absolute bottom-[4px] right-[24px]"
-          onClick={nextSlide}
-        >
-          <Image
-            alt="Right icon"
-            width={32}
-            height={32}
-            src="/asset/right-slider__icon.png"
-          />
-        </button>
+        </div>
+        <div className="flex gap-3 justify-center items-center mt-5 cursor-pointer lg:hidden">
+          {ArrayList.map((ray, index) => (
+            <div
+              className="bg-[#D9D9D9] rounded-full"
+              style={{
+                height: "20px",
+                width: "20px",
+                background: `${index === currentSlide ? "#096B45" : ""}`,
+              }}
+              key={index}
+              onClick={() => instantSlide(index)}
+            ></div>
+          ))}
+        </div>
       </div>
     </>
   );

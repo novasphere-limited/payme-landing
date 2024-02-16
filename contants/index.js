@@ -343,3 +343,31 @@ export const RegList = [
     label: "Registration this week",
   },
 ];
+
+export const NavList = [
+  {
+    id: 1,
+    name: "Home",
+    route: "/",
+  },
+  {
+    id: 1,
+    name: "About Us",
+    route: "/about",
+  },
+  {
+    id: 1,
+    name: "How it works",
+    route: "/how",
+  },
+  {
+    id: 1,
+    name: "Blog",
+    route: "/blog",
+  },
+  {
+    id: 1,
+    name: "Contact us",
+    route: "/contact",
+  },
+];

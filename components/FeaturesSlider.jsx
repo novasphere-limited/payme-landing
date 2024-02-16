@@ -72,9 +72,11 @@ export default function FeaturesSlider({ ArrayList, width, height }) {
                   <h5 className="label-1_medium text-grnSec mb-3 text-center">
                     {feature.title}
                   </h5>
-                  <h5 className="label-1_regular text-center">
+                  <div className="flex justify-center">
+                  <h5 className="label-1_regular text-center text-contain">
                     {feature.text}
                   </h5>
+                  </div>
                 </div>
               </div>
             ))}

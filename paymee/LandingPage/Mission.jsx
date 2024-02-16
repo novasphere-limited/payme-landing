@@ -3,15 +3,19 @@ import Image from "next/image";
 export default function Mission() {
   return (
     <div className="main-container">
-      <h2 className="header-2_black mb-4 text-center">Our Mission</h2>
-      <p className="text-2_regular">
-        To revolutionise payments through inclusion and innovation (OR WINNING
-        TAGLINE). We believe that everyone deserves to be included in the
-        fintech ecosystem, regardless of location or access to technology. To do
-        this, we’re committed to breaking down payment barriers and creating
-        possibilities for total financial inclusivity using a text-based
-        approach.
-      </p>
+      <h2 className="header-2_black mb-4 text-center margin-extra">
+        Our Missio
+      </h2>
+      <div className="flex justify-center">
+        <p className="text-2_regular text-contain text-center">
+          To revolutionise payments through inclusion and innovation (OR WINNING
+          TAGLINE). We believe that everyone deserves to be included in the
+          fintech ecosystem, regardless of location or access to technology. To
+          do this, we’re committed to breaking down payment barriers and
+          creating possibilities for total financial inclusivity using a
+          text-based approach.
+        </p>
+      </div>
       {/* <div className="grid-2">
         <div className="rounded-md shadow-md p-4">
           <h4 className="header-4_black text-grnDrk mb-3">01</h4>

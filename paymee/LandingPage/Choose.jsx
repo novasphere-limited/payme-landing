@@ -5,10 +5,12 @@ export default function Choose() {
   return (
     <div className="main-container text-center">
       <h1 className="header-2_bold mb-4">Why choose us</h1>
-      <p className="label-2_regular mb-3">
-        Transforming Ideas into Digital Realities, Where Vision Meets
-        Innovation. Your Partner in Technology Evolution
-      </p>
+      <div className="flex justify-center">
+        <p className="label-2_regular mb-3 text-contain text-center">
+          We’re making payments accessible, even to the most remote people and
+          places without worrying about connectivity.
+        </p>
+      </div>
       <div className="grid-2">
         {ChooseData.map((choose) => (
           <div className="w-100 rounded-md shadow-md p-5" key={choose.id}>

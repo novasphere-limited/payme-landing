@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function BlogHerosection() {
   return (
     <>
-      <div className="bg-[#CFECE117] mb-5 lg:ps-[48px] md:[36px] ps-[18px] py-5 lg:pe-[96px] md:pe-[48px]">
+      <div className="bg-[#CFECE117] mb-5 lg:ps-[48px] md:[36px] ps-[18px] py-5 lg:pe-[96px] md:pe-[48px] main-container">
         <h2 className="header-2_black sm:ms-3 mb-3">Blog</h2>
         <p className="text-2_regular">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -28,7 +28,7 @@ export default function BlogHerosection() {
             />
           </div>
           <div>
-            <h2 className="label-1_bold mb-4">Popular Blogs this week</h2>
+            <h2 className="label-1_bold mb-4">Popular News this week</h2>
 
             {InnerBlogList.map((blog) => (
               <div

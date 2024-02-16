@@ -344,7 +344,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 2rem;
+  padding: 1rem 4.125rem;
 }
 .navbar-mobile {
   display: none;
@@ -355,19 +355,35 @@ body {
   display: flex;
   gap: 3rem;
 }
+.active-link {
+  padding-bottom: 4px;
+  border-bottom: 3px solid #0da168;
+}
+.active-link-mob {
+  color: "#075134";
+}
 .navbar_outline {
   border: 2px solid #0b8657;
   padding: 1rem 2rem;
   border-radius: 8px;
 }
 .main-container {
-  margin: 2rem 3rem;
+  padding: 2rem 4.375rem;
+}
+
+.text-contain {
+  max-width: 53.625rem;
+  text-align: center;
+  padding: auto;
+}
+.margin-extra {
+  padding: 3.93rem 0rem 0rem 0rem;
 }
 .testimony-abs {
   position: absolute;
   bottom: 0;
-  right: -15%;
-  margin-left: 15rem;
+  right: -60%;
+  margin-left: 18rem;
 }
 .help-container {
   text-align: center;
@@ -379,7 +395,7 @@ body {
 .contact-container {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
 }
 .subscribe-container {
   padding: 2rem;
@@ -483,15 +499,13 @@ body {
 
 .blog-grid {
   display: grid;
-  grid-template-columns: 7fr 5fr;
+  grid-template-columns: 8fr 4fr;
   gap: 1rem;
 }
 
 @media (max-width: 1180px) {
   .testimony-abs {
-    position: absolute;
-    bottom: 0;
-    margin-left: 10rem;
+    margin-left: 14rem;
   }
 
   .btn-primary_bg {
@@ -508,7 +522,7 @@ body {
   }
 
   .main-container {
-    margin: 1.5rem 2rem;
+    padding: 1.5rem 2rem;
   }
   .header-1_black {
     font-weight: 900;
@@ -827,7 +841,7 @@ body {
   }
 
   .main-container {
-    margin: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
   .header-1_black {
     font-weight: 900;
@@ -1134,14 +1148,10 @@ body {
 
 @media (max-width: 900px) {
   .testimony-abs {
-    position: absolute;
     bottom: 0;
     margin-left: 7rem;
   }
 
-  .contact-container {
-    display: block;
-  }
   .footer-flex_1 {
     flex: 1;
   }
@@ -1155,6 +1165,7 @@ body {
     position: absolute;
     bottom: 0;
     margin-left: 5rem;
+    top: 50%;
   }
 
   .btn-primary_bg {
@@ -1168,7 +1179,7 @@ body {
   }
 
   .main-container {
-    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .header-1_black {
     font-weight: 900;
@@ -1473,10 +1484,17 @@ body {
   }
 }
 
+@media (max-width: 700px) {
+  .contact-container {
+    display: block;
+  }
+}
+
 @media (max-width: 500px) {
   .main-container {
-    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
   }
+
   .testimony-abs {
     position: absolute;
     bottom: 0;
