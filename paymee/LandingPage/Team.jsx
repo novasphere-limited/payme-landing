@@ -14,9 +14,9 @@ export default function Team() {
           minim veniam, quis nostrud
         </h3>
       </div>
-      <div className="grid sm:grid-cols-3 gap-4 grid-cols-1">
+      <div className="grid sm:grid-cols-3 gap-4 grid-cols-1 about-grid-unique">
         {TeamList.map((team) => (
-          <div className="flex items-center flex-col" key={team.id}>
+          <div className="about-flex-unique" key={team.id}>
             <div className="flex items-center mb-4">
               <Image
                 alt={team.name}

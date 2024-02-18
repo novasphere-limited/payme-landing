@@ -8,7 +8,7 @@ export default function Subscribe() {
           innovation - one text at a time.
         </p>
       </div>
-      <form className=" lg:flex m-auto w-3/4 lg:border-2 p-2 rounded-md">
+      <form className=" lg:flex m-auto w-3/4 lg:border-2 p-2 rounded-md lg:bg-white">
         <input
           type="email"
           placeholder="Enter your email to subscribe to our daily news"

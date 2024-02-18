@@ -32,7 +32,8 @@ export default function BlogHerosection() {
 
             {InnerBlogList.map((blog) => (
               <div
-                className="my-5 py-5 bg-[#CFECE117] ps-3 rounded-[8px]"
+                className={`rounded-md shadow-md p-4 mb-2 my-5 py-5 ps-3 bg-[#CDE3CF0F]
+                }`}
                 key={blog.id}
               >
                 <div>

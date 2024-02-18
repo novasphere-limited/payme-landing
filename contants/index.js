@@ -351,22 +351,22 @@ export const NavList = [
     route: "/",
   },
   {
-    id: 1,
+    id: 2,
     name: "About Us",
     route: "/about",
   },
   {
-    id: 1,
+    id: 3,
     name: "How it works",
     route: "/how",
   },
   {
-    id: 1,
+    id: 4,
     name: "Blog",
     route: "/blog",
   },
   {
-    id: 1,
+    id: 5,
     name: "Contact us",
     route: "/contact",
   },

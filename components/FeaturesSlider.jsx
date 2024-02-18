@@ -21,7 +21,7 @@ export default function FeaturesSlider({ ArrayList, width, height }) {
   return (
     <>
       <div className="relative">
-        <div className="overflow-hidden">
+        <div className="overflow-hidden w-full">
           <div
             className="flex"
             style={{ transform: `translate(-${currentSlide * 100}%)` }}
@@ -73,9 +73,9 @@ export default function FeaturesSlider({ ArrayList, width, height }) {
                     {feature.title}
                   </h5>
                   <div className="flex justify-center">
-                  <h5 className="label-1_regular text-center text-contain">
-                    {feature.text}
-                  </h5>
+                    <h5 className="label-1_regular text-center text-contain">
+                      {feature.text}
+                    </h5>
                   </div>
                 </div>
               </div>

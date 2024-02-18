@@ -70,14 +70,14 @@ export default function Navbar() {
         {showNavbar && (
           <ul>
             {NavList.map((nav) => (
-              <Link
-                key={nav.id}
-                href={nav.route}
-                className={` ${
-                  router.pathname === nav.route ? "active-link-mob" : ""
-                }`}
-              >
-                <li className="label-3_medium mb-2">{nav.name}</li>
+              <Link key={nav.id} href={nav.route}>
+                <li
+                  className={`label-3_medium mb-2 ${
+                    router.pathname === nav.route ? "active-link-mob" : ""
+                  }`}
+                >
+                  {nav.name}
+                </li>
               </Link>
             ))}
             <Link href={ROUTES.LOGIN}>
