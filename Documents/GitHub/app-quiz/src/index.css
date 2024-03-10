@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+/* styles/globals.css */
+/* @import "~leaflet/dist/leaflet.css"; */
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #fbf3fe; */
+}
+
+.btn-margin-b {
+  margin-bottom: 40px;
+}
+.header-4 {
+  font-weight: medium;
+  font-size: 2.125rem;
+  letter-spacing: 0.25px;
+}
+.header-5 {
+  font-weight: medium;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+}
+.header-5 {
+  font-weight: medium;
+  font-size: 1.25rem;
+  letter-spacing: 0.15px;
+}
+.subtitle-1 {
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 0.15px;
+}
+.subtitle-2 {
+  font-weight: medium;
+  font-size: 0.875rem;
+  letter-spacing: 0.1px;
+}
+.body-text_1 {
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+.body-text_2 {
+  font-weight: normal;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+}
+
+.log-container {
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
