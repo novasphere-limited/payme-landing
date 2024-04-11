@@ -8,13 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        grnPry: "#0B8657",
-        grnTty: "#043623",
-        grnSec: "#096B45",
-        grnDrk: "#034D0B",
         blackTty: "#000000",
         blackSec: "#0A0A0A",
         whiteSec: "#FEFCFC",
+        warning100: "#FBE8CE24",
+        warning200: "#FBE8CE33",
+        warning500: "#53A2F9",
+        warning600: "#0DA168",
+        warning700: "#0B8657",
+        warning800: "#2060A5",
+        blue100: "#0EC9FC05",
+        blue500: "#53A2F9",
+        gray100: "#03042305",
       },
       fontSize: {
         xs: ".75rem",

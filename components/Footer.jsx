@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import SocialPage from "./SocialPage"
+import SocialPage from "./SocialPage";
 
 export default function Footer() {
   return (
-    <div className="footer-container text-whiteSec">
-      <div className="flex pb-8 footer-container_inner">
+    <div className="footer-container text-whiteSec xl:px-[120px] lg:px-[70px] md:px-[35px] sm:px-[20px] px-3">
+      <div className="flex pb-8 justify-between">
         <div className="w-full footer-flex_1">
           <div>
             <Image
@@ -15,51 +15,44 @@ export default function Footer() {
               alt="paymee logo"
             />
           </div>
-          <p className="label-2_regular">(+234)8112345678</p>
-          <p className="label-2_regular">support@payyME.com</p>
+          <div className="flex gap-4 items-center mb-9">
+            <Link href="#">
+              <p className="label-2_regular">Products</p>
+            </Link>
+            <Link href="#">
+              <p className="label-2_regular">Support</p>
+            </Link>
+            <Link href="#">
+              <p className="label-2_regular">Careers</p>
+            </Link>
+            <Link href="#">
+              <p className="label-2_regular">Terms</p>
+            </Link>
+          </div>
+          <p className="text-2_regular">2023 PayME-All Right Reserved</p>
         </div>
-        <div className="w-full flex justify-between footer-flex_2">
+
+        <div className="w-full flex justify-end">
           <div>
-            <h1 className="label-1_medium mb-4">Company</h1>
-            <Link href="/about">
-              <p className="label-3_regular mb-2">About us</p>
-            </Link>
-            <Link href="/faq">
-              <p className="label-3_regular mb-2">FAQ</p>
-            </Link>
-            <Link href="/blog">
-              <p className="label-3_regular mb-2">Blog</p>
-            </Link>
-          </div>
-          <div>
-            <h1 className="label-1_medium mb-4">Product</h1>
-            <Link href="#">
-              <p className="label-3_regular mb-2">Paybills</p>
-            </Link>
-            <Link href="#">
-              <p className="label-3_regular mb-2">Send Money</p>
-            </Link>
-            <Link href="#">
-              <p className="label-3_regular mb-2">Buy Airtime</p>
-            </Link>
-          </div>
-          <div>
-            <h1 className="label-1_medium mb-4">Legal</h1>
-            <Link href="/about">
-              <p className="label-3_regular mb-2">Terms of services</p>
-            </Link>
-            <Link href="#">
-              <p className="label-3_regular mb-2">Policy</p>
-            </Link>
+            <h1 className="label-1_medium mb-4 text-end">How can we help?</h1>
+
+            <div className="flex items-center gap-3 mb-[44px]">
+              <p
+                className="text-sm text-[#86D0B3]p pe-2"
+                style={{ borderRight: "2px solid #C1C4E5" }}
+              >
+                Help Docs & FAQs
+              </p>
+              <p className="text-sm text-[#C1C4E5]">Support via live Chat</p>
+            </div>
+
+            <div className="flex items-center justify-end gap-3">
+              <p className="text-sm">Follow us:</p>
+              <SocialPage color="#ffffff" />
+            </div>
           </div>
         </div>
       </div>
-      <div className="footer-container_inner">
-      <SocialPage color="#ffffff"/>
-      </div>
-      <p className="text-2_regular border-outline">
-        2023 PayME-All Right Reserved
-      </p>
     </div>
   );
 }
