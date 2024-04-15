@@ -396,6 +396,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.faq-container-bg {
+  background-image: url("/asset/faq-bg-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .footer-container {
   background-color: #032015;
   padding: 2rem 0rem;

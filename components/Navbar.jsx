@@ -34,6 +34,9 @@ export default function Navbar() {
           <Link href="/blog">
             <li className="label-3_medium">Blog</li>
           </Link>
+          <Link href="/faq">
+            <li className="label-3_medium">FAQ's</li>
+          </Link>
           <PopComponent />
         </ul>
         <div>

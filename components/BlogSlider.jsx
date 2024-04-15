@@ -1,48 +1,10 @@
 import Image from "next/image";
-import { useState } from "react";
+import NavTab from "./NavTab";
 
 export default function BlogSlide() {
-  const [curIndex, setCurIndex] = useState(0);
-
-  const options = [
-    {
-      id: 1,
-      text: "Blog",
-    },
-    {
-      id: 2,
-      text: "Press releases",
-    },
-    {
-      id: 3,
-      text: "Newsroom",
-    },
-    {
-      id: 3,
-      text: "FAQ's",
-    },
-  ];
-  const handleBtnChange = (i) => {
-    setCurIndex(i);
-  };
   return (
     <div className="mb-[120px]">
-      <div
-        style={{ borderBottom: "2px solid #001F1F14" }}
-        className="pb-1 flex justify-center mx-[80px] mt-[20px] mb-[68px]"
-      >
-        {options.map((option, index) => (
-          <button
-            key={option.id}
-            className={`${
-              index == curIndex ? "text-warning600 border-b-2-warning600" : ""
-            } py-3 px-4 font-semibold text-sm`}
-            onClick={() => handleBtnChange(index)}
-          >
-            {option.text}
-          </button>
-        ))}
-      </div>
+      <NavTab />
       <div className="xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
         <h3 className="text-3xl font-semibold mb-[42px]">
           Recent news at Novasphere

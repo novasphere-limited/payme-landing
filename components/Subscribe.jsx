@@ -19,7 +19,7 @@ export default function Subscribe() {
             <input
               type="email"
               placeholder="Email"
-              className="p-3 mb-3 lg:mb-0 border-2 rounded-md lg:border-0 w-full"
+              className="p-3 mb-3 lg:mb-0 border-2 rounded-md lg:border-0 w-full bg-transparent"
             />
             <Btn text="Subscribe" />
           </form>
