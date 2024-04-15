@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import {useState} from "react";
+import PopComponent from "./PopDropdown";
+import { useState } from "react";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
-  
-  const handleNavbar = () =>{
+
+  const handleNavbar = () => {
     setShowNavbar(!showNavbar);
-  }
+  };
 
   return (
     <>
@@ -33,6 +34,7 @@ export default function Navbar() {
           <Link href="/blog">
             <li className="label-3_medium">Blog</li>
           </Link>
+          <PopComponent />
         </ul>
         <div>
           <Link href="/contact">
@@ -40,7 +42,7 @@ export default function Navbar() {
               className="label-2_medium navbar_outline"
               style={{ color: "#075134" }}
             >
-              Contact Us
+              Get Started
             </h1>
           </Link>
         </div>
@@ -56,7 +58,7 @@ export default function Navbar() {
             />
           </Link>
           <button onClick={handleNavbar}>
-            <Image 
+            <Image
               src="/favicon_io/hamburger.svg"
               width={28}
               height={20}
@@ -64,7 +66,7 @@ export default function Navbar() {
             />
           </button>
         </div>
-        {showNavbar && 
+        {showNavbar && (
           <ul>
             <Link href="/">
               <li className="label-3_medium mb-2">Home</li>
@@ -73,16 +75,18 @@ export default function Navbar() {
               <li className="label-3_medium mb-2">About us</li>
             </Link>
             <Link href="/how">
-             <li className="label-3_medium mb-2">How it works</li>
+              <li className="label-3_medium mb-2">How it works</li>
             </Link>
             <Link href="/blog">
               <li className="label-3_medium mb-2">Blog</li>
             </Link>
             <Link href="/contact">
-              <li className="label-3_medium mb-2" style={{ color: "#075134" }}>Contact Us</li>
+              <li className="label-3_medium mb-2" style={{ color: "#075134" }}>
+                Get Started
+              </li>
             </Link>
           </ul>
-        }     
+        )}
       </div>
     </>
   );

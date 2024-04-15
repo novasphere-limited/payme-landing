@@ -1,77 +1,72 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-// import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import Image from "next/image"
+import React, { useState } from "react";
+import Image from "next/image";
 
-export default function FeaturesSlider() {
+export default function CarouselSlide({ imgArray }) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const images = [
+    {
+      id: 1,
+      img: "/images/Login-hero.webp",
+    },
+    {
+      id: 2,
+      img: "/images/Signup-hero.webp",
+    },
+  ];
+
+  const handlePrev = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleNext = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide>
-        <div className="flex justify-center m-4">
-          <Image
-            src="/asset/feature-img.png"
-            alt="features images"
-            width={931}
-            height={517}
-          />
+    <div>
+      <div className="overflow-hidden relative">
+        <div
+          className="flex w-full"
+          style={{ transform: `translate(-${currentImageIndex * 100}%)` }}
+        >
+          {images.map((e, index) => (
+            <div
+              style={{ flex: "0 0 auto" }}
+              className=" flex justify-center"
+              key={index}
+            >
+              <div className="">
+                <Image
+                  src={e?.fileUrl}
+                  alt="Slider image"
+                  height={529}
+                  width={935}
+                  objectFit="cover"
+                />
+              </div>
+            </div>
+          ))}
         </div>
-        <h5 className="label-1_medium text-grnSec mb-3 text-center">
-          Pay Bills
-        </h5>
-        <h5 className="label-1_regular">
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in{" "}
-        </h5>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="flex justify-center m-4">
-          <Image
-            src="/asset/feature-img.png"
-            alt="features images"
-            width={931}
-            height={517}
-          />
+        <div className="absolute inset-0 flex items-center justify-between p-4">
+          <button
+            onClick={handlePrev}
+            className="p-1 rounded-full bg-white/80 hover:bg-white"
+          >
+            Prev
+          </button>
+          <button
+            onClick={handleNext}
+            className="p-1 rounded-full bg-white/80 hover:bg-white"
+          >
+            Next
+          </button>
         </div>
-        <h5 className="label-1_medium text-grnSec mb-3 text-center">
-          Pay Bills
-        </h5>
-        <h5 className="label-1_regular">
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in{" "}
-        </h5>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="flex justify-center m-4">
-          <Image
-            src="/asset/feature-img.png"
-            alt="features images"
-            width={931}
-            height={517}
-          />
-        </div>
-        <h5 className="label-1_medium text-grnSec mb-3 text-center">
-          Pay Bills
-        </h5>
-        <h5 className="label-1_regular">
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution Transforming Ideas
-          into Digital Realities, Where Vision Meets Innovation. Your Partner in{" "}
-        </h5>
-      </SwiperSlide>
-    </Swiper>
+      </div>
+    </div>
   );
 }

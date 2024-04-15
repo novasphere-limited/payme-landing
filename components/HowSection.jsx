@@ -1,27 +1,31 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function HowSection() {
   return (
-    <div className="main-container">
-        <div className="flex mt-5 gap-5">
-            <div className="w-full">
-                <h2 className="header-1_black text-grnDrk mb-4">How it works</h2>
-                <p className="header-3_regular mb-3">
-                    Transforming Ideas into Digital Realities, Where Vision Meets Innovation.
-                    Your Partner in Technology Evolution
-                </p>
-            </div>       
-            <div className="w-full">  
-                <Image
-                    src="/asset/about-hero_img.png"
-                    alt="Info picture"
-                    width={688}
-                    height={688}
-                    className="rounded-lg"
-                />
-            </div>
+    <div className="px-[100px] bg-[#075134] pt-[113px] pb-[49px]">
+      <div className="flex gap-[68px] items-center">
+        <div className="w-full">
+          <h1 className="font-medium text-5xl mb-4 leading-[48px] text-[#FEFCFC]">
+            Send & Receive Cash
+          </h1>
+          <p className="text-base font-normal text-[#D3D0D0]">
+            WIth a few keystrokes of sms text you can send and receive money in
+            an instant across Nigeria without the complexity of a smart phone or
+            internet access and the fun part is all of this can be done in your
+            preferred local dialect. It is safe , easy and secure!! Get started
+            with PayyMe today!!.
+          </p>
         </div>
+        <div className="w-full flex justify-center">
+          <Image
+            src="/asset/hauwa-image.png"
+            alt="customer testimony imge"
+            width={342}
+            height={342}
+            className="testimony-img rounded-lg"
+          />
+        </div>
+      </div>
     </div>
   );
 }

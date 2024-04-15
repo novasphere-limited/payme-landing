@@ -73,3 +73,49 @@ export const NewsList = [
     text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
   },
 ];
+
+export const ChooseList = [
+  {
+    id: 1,
+    imgSrc: "",
+    title: "Simplified Payments",
+    text: "With PayyME, simple text messages can help manage your finances, transfer and receive funds and much more. No need for complex apps or an internet connection.",
+  },
+  {
+    id: 2,
+    imgSrc: "",
+    title: "Inclusive Access",
+    text: "Experience banking without barriers. Regardless of technological access or location, transact with ease on PayyMe.",
+  },
+  {
+    id: 3,
+    imgSrc: "",
+    title: "Secutiry",
+    text: "Your data and transactions are safe with us",
+  },
+  {
+    id: 4,
+    imgSrc: "",
+    title: "Community Connection",
+    text: "We are connecting and empowering people through accessible and simplified innovative solutions.",
+  },
+];
+
+export const TeamList = [
+  {
+    id: 1,
+    imgSrc: "/asset/paymee-team-1.png",
+  },
+  {
+    id: 2,
+    imgSrc: "/asset/paymee-team-2.png",
+  },
+  {
+    id: 3,
+    imgSrc: "/asset/paymee-team-3.png",
+  },
+  {
+    id: 4,
+    imgSrc: "/asset/paymee-team-4.png",
+  },
+];

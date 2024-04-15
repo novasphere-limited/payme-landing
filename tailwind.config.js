@@ -16,7 +16,7 @@ module.exports = {
         warning500: "#53A2F9",
         warning600: "#0DA168",
         warning700: "#0B8657",
-        warning800: "#2060A5",
+        warning800: "#096B45",
         blue100: "#0EC9FC05",
         blue500: "#53A2F9",
         gray100: "#03042305",

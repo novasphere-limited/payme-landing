@@ -1,39 +1,38 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function AboutHerosection() {
   return (
-    <div className="main-container">
-        <h2 className="header-2_black text-center mb-5">
-            Your All-in-one  Payments for Seamless 
-            <span className="text-grnSec">Transactions</span>
-        </h2>
-        <div className="md:flex mt-5 gap-5">
-            <div className="w-full">
-                <h2 className="header-3_black text-grnSec md:mb-4 md:mb-2">Our Company</h2>
-                <p className="label-4_regular mb-1">
-                    Transforming Ideas into Digital Realities, Where Vision Meets Innovation.
-                    Your Partner in Technology Evolution Transforming Ideas into Digital Realities,
-                    Where Vision Meets Innovation. Your Partner in Technology Evolution Transforming
-                    Ideas into Digital Realities, Where Vision Meets Innovation. Your Partner in Technology
-                    Evolution Transforming Ideas into Digital Realities
-                </p>      
-                <Link href="/">
-                    <button className="label-2_medium btn-primary_bg my-3">
-                        Get Started
-                    </button>
-                </Link>
-            </div>       
-            <div className="w-full">  
-                <Image
-                    src="/asset/about-hero_img.png"
-                    alt="Info picture"
-                    width={688}
-                    height={688}
-                    className="rounded-lg"
-                />
-            </div>
+    <div className="about-container-bg">
+      <div className="h-[456px] flex justify-center items-center backdrop-blur-sm bg-[#000000BF]">
+        <div className="flex">
+          <p
+            className="text-[40px] text-[#FDFBFB] mx-auto text-center"
+            style={{ maxWidth: "818px" }}
+          >
+            Revolutionising payment through inclusion and innovation - one{" "}
+            <span>
+              <Image
+                src="/favicon_io/paymee-star.svg"
+                alt="Star icon"
+                height={24}
+                width={21}
+                className="inline-block me-2"
+              />
+            </span>
+            <span className="text-[#5EC09A]">SMS</span>
+            <span>
+              <Image
+                src="/favicon_io/paymee-star.svg"
+                alt="Star icon"
+                height={24}
+                width={21}
+                className="inline-block me-2"
+              />
+            </span>
+            at a time.
+          </p>
         </div>
+      </div>
     </div>
   );
 }

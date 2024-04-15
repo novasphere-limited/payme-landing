@@ -1,32 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
+import LinkBtn from "./LinkBtn";
 
 export default function Herosection() {
   return (
-    <div className="main-container md:flex">
+    <div className="main-container md:flex items-center ps-10">
       <div className="w-full">
-        <h6 className="label-2_bold text-grnSec mb-4">PayyME</h6>
-        <h2 className="header-2_black mb-3">
-          Elevating Possibilities Through Technology{" "}
-          <span className="text-grnSec">Excellence</span>
+        <h6 className="label-2_bold text-grnSec mb-3">PayyME</h6>
+        <h2 className="text-[40px] font-medium">
+          Transform Payments with Inclusion and Innovation -
+          <span className="text-grnSec"> One </span>SMS at a Time
         </h2>
-        <h3 className="header-3_regular mb-4">
-          Transforming Ideas into Digital Realities, Where Vision Meets
-          Innovation. Your Partner in Technology Evolution
+        <h3
+          className="text-base font-normal mb-[42px]"
+          style={{ maxWidth: "615px" }}
+        >
+          Without worrying about connectivity, PayyME helps small businesses
+          and  individuals pay and get paid
         </h3>
-        <Link href="/">
-          <button className="label-2_medium btn-primary_bg my-5">
-            Get Started
-          </button>
-        </Link>
+
+        <LinkBtn href="#" text="Get Started" />
       </div>
-      <div className="w-full">  
+      <div className="w-full">
         <Image
           src="/asset/hero-img.png"
           alt="Farmer image"
-          width={644}
-          height={644}
-          className="rounded-lg w-full"
+          width={583}
+          height={480}
+          className="rounded-lg"
         />
       </div>
     </div>

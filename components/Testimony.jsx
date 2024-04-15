@@ -2,37 +2,27 @@ import Image from "next/image";
 
 export default function Testimony() {
   return (
-    <div className="main-container flex gap-5">
-      <div className="relative w-full">
-        <div>
-          <Image
-            src="/asset/hauwa-image.png"
-            alt="customer testimony imge"
-            width={736}
-            height={691}
-            className="testimony-img"
-          />
-        </div>
-        <div
-          className="rounded-md shadow-lg p-2 testimony-abs"
-          style={{ background: "#fff" }}
-        >
-          <p className="text-1_regular mb-3">
-            Transforming Ideas into Digital Realities, Where Vision Meets
-            Innovation. Your Partner in Technology Evolution Transforming Ideas
-            into Digital Realities, Where Vision Meets Innovation. Your Partner
-            in Technology Evolution Transforming Ideas into Digital Realities,
-            Where Vision Meets Innovation. Your Partner in Technology Evolution
-          </p>
-          <h6 className="label-3_bold text-grnSec mb-2">Hauwa</h6>
-          <h6 className="label-4_regular">Trader</h6>
-        </div>
-      </div>
+    <div className="main-container flex gap-[68px] pad-1 items-center">
       <div className="w-full">
-        <h1 className="header-1_black mt-5">
-          Elevating Possibilities Through Technology{" "}
-          <span className="text-grnSec">Excellence</span>
+        <Image
+          src="/asset/hauwa-image.png"
+          alt="customer testimony imge"
+          width={520}
+          height={331}
+          className="testimony-img rounded-lg"
+        />
+      </div>
+
+      <div className="w-full">
+        <h1 className="font-medium text-5xl mb-4 leading-[48px]">
+          Revolutionize payments all with a single SMS
         </h1>
+        <p className="text-base font-normal mb-4">
+          Empowering Your Ideas Digitally: Where Vision and Innovation Thrive.
+          Let's Evolve Technology Together.
+        </p>
+        <p className="text-base text-warning800 font-semibold mb-2">Hauwa</p>
+        <p className="text-sm font-normal">Trader</p>
       </div>
     </div>
   );

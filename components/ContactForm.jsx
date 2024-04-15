@@ -1,29 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import Btn from "./Button";
 
 export default function ContactForm() {
   return (
-    <div className="main-container">
+    <div className="main-container p-8">
       <div className="flex mt-5 gap-5">
         <div className="w-full">
-          <h2 className="header-3_black text-grnSec mb-4">Send us a Message</h2>
-          <p className="label-3_regular mb-1">
-            Fill the form or drop an Email and we would reach out to you as soon
-            as possible.
+          <h2 className="text-[40px] font-normal mb-4 text-[#060606]">
+            Contact us
+          </h2>
+          <p className="text-lg mb-6">
+            Kindly fill the form to log your complaints and one of our customer
+            service agent will be in touch shortly after..
           </p>
           <div>
-            <div className="flex gap-3 mb-3 items-center">
-              <div>
-                <Image
-                  src="/favicon_io/phone.svg"
-                  alt="Phone icon"
-                  width={18}
-                  height={18}
-                />
-              </div>
-              <h6 className="label-3_regular">+23489034566547</h6>
-            </div>
-            <div className="flex gap-3 mb-3 items-center">
+            <div className="flex gap-2 mb-3 items-center">
               <div>
                 <Image
                   src="/favicon_io/mail.svg"
@@ -32,9 +24,9 @@ export default function ContactForm() {
                   height={18}
                 />
               </div>
-              <h6 className="label-3_regular">+Support@payyME.com</h6>
+              <h6 className="text-lg">Support@payymenow.com</h6>
             </div>
-            <div className="flex gap-3 mb-3 items-center">
+            <div className="flex gap-2 mb-3 items-center">
               <div>
                 <Image
                   src="/favicon_io/phone.svg"
@@ -43,7 +35,7 @@ export default function ContactForm() {
                   height={18}
                 />
               </div>
-              <h6 className="label-3_regular">ikeja, allen avenue</h6>
+              <h6 className="text-lg">+23489034566547</h6>
             </div>
           </div>
         </div>
@@ -70,9 +62,7 @@ export default function ContactForm() {
                 className="p-3 w-full mb-2 border-2"
                 style={{ minHeight: "200px" }}
               ></textarea>
-              <button type="submit" className="w-full btn-primary_bg">
-                submit
-              </button>
+              <Btn text="Submit" />
             </form>
           </div>
         </div>
