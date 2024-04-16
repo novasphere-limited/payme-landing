@@ -38,6 +38,7 @@ export default function FaqOptions() {
           <div
             className="rounded-[15px] p-6 flex gap-[24px] items-center text-[#1A1A1A]"
             style={{ border: "1px solid #DEDEDE" }}
+            key={e.id}
           >
             <div className="w-full">
               <div className="h-[42px] w-[42px] rounded-full bg-[#F5F5F5] mb-4 flex items-center justify-center">

@@ -101,6 +101,7 @@ export default function CarouselSlide({ imgArray }) {
             className={`h-[10px] w-[10px] rounded-full ${
               currentImageIndex === index ? "bg-[#096B45]" : "bg-[#D9D9D9]"
             }`}
+            key={index}
             onClick={() => handleSlideShow(index)}
           ></div>
         ))}

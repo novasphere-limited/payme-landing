@@ -11,7 +11,7 @@ export default function Choose() {
       </p>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-[42px]">
         {ChooseList.map((choose, index) => (
-          <div className="rounded-lg shadow-md px-[34px] py-[28px]">
+          <div className="rounded-lg shadow-md px-[34px] py-[28px]" key={index}>
             <div className="mb-2 flex justify-center">
               <Image
                 src="/asset/choose-img1.png"
