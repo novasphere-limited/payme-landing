@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FeaturesSlider from "./FeaturesSlider";
+import CarouselSlide from "./FeaturesSlider";
 
 export default function Features() {
   return (
@@ -15,7 +15,7 @@ export default function Features() {
         financial inclusion and bridging the gaps through innovation(one text at
         a time).
       </p>
-      <FeaturesSlider />
+      <CarouselSlide />
     </div>
   );
 }
