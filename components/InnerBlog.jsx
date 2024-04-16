@@ -29,10 +29,10 @@ export default function InnerBlog() {
   };
 
   return (
-    <div className="mb-[120px] main-container">
+    <div className="mb-[120px]">
       <div
         style={{ borderBottom: "2px solid #001F1F14" }}
-        className="pb-1 flex justify-center lg:mx-[80px] mx-3 sm:mx-6 md:mx-9"
+        className="pb-1 flex justify-center lg:mx-[80px] md:mx-9 sm:mx-6 mx-3"
       >
         {options.map((option, index) => (
           <button
@@ -61,13 +61,14 @@ export default function InnerBlog() {
       </div>
       <h6 className="text-[#1F1F1F] text-center mb-[44px]">06 April, 2024</h6>
       <div className="xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
-        <div className="flex justify-center mb-5 h-[565px]">
+        <div className="flex justify-center mb-5 h-[565px] overflow-hidden">
           <Image
             alt="Inner blog image"
             src="/asset/nova-innerblog-img.png"
             height={565}
             width={1032}
-            className=" w-full"
+            className="rounded-lg"
+            loading="lazy"
           />
         </div>
         <div className="grid-inner_blog gap-4">

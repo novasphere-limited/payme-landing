@@ -350,7 +350,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 2rem;
 }
 .navbar-mobile {
   display: none;
@@ -404,7 +403,8 @@ body {
 }
 .footer-container {
   background-color: #032015;
-  padding: 2rem 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .footer-container_inner {
   padding: 0rem 2rem 2rem 2rem;
@@ -452,7 +452,23 @@ body {
 .pad-1 {
   padding: 0px 152px;
 }
+.margin-gen {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 1380px) {
+  .margin-gen {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
 @media (max-width: 1180px) {
+  .margin-gen {
+    margin-left: 65px;
+    margin-right: 65px;
+  }
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -772,6 +788,10 @@ body {
   }
 }
 @media (max-width: 1000px) {
+  .margin-gen {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -1086,6 +1106,10 @@ body {
 }
 
 @media (max-width: 900px) {
+  .margin-gen {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
   .grid-inner_blog {
     grid-template-columns: 1fr;
   }
@@ -1098,6 +1122,10 @@ body {
 }
 
 @media (max-width: 800px) {
+  .margin-gen {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
   .btn-primary_bg {
     background: #35b181 !important;
     color: #fefcfc;
@@ -1415,6 +1443,10 @@ body {
 }
 
 @media (max-width: 500) {
+  .margin-gen {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
   .main-container {
     margin: 0.5rem 0.5rem;
   }
@@ -1423,8 +1455,5 @@ body {
     bottom: 0;
     right: -150%;
     margin-left: 0rem;
-  }
-  .testimony-img {
-    height: 1000px;
   }
 }

@@ -3,20 +3,22 @@ import NavTab from "./NavTab";
 
 export default function BlogSlide() {
   return (
-    <div className="mb-[120px]">
+    <div className="xl:mb-[120px] md:mb-[50px] mb-8">
       <NavTab />
       <div className="xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
         <h3 className="text-3xl font-semibold mb-[42px]">
           Recent news at Novasphere
         </h3>
-        <div className="flex bg-white rounded-lg justify-center">
-          <div>
+        <div className="md:flex bg-white rounded-lg justify-center items-center">
+          <div className="">
             <Image
               alt="Nova slider image"
               src="/asset/nova-slide-img.png"
               width={473}
               height={332}
-              className="w-[473px] h-[332px]"
+              className="rounded-lg"
+              loading="lazy"
+              objectFit="contain"
             />
           </div>
           <div className="rounded-lg p-5 w-full py-6">

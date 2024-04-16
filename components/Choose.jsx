@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function Choose() {
   return (
-    <div className="px-[130px] text-center main-container">
+    <div className="px-[130px] text-center main-container md:mt-8 mt-3">
       <h1 className="text-5xl text-warning600 mb-[14px]">Why choose us</h1>
       <p className="label-4_regular mb-3 mx-auto" style={{ maxWidth: "652px" }}>
         We’re making payments accessible, even to the most remote people and
         places without worrying about connectivity.
       </p>
-      <div className="grid grid-cols-2 gap-[42px]">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-[42px]">
         {ChooseList.map((choose, index) => (
           <div className="rounded-lg shadow-md px-[34px] py-[28px]">
             <div className="mb-2 flex justify-center">
@@ -19,6 +19,7 @@ export default function Choose() {
                 height={334}
                 alt="Why choose us"
                 className="rounded-lg"
+                loading="lazy"
               />
             </div>
             <div>

@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function AboutHerosection() {
   return (
     <div className="about-container-bg">
-      <div className="h-[456px] flex justify-center items-center backdrop-blur-sm bg-[#000000BF]">
+      <div className="md:h-[456px] h-[320px] flex justify-center items-center backdrop-blur-sm bg-[#000000BF]">
         <div className="flex">
           <p
-            className="text-[40px] text-[#FDFBFB] mx-auto text-center"
+            className="xl:text-[40px] text-5xl text-[#FDFBFB] mx-auto text-center px-1"
             style={{ maxWidth: "818px" }}
           >
             Revolutionising payment through inclusion and innovation - one{" "}

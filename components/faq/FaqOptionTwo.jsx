@@ -24,7 +24,7 @@ export default function FaqOptionTwo() {
   ];
   return (
     <>
-      <div className="flex mx-[100px] justify-between mb-10 gap-[32px]">
+      <div className="md:flex margin-gen justify-between mb-10 xl:gap-[48px] md:gap-[32px] gap-[16px]">
         <div className="w-full">
           <h2 className="text-5xl font-medium text-[#1F1F1F] mb-6">
             Account Verification and Management:
@@ -49,10 +49,11 @@ export default function FaqOptionTwo() {
               alt="customer testimony imge"
               width={606}
               height={250}
-              className="testimony-img rounded-lg"
+              className="testimony-img rounded-lg w-full"
               style={{ height: "250px !important" }}
               objectFit="contain"
               objectPosition="center"
+              loading="lazy"
             />
           </div>
           <h6 className="text-base font-normal mb-6">

@@ -5,8 +5,8 @@ export default function BlogHerosection() {
   return (
     <div>
       <div className="blog-bg_image">
-        <div className="main-container">
-          <h1 className="font-semibold xl:text-[48px] lg:text-[44px] text-[36px] mb-4">
+        <div className="xl:px-[100px] lg:px-[75px] md:px-[50px] sm:px-[35px] px-4 py-[48px] backdrop-blur-sm bg-[#000000BF]">
+          <h1 className="font-semibold xl:text-[48px] lg:text-[44px] text-[36px] mb-4 text-[#FEFCFC]">
             <span className="text-warning600">Payyme</span> in the news
           </h1>
 

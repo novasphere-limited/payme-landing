@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function News() {
   return (
-    <div className="main-container xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
+    <div className="xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
       <div className="relative">
         <h2 className="font-semibold text-3xl mb-[22px] z-50">
           News at Novasphere
@@ -25,6 +25,7 @@ export default function News() {
                   height={188}
                   alt={news.author}
                   className="rounded-[10px] w-full"
+                  loading="lazy"
                 />
               </div>
               <div>

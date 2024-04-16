@@ -33,7 +33,7 @@ export default function FaqOptions() {
   return (
     <>
       <NavTab />
-      <div className="grid grid-cols-2 gap-[32px] my-[64px] mx-[100px]">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[32px] gap-[16px] my-[64px] margin-gen">
         {data.map((e) => (
           <div
             className="rounded-[15px] p-6 flex gap-[24px] items-center text-[#1A1A1A]"

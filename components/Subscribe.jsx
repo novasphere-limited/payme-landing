@@ -13,13 +13,13 @@ export default function Subscribe() {
         </div>
         <div className="flex justify-center">
           <form
-            className=" lg:flex lg:border-2 rounded-md p-2 bg-transparent w-[662px] justify-between"
+            className="flex lg:border-2 rounded-md sm:p-2 bg-transparent w-[662px] justify-between items-center"
             style={{ border: "1px solid #0DA168" }}
           >
             <input
               type="email"
               placeholder="Email"
-              className="p-3 mb-3 lg:mb-0 border-2 rounded-md lg:border-0 w-full bg-transparent"
+              className="p-3 sm:mb-3 lg:mb-0 border-0 rounded-md lg:border-0 w-full bg-transparent"
             />
             <Btn text="Subscribe" />
           </form>

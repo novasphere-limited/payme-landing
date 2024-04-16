@@ -1,89 +1,55 @@
-// import { Box, Button, Popover, Typography } from "@mui/material";
-// import { useState } from "react";
+import React from "react";
+import Button from "@mui/material/Button";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import Link from "next/link";
 
-// export default function PopComponent({}) {
-//   const [anchorE1, setAnchorE1] = useState(null);
-//   const handlePopoverOpen = (event) => {
-//     setAnchorE1(event.currentTarget);
-//   };
-//   const handlePopoverClose = (event) => {
-//     setAnchorE1(null);
-//   };
+export default function HoverMenu({ popText, popArray }) {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [menuOpen, setMenuOpen] = React.useState(false);
 
-//   const open = Boolean(anchorE1);
-//   return (
-//     <div>
-//       <Button
-//         onMouseEnter={handlePopoverOpen}
-//         onMouseLeave={handlePopoverClose}
-//       >
-//         Hover Me
-//       </Button>
-//       <Popover
-//         open={open}
-//         anchorEl={anchorE1}
-//         onClose={handlePopoverClose}
-//         anchorOrigin={{
-//           vertical: "bottom",
-//           horizontal: "center",
-//         }}
-//         transformOrigin={{
-//           vertical: "top",
-//           horizontal: "center",
-//         }}
-//       >
-//         <Box sx={{ width: 250 }}>
-//           <Typography sx={{ mb: 1 }}>Popover title</Typography>
-//           <Typography>Popover content</Typography>
-//         </Box>
-//       </Popover>
-//     </div>
-//   );
-// }
-
-import { Box, Button, Popover, Typography } from "@mui/material";
-import { useState } from "react";
-
-export default function PopComponent() {
-  const [anchorE1, setAnchorE1] = useState(null);
-
-  const handlePopoverOpen = (event) => {
-    setAnchorE1(event.currentTarget);
+  const handleMouseEnter = (event) => {
+    setAnchorEl(event.currentTarget);
+    setMenuOpen(true);
   };
 
-  const handlePopoverClose = () => {
-    setAnchorE1(null);
+  const handleMouseLeave = () => {
+    setMenuOpen(false);
   };
 
-  const open = Boolean(anchorE1);
+  const handleMenuMouseEnter = () => {
+    setMenuOpen(true);
+  };
+
+  const handleMenuMouseLeave = () => {
+    setMenuOpen(false);
+  };
 
   return (
-    <div onMouseLeave={handlePopoverClose}>
-      <Button
-        onMouseEnter={handlePopoverOpen}
-        // onMouseLeave={handlePopoverClose}
+    <div>
+      <button
+        aria-controls="hover-menu"
+        aria-haspopup="true"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className="text-base font-medium text-[#0B8657]"
       >
-        Hover Me
-      </Button>
-      <Popover
-        open={open}
-        anchorEl={anchorE1}
-        onClose={handlePopoverClose}
-        anchorOrigin={{
-          vertical: "bottom",
-          horizontal: "center",
-        }}
-        transformOrigin={{
-          vertical: "top",
-          horizontal: "center",
-        }}
-        onMouseLeave={handlePopoverClose}
+        {popText}
+      </button>
+      <Menu
+        id="hover-menu"
+        anchorEl={anchorEl}
+        open={menuOpen}
+        onClose={handleMouseLeave}
+        onMouseEnter={handleMenuMouseEnter}
+        onMouseLeave={handleMenuMouseLeave}
       >
-        <Box sx={{ width: 250 }}>
-          <Typography sx={{ mb: 1 }}>Popover title</Typography>
-          <Typography>Popover content</Typography>
-        </Box>
-      </Popover>
+        {popArray.map((pop) => (
+          <MenuItem onClick={handleMouseLeave} key={pop.id}>
+            <Link href={pop.href}>{pop.text}</Link>
+          </MenuItem>
+        ))}
+      </Menu>
     </div>
   );
 }

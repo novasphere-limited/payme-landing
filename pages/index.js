@@ -1,13 +1,12 @@
-import Head from "next/head";
-import React, { useState, useEffect } from "react";
 import Subscribe from "@/components/Subscribe";
 import Contact from "@/components/Contact";
 import HelpPayment from "@/components/HelpPayment";
 import Choose from "@/components/Choose";
-import Testimony from "@/components/Testimony";
 import Features from "@/components/Features";
 import Herosection from "@/components/Herosection";
 import Layout from "@/components/Layout";
+import Slider from "@/components/Slide";
+import VideoComponent from "@/components/PayymeVideo";
 
 export default function Home() {
   return (
@@ -15,7 +14,8 @@ export default function Home() {
       <Layout>
         <Herosection />
         <Features />
-        <Testimony />
+        <Slider />
+        <VideoComponent />
         <Choose />
         <HelpPayment />
         <Contact />
