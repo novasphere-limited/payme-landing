@@ -92,7 +92,7 @@ export const ChooseList = [
   {
     id: 3,
     imgSrc: "",
-    title: "Secutiry",
+    title: "Security",
     text: "Your data and transactions are safe with us",
   },
   {

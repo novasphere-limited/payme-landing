@@ -3,7 +3,7 @@ import CarouselSlide from "./FeaturesSlider";
 
 export default function Features() {
   return (
-    <div className="main-container">
+    <div className="main-container md:pt-8 pt-4">
       <h1 className="font-medium text-5xl text-warning600 text-center leading-[48px] mb-2">
         Our Features
       </h1>

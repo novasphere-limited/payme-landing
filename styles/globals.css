@@ -1,26 +1,26 @@
 @font-face {
-  src: url("../public/Satoshi/Fonts/OTF/Satoshi-Light.otf");
-  font-family: "Satoshi";
+  src: url("../public/Satoshi/Graphik\ Family/Graphik-Light-Trial.otf");
+  font-family: "Graphik";
   font-weight: 300;
 }
 @font-face {
-  src: url("../public/Satoshi/Fonts/OTF/Satoshi-Regular.otf");
-  font-family: "Satoshi";
+  src: url("../public/Satoshi/Graphik\ Family/Graphik-Regular-Trial.otf");
+  font-family: "Graphik";
   font-weight: 400;
 }
 @font-face {
-  src: url("../public/Satoshi/Fonts/OTF/Satoshi-Medium.otf");
-  font-family: "Satoshi";
+  src: url("../public/Satoshi/Graphik\ Family/Graphik-Medium-Trial.otf");
+  font-family: "Graphik";
   font-weight: 500;
 }
 @font-face {
-  src: url("../public/Satoshi/Fonts/OTF/Satoshi-Bold.otf");
-  font-family: "Satoshi";
+  src: url("../public/Satoshi/Graphik\ Family/Graphik-Bold-Trial.otf");
+  font-family: "Graphik";
   font-weight: 700;
 }
 @font-face {
-  src: url("../public/Satoshi/Fonts/OTF/Satoshi-Black.otf");
-  font-family: "Satoshi";
+  src: url("../public/Satoshi/Graphik\ Family/Graphik-Black-Trial.otf");
+  font-family: "Graphik";
   font-weight: 900;
 }
 
@@ -36,7 +36,8 @@
 }
 
 body {
-  font-family: "Satoshi", sans-serif;
+  /* font-family: "Satoshi", sans-serif; */
+  font-family: "Graphik", sans-serif;
 }
 
 #__next img,

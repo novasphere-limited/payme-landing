@@ -11,15 +11,46 @@ export default function Navbar() {
   };
 
   const productArray = [
-    { id: 1, text: "Send & Receive Cash", href: "/how" },
-    { id: 2, text: "Pay Bill", href: "/how" },
-    { id: 3, text: "Aitrime & Data", href: "/how" },
+    {
+      id: 1,
+      text: "Send & Receive Cash",
+      href: "/how",
+      icon: "/favicon_io/pop-img-1.svg",
+    },
+    {
+      id: 2,
+      text: "Pay Bill",
+      href: "/how",
+      icon: "/favicon_io/pop-img-2.svg",
+    },
+    {
+      id: 3,
+      text: "Aitrime & Data",
+      href: "/how",
+      icon: "/favicon_io/pop-img-3.svg",
+    },
   ];
   const companyArray = [
-    { id: 1, text: "Leadership Team", href: "/about" },
-    { id: 2, text: "Company Core Value", href: "/about" },
-    { id: 3, text: "Featured In ", href: "#" },
-    { id: 4, text: "FAQ's ", href: "/faq" },
+    {
+      id: 1,
+      text: "Leadership Team",
+      href: "/about",
+      icon: "/asset/pop-img-4.png",
+    },
+    {
+      id: 2,
+      text: "Company Core Value",
+      href: "/about",
+      icon: "/favicon_io/pop-img-5.svg",
+    },
+    {
+      id: 3,
+      text: "Featured In ",
+      href: "#",
+      icon: "/favicon_io/pop-img-6.svg",
+    },
+    { id: 4, text: "FAQ's ", href: "/faq", icon: "/asset/pop-img-7.png" },
+    { id: 5, text: "Blog", href: "/blog", icon: "/favicon_io/faq-icon-1.svg" },
   ];
 
   return (
@@ -35,9 +66,6 @@ export default function Navbar() {
           />
         </Link>
         <ul>
-          <Link href="/blog">
-            <li className="label-3_medium">Blog</li>
-          </Link>
           <MouseOverPopover popText="Products" popArray={productArray} />
           <MouseOverPopover popText="Company" popArray={companyArray} />
           <Link href="/faq">
@@ -76,11 +104,7 @@ export default function Navbar() {
         </div>
         {showNavbar && (
           <ul>
-            <li className="mb-2">
-              <Link href="/blog">
-                <li className="label-3_medium">Blog</li>
-              </Link>
-            </li>
+            <li className="mb-2"></li>
             <li className="mb-2">
               <MouseOverPopover popText="Products" popArray={productArray} />
             </li>

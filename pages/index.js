@@ -10,17 +10,15 @@ import VideoComponent from "@/components/PayymeVideo";
 
 export default function Home() {
   return (
-    <>
-      <Layout>
-        <Herosection />
-        <Features />
-        <Slider />
-        <VideoComponent />
-        <Choose />
-        <HelpPayment />
-        <Contact />
-        <Subscribe />
-      </Layout>
-    </>
+    <Layout>
+      <Herosection />
+      <Features />
+      <Slider />
+      <VideoComponent />
+      <Choose />
+      <HelpPayment />
+      <Contact />
+      <Subscribe />
+    </Layout>
   );
 }

@@ -3,6 +3,7 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HoverMenu({ popText, popArray }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -45,7 +46,14 @@ export default function HoverMenu({ popText, popArray }) {
         onMouseLeave={handleMenuMouseLeave}
       >
         {popArray.map((pop) => (
-          <MenuItem onClick={handleMouseLeave} key={pop.id}>
+          <MenuItem
+            onClick={handleMouseLeave}
+            key={pop.id}
+            className="flex items-center gap-3"
+          >
+            <div className="h-[32px] w-[32px] rounded-full bg-[#F5F5F5] flex items-center justify-center">
+              <Image height={18} width={18} alt="Faq icon" src={pop.icon} />
+            </div>
             <Link href={pop.href}>{pop.text}</Link>
           </MenuItem>
         ))}
