@@ -18,7 +18,7 @@ export default function HowSection() {
         </div>
         <div className="w-full flex justify-center h-[342px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356882/PayyMe/Group_1000003866_zhfjha.png"
             alt="customer testimony imge"
             width={607}
             height={342}

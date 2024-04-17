@@ -7,19 +7,19 @@ export default function CarouselSlide({ imgArray }) {
   const images = [
     {
       id: 1,
-      img: "/asset/hero-img.png",
+      img: "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356954/PayyMe/image_19_yokufq.png",
       title: "Bank with the Unbanked",
       text: "Need to pay or receive payment from someone without a bank account? Use PayyMe.",
     },
     {
       id: 2,
-      img: "/asset/contact-img.png",
-      title: "Connectivity not a Barrier",
-      text: "No internet connection? Worry less. Use PayyME.",
+      img: "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356955/PayyMe/Medium_shot_farmers_with_smartphone_hbxzou.png",
+      title: "Pay Bills",
+      text: "Pay your everyday bills without a glitch, one SMS at a time.",
     },
     {
       id: 3,
-      img: "/asset/contact-img.png",
+      img: "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356964/PayyMe/Two_teenage_girls_texting_together_at_home_on_smartphones_hc2j7w.png",
       title: "Connectivity not a Barrier",
       text: "No internet connection? Worry less. Use PayyME.",
     },

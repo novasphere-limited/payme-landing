@@ -64,7 +64,7 @@ export default function InnerBlog() {
         <div className="flex justify-center mb-5 h-[565px] overflow-hidden">
           <Image
             alt="Inner blog image"
-            src="/asset/nova-innerblog-img.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356898/PayyMe/Man_s_hands_close-up_holding_cup_of_coffee_and_a_newspaper_znpz7e.png"
             height={565}
             width={1032}
             className="rounded-lg"

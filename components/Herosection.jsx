@@ -23,7 +23,7 @@ export default function Herosection() {
       </div>
       <div className="w-full xl:h-[484px] h-[384px] overflow-hidden rounded-lg">
         <Image
-          src="/asset/hero-img.png"
+          src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356965/PayyMe/Frame_1321315220_bxbqby.png"
           alt="Farmer image"
           width={632}
           height={480}

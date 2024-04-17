@@ -20,8 +20,7 @@ export const NewsList = [
   {
     id: 3,
     imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1712336242/69167AEF-7DBD-4C08-8D0F-E18C31D87AE1_odut8b.png",
-
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356909/PayyMe/66044214ef1b635fcb1a8571_-p-800_uu7tna.png",
     title: "ANNOUNCEMENTS",
     header: "Product Updates: Informed Comp Conversations, Engagement.....",
     text: "Discover Lattice's newest updates - enabling you to make the most of your people data, optimize compensation cycles....",
@@ -79,25 +78,29 @@ export const NewsList = [
 export const ChooseList = [
   {
     id: 1,
-    imgSrc: "",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356953/PayyMe/image_21_aealaj.png",
     title: "Simplified Payments",
     text: "With PayyME, simple text messages can help manage your finances, transfer and receive funds and much more. No need for complex apps or an internet connection.",
   },
   {
     id: 2,
-    imgSrc: "",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356953/PayyMe/image_212_dhkz0a.png",
     title: "Inclusive Access",
     text: "Experience banking without barriers. Regardless of technological access or location, transact with ease on PayyMe.",
   },
   {
     id: 3,
-    imgSrc: "",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356953/PayyMe/Group_1000003865_xtw9bh.png",
     title: "Security",
     text: "Your data and transactions are safe with us",
   },
   {
     id: 4,
-    imgSrc: "",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356928/PayyMe/image_25_eb64i5.png",
     title: "Community Connection",
     text: "We are connecting and empowering people through accessible and simplified innovative solutions.",
   },

@@ -44,9 +44,9 @@ export default function FaqOptionThree() {
           <p className="text-[#737373] mb-[44px]">
             Written by Ahmed <br /> Update a week ago
           </p>
-          <div className="mb-6" style={{ height: "250px !important" }}>
+          <div className="mb-6 h-[250px] overflow-hidden">
             <Image
-              src="/asset/hauwa-image.png"
+              src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356882/PayyMe/Frame_132131517_csfzry.png"
               alt="customer testimony imge"
               width={606}
               height={250}

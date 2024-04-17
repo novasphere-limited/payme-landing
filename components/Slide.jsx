@@ -14,7 +14,8 @@ export default function Slider() {
   const sliderArray = [
     {
       id: 1,
-      imgSrc: "/asset/hauwa-image.png",
+      imgSrc:
+        "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356955/PayyMe/Medium_shot_farmers_with_smartphone_hbxzou.png",
       title: "Revolutionize payments all with a single SMS",
       text: "Empowering Your Ideas Digitally: Where Vision and Innovation Thrive. Let's Evolve Technology Together.",
       name: "Hauwa",
@@ -22,7 +23,8 @@ export default function Slider() {
     },
     {
       id: 2,
-      imgSrc: "/asset/hauwa-image.png",
+      imgSrc:
+        "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356954/PayyMe/Shallow_focus_of_an_african_female_seller_showing_content_in_a_phone_to_a_customer_at_a_market_ea4aer.png",
       title: "Simplify payments with just one SMS",
       text: "Digitize your vision: Where Innovation Meets Reality, Partner With us For technological Evolution",
       name: "Tauwa",
@@ -30,7 +32,8 @@ export default function Slider() {
     },
     {
       id: 3,
-      imgSrc: "/asset/hauwa-image.png",
+      imgSrc:
+        "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356954/PayyMe/image_20_yfhukb.png",
       title: "Innovation, inclusion and Freedom",
       text: "Turning ideas into digital solution: Where Vision Meets Reality, Partner with us For Technological Evolution",
       name: "Fauwa",

@@ -9,7 +9,7 @@ export default function Contact() {
         <h1 className="md:text-5xl text-3xl lg:mb-4 mb-2 pt-0">
           Our Team Is Always Here To Help
         </h1>
-        <h6 className="label-2_regular lg:mb-8 mb-1">
+        <h6 className="text-base lg:mb-8 mb-1">
           Your journey to inclusion starts today. If you have any questions,
           contact our support team for any enquiries.
         </h6>
@@ -17,7 +17,7 @@ export default function Contact() {
       </div>
       <div className="w-full flex justify-center h-[324px] overflow-hidden">
         <Image
-          src="/asset/contact-img.png"
+          src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356928/PayyMe/People_at_work_e8ekra.png"
           alt="customer-img"
           width={486}
           height={324}

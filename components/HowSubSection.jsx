@@ -6,7 +6,7 @@ export default function HowSub() {
       <div className="sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center xl:mb-[100px] lg:mb-[75px] md:mb-[60px] sm:mb-9 mb-6">
         <div className="w-full flex justify-center h-[331px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356881/PayyMe/airtime_image_atnxnz.png"
             alt="customer testimony imge"
             width={520}
             height={331}
@@ -61,12 +61,12 @@ export default function HowSub() {
         </div>
         <div className="w-full flex justify-center h-[331px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356882/PayyMe/Group_1000003863_ks0w7x.png"
             alt="customer testimony imge"
             width={520}
             height={331}
             className="rounded-lg"
-            objectFit="cover"
+            objectFit="contain"
           />
         </div>
       </div>

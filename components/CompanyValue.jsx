@@ -10,7 +10,7 @@ export default function Value() {
       <div className="sm:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center xl:mb-[64px] mb-3 sm:mb-6 md:mb-9">
         <div className="w-full h-[331px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Light_bulb_with_drawing_graph_ipmzfw.png"
             alt="customer testimony imge"
             width={520}
             height={331}
@@ -47,11 +47,11 @@ export default function Value() {
         </div>
         <div className="w-full h-[331px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Assortment_of_luxurious_chess_pieces_aqcwox.png"
             alt="customer testimony imge"
             width={520}
             height={331}
-            className="testimony-img rounded-lg"
+            className=" rounded-lg"
             loading="lazy"
             objectFit="cover"
           />
@@ -60,7 +60,7 @@ export default function Value() {
       <div className=" block sm:hidden ">
         <div className="w-full h-[331px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Assortment_of_luxurious_chess_pieces_aqcwox.png"
             alt="customer testimony imge"
             width={520}
             height={331}

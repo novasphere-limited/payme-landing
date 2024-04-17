@@ -16,7 +16,7 @@ export default function Choose() {
           <div className="rounded-lg shadow-md px-[34px] py-[28px]" key={index}>
             <div className="mb-2 flex justify-center">
               <Image
-                src="/asset/choose-img1.png"
+                src={choose.imgSrc}
                 width={500}
                 height={334}
                 alt="Why choose us"
@@ -25,7 +25,7 @@ export default function Choose() {
               />
             </div>
             <div>
-              <h4 className="text-[22px] text-warning600 font-semibold mb-2">
+              <h4 className="text-[22px] text-warning600 font-medium mb-2">
                 {choose.title}
               </h4>
               <h6 className="label-2_regular text-center">{choose.text}</h6>
