@@ -1,5 +1,5 @@
 import Faq from "@/components/faq/Faq";
-import FaqOptionFour from "@/components/faq/faqOptionFour";
+import FaqOptionFour from "@/components/faq/FaqOptionFour";
 import Footer from "@/components/Footer";
 import NavTab from "@/components/NavTab";
 
