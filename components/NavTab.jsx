@@ -13,12 +13,12 @@ export default function NavTab() {
     {
       id: 2,
       text: "Press releases",
-      href: "/pressrelease",
+      href: "#",
     },
     {
       id: 3,
       text: "Newsroom",
-      href: "/newspaper",
+      href: "#",
     },
     {
       id: 4,

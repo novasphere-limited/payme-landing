@@ -17,7 +17,7 @@ export default function HelpPayment() {
       </p>
       <LinkBtn
         text="Get Started"
-        href="/contact"
+        href="#"
         style={{ color: "#0B8657", background: "#fff" }}
       />
     </div>

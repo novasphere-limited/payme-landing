@@ -4,9 +4,11 @@ import Layout from "@/components/Layout";
 
 export default function Contact() {
   return (
-    <Layout>
-      <ContactForm />
-      <Map />
-    </Layout>
+    <div className="bg-[#FAF8FE]">
+      <Layout>
+        <ContactForm />
+        <Map />
+      </Layout>
+    </div>
   );
 }

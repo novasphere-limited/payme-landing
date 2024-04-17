@@ -26,7 +26,7 @@ export default function AboutHerosection() {
                 alt="Star icon"
                 height={24}
                 width={21}
-                className="inline-block me-2"
+                className="inline-block mx-2"
               />
             </span>
             at a time.

@@ -4,15 +4,15 @@ export default function HowSub() {
   return (
     <div className="margin-gen my-10">
       <div className="sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center xl:mb-[100px] lg:mb-[75px] md:mb-[60px] sm:mb-9 mb-6">
-        <div className="w-full flex justify-center h-[331px] overflow-hidden">
+        <div className="w-full flex justify-center md:h-[464px] h-[364px] overflow-hidden">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356881/PayyMe/airtime_image_atnxnz.png"
             alt="customer testimony imge"
-            width={520}
-            height={331}
+            width={455}
+            height={464}
             className="rounded-lg"
             loading="lazy"
-            objectFit="cover"
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="w-full">
@@ -37,14 +37,14 @@ export default function HowSub() {
             additional fees.
           </p>
         </div>
-        <div className="w-full flex justify-center h-[331px] overflow-hidden">
+        <div className="w-full flex justify-center md:h-[433px] h-[331px] overflow-hidden">
           <Image
-            src="/asset/hauwa-image.png"
+            src="/asset/payyme-bill-img.png"
             alt="customer testimony imge"
             width={520}
-            height={331}
+            height={433}
             className="rounded-lg"
-            objectFit="cover"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </div>
@@ -59,14 +59,14 @@ export default function HowSub() {
             be sure you are sending money to the right person.
           </p>
         </div>
-        <div className="w-full flex justify-center h-[331px] overflow-hidden">
+        <div className="w-full flex justify-center md:h-[433px] h-[333px] overflow-hidden">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356882/PayyMe/Group_1000003863_ks0w7x.png"
             alt="customer testimony imge"
-            width={520}
-            height={331}
+            width={579}
+            height={433}
             className="rounded-lg"
-            objectFit="contain"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </div>

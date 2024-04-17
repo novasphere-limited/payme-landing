@@ -4,9 +4,11 @@ import Layout from "@/components/Layout";
 
 export default function How() {
   return (
-    <Layout>
-      <HowSection />
-      <HowSub />
-    </Layout>
+    <div className="bg-[#FAF8FE]">
+      <Layout>
+        <HowSection />
+        <HowSub />
+      </Layout>
+    </div>
   );
 }

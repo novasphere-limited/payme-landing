@@ -19,7 +19,7 @@ export default function Herosection() {
           and  individuals pay and get paid
         </h3>
 
-        <LinkBtn href="/contact" text="Get Started" />
+        <LinkBtn href="#" text="Get Started" />
       </div>
       <div className="w-full xl:h-[484px] h-[384px] overflow-hidden rounded-lg">
         <Image

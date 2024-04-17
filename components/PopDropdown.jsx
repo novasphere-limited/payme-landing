@@ -33,9 +33,16 @@ export default function HoverMenu({ popText, popArray }) {
         aria-haspopup="true"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="text-base font-medium text-[#0B8657]"
+        className="text-base font-medium text-[#0B8657] flex items-center gap-2"
       >
         {popText}
+        <Image
+          src="/favicon_io/arrow-down.svg"
+          alt="Arrow icon"
+          height={18}
+          width={18}
+          className="inline-block"
+        />
       </button>
       <Menu
         id="hover-menu"
@@ -46,15 +53,13 @@ export default function HoverMenu({ popText, popArray }) {
         onMouseLeave={handleMenuMouseLeave}
       >
         {popArray.map((pop) => (
-          <MenuItem
-            onClick={handleMouseLeave}
-            key={pop.id}
-            className="flex items-center gap-3"
-          >
-            <div className="h-[32px] w-[32px] rounded-full bg-[#F5F5F5] flex items-center justify-center">
-              <Image height={18} width={18} alt="Faq icon" src={pop.icon} />
-            </div>
-            <Link href={pop.href}>{pop.text}</Link>
+          <MenuItem onClick={handleMouseLeave} key={pop.id}>
+            <Link href={pop.href} className="flex items-center gap-3">
+              <div className="h-[32px] w-[32px] rounded-full bg-[#F5F5F5] flex items-center justify-center">
+                <Image height={18} width={18} alt="Faq icon" src={pop.icon} />
+              </div>
+              <p>{pop.text}</p>
+            </Link>
           </MenuItem>
         ))}
       </Menu>

@@ -56,8 +56,8 @@ export default function CarouselSlide({ imgArray }) {
                   alt={`Slider image ${index}`}
                   height={529}
                   width={935}
-                  objectFit="cover"
                   priority={true}
+                  className="rounded-md"
                 />
                 <div
                   className="absolute bottom-0 left-0 md:px-6 px-3 md:py-4 py-2"

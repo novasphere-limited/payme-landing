@@ -25,7 +25,7 @@ export default function Navbar() {
     },
     {
       id: 3,
-      text: "Aitrime & Data",
+      text: "Airtime & Data",
       href: "/how",
       icon: "/favicon_io/pop-img-3.svg",
     },
@@ -45,8 +45,8 @@ export default function Navbar() {
     },
     {
       id: 3,
-      text: "Featured In ",
-      href: "#",
+      text: "Featured In",
+      href: "/about",
       icon: "/favicon_io/pop-img-6.svg",
     },
     { id: 4, text: "FAQ's ", href: "/faq", icon: "/asset/pop-img-7.png" },
@@ -54,8 +54,8 @@ export default function Navbar() {
   ];
 
   return (
-    <>
-      <div className="navbar margin-gen py-4">
+    <div className="bg-[#ECF3F54D]">
+      <div className="navbar margin-gen py-4 ">
         <Link href="/">
           <Image
             src="/asset/Paymee.png"
@@ -68,7 +68,7 @@ export default function Navbar() {
         <ul>
           <MouseOverPopover popText="Products" popArray={productArray} />
           <MouseOverPopover popText="Company" popArray={companyArray} />
-          <Link href="/faq">
+          <Link href="#">
             <li className="text-base font-medium text-[#0B8657]">Support</li>
           </Link>
         </ul>
@@ -121,6 +121,6 @@ export default function Navbar() {
           </ul>
         )}
       </div>
-    </>
+    </div>
   );
 }

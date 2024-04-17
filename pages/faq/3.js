@@ -5,7 +5,7 @@ import NavTab from "@/components/NavTab";
 
 export default function FaqIndividual() {
   return (
-    <div>
+    <div className="bg-[#FAF8FE]">
       <Faq />
       <NavTab />
       <FaqOptionThree />

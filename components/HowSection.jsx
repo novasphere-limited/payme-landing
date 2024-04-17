@@ -24,7 +24,7 @@ export default function HowSection() {
             height={342}
             className="rounded-lg"
             loading="lazy"
-            objectFit="cover"
+            style={{ objectFit: "contain" }}
           />
         </div>
       </div>
