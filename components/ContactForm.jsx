@@ -4,10 +4,10 @@ import Btn from "./Button";
 
 export default function ContactForm() {
   return (
-    <div className="main-container p-8">
-      <div className="flex mt-5 gap-5">
+    <div className="margin-gen md:mb-8 mb-3">
+      <div className="md:flex mt-5 gap-5">
         <div className="w-full">
-          <h2 className="text-[40px] font-normal mb-4 text-[#060606]">
+          <h2 className="md:text-[40px] text-5xl font-normal mb-4 text-[#060606]">
             Contact us
           </h2>
           <p className="text-lg mb-6">
