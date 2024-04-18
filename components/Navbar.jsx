@@ -74,10 +74,7 @@ export default function Navbar() {
         </ul>
         <div>
           <Link href="/contact">
-            <h1
-              className="label-2_medium navbar_outline"
-              style={{ color: "#075134" }}
-            >
+            <h1 className="text-sm navbar_outline" style={{ color: "#075134" }}>
               Get Started
             </h1>
           </Link>
@@ -104,7 +101,6 @@ export default function Navbar() {
         </div>
         {showNavbar && (
           <ul>
-            <li className="mb-2"></li>
             <li className="mb-2">
               <MouseOverPopover popText="Products" popArray={productArray} />
             </li>
@@ -118,6 +114,14 @@ export default function Navbar() {
                 </li>
               </Link>
             </li>
+            <Link href="/contact">
+              <h1
+                className="text-sm navbar_outline"
+                style={{ color: "#075134" }}
+              >
+                Get Started
+              </h1>
+            </Link>
           </ul>
         )}
       </div>
