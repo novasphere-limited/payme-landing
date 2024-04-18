@@ -3,19 +3,19 @@ import LinkBtn from "./LinkBtn";
 
 export default function Value() {
   return (
-    <div className="xl:px-[130px] px-3 sm:px-6 md:px-9 lg:px-[72px] xl:mt-[87px] mt-5 md:mt-9">
+    <div className="xl:px-[152px] px-3 sm:px-[32px] md:px-[52px] lg:px-[92px] xl:mt-[87px] mt-5 md:mt-9">
       <h1 className="text-5xl text-[#043623] xl:mb-[64px] mb-3 sm:mb-6 md:mb-9 text-center font-medium">
         Company Core Value
       </h1>
-      <div className="sm:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center xl:mb-[64px] mb-3 sm:mb-6 md:mb-9">
-        <div className="w-full h-[331px] overflow-hidden">
+      <div className="md:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center xl:mb-[64px] mb-3 sm:mb-6 md:mb-9">
+        <div className="w-full xl:h-[331px] h-auto overflow-hidden rounded-lg">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Light_bulb_with_drawing_graph_ipmzfw.png"
             alt="customer testimony imge"
             width={520}
             height={331}
-            className="testimony-img rounded-lg w-full"
-            objectFit="cover"
+            className="rounded-lg w-full"
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div className="w-full">
@@ -32,7 +32,7 @@ export default function Value() {
           </p>
         </div>
       </div>
-      <div className="hidden sm:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center">
+      <div className="hidden md:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center">
         <div className="w-full">
           <h1 className="font-medium text-5xl mb-4 leading-[48px] text-[#043623]">
             Our Goal
@@ -45,28 +45,28 @@ export default function Value() {
             safe and secure financial solutions available to all.
           </p>
         </div>
-        <div className="w-full h-[331px] overflow-hidden">
+        <div className="w-full xl:h-[331px] h-auto overflow-hidden rounded-lg">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Assortment_of_luxurious_chess_pieces_aqcwox.png"
             alt="customer testimony imge"
             width={520}
             height={331}
-            className=" rounded-lg"
+            className=" rounded-lg w-full"
             loading="lazy"
-            objectFit="cover"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>
-      <div className=" block sm:hidden ">
+      <div className=" block md:hidden ">
         <div className="w-full h-[331px] overflow-hidden">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Assortment_of_luxurious_chess_pieces_aqcwox.png"
             alt="customer testimony imge"
             width={520}
             height={331}
-            className="testimony-img rounded-lg"
+            className="testimony-img rounded-lg w-full"
             loading="lazy"
-            objectFit="cover"
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div className="w-full">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <div className="mt-[87px]">
+    <div className="xl:mt-[87px] mt-4 md:mt-9">
       <h1 className="text-5xl text-[#043623] xl:mb-[64px] mb-3 sm:mb-6 md:mb-9 lg:mb-50 text-center font-medium">
         Leadership Team
       </h1>

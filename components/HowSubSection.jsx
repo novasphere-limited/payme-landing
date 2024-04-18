@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HowSub() {
   return (
-    <div className="margin-gen my-10">
+    <div className="sub-hero-pad my-10">
       <div className="sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center xl:mb-[100px] lg:mb-[75px] md:mb-[60px] sm:mb-9 mb-6">
         <div className="w-full flex justify-center md:h-[464px] h-[364px] overflow-hidden">
           <Image
@@ -10,9 +10,9 @@ export default function HowSub() {
             alt="customer testimony imge"
             width={455}
             height={464}
-            className="rounded-lg"
+            className="rounded-lg w-full"
             loading="lazy"
-            style={{ objectFit: "contain" }}
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div className="w-full">
@@ -43,8 +43,8 @@ export default function HowSub() {
             alt="customer testimony imge"
             width={520}
             height={433}
-            className="rounded-lg"
-            style={{ objectFit: "contain" }}
+            className="rounded-lg w-full"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>
@@ -65,8 +65,8 @@ export default function HowSub() {
             alt="customer testimony imge"
             width={579}
             height={433}
-            className="rounded-lg"
-            style={{ objectFit: "contain" }}
+            className="rounded-lg w-full"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>

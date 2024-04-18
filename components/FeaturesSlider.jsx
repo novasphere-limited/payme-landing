@@ -50,7 +50,7 @@ export default function CarouselSlide({ imgArray }) {
             }`}
           >
             <div className="flex justify-center">
-              <div className="flex justify-center h-[517px] w-[935px] overflow-hidden relative">
+              <div className="flex justify-center h-[517px] w-[935px] overflow-hidden relative rounded-lg">
                 <Image
                   src={image.img}
                   alt={`Slider image ${index}`}

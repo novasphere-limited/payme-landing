@@ -79,28 +79,28 @@ export const ChooseList = [
   {
     id: 1,
     imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356953/PayyMe/image_21_aealaj.png",
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356953/PayyMe/image_21_aealaj.png",
     title: "Simplified Payments",
     text: "With PayyME, simple text messages can help manage your finances, transfer and receive funds and much more. No need for complex apps or an internet connection.",
   },
   {
     id: 2,
     imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356953/PayyMe/image_212_dhkz0a.png",
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356953/PayyMe/image_212_dhkz0a.png",
     title: "Inclusive Access",
     text: "Experience banking without barriers. Regardless of technological access or location, transact with ease on PayyMe.",
   },
   {
     id: 3,
     imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356953/PayyMe/Group_1000003865_xtw9bh.png",
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356953/PayyMe/Group_1000003865_xtw9bh.png",
     title: "Security",
     text: "Your data and transactions are safe with us",
   },
   {
     id: 4,
     imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356928/PayyMe/image_25_eb64i5.png",
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356928/PayyMe/image_25_eb64i5.png",
     title: "Community Connection",
     text: "We are connecting and empowering people through accessible and simplified innovative solutions.",
   },

@@ -12,8 +12,10 @@ export default function Home() {
   return (
     <div className="bg-[#FAF8FE]">
       <Layout>
-        <Herosection />
-        <Features />
+        <div className="index-bg">
+          <Herosection />
+          <Features />
+        </div>
         <Slider />
         <VideoComponent />
         <Choose />

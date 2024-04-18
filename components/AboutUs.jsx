@@ -3,7 +3,7 @@ import LinkBtn from "./LinkBtn";
 
 export default function AboutUs() {
   return (
-    <div className="xl:px-[130px] lg:px-[90px] md:px-[60px] sm:px-[30px] px-3 xl:mt-[87px] mt-5 md:mt-9">
+    <div className="xl:px-[152px] px-3 sm:px-[32px] md:px-[52px] lg:px-[92px] xl:mt-[87px] mt-5 md:mt-9">
       <h1 className="text-5xl text-warning600 xl:mb-[64px] mb-4 md:mb-9 text-center font-medium">
         About Us
       </h1>
@@ -17,10 +17,10 @@ export default function AboutUs() {
             we plan to make financial services accessible to everyone,
             especially those with little knowledge about how technology works.
           </p>
-          <LinkBtn href="/contact" text="Get Started" />
+          <LinkBtn href="#" text="Get Started" />
         </div>
 
-        <div className="w-full h-[331px] overflow-hidden">
+        <div className="w-full h-[331px] overflow-hidden rounded-lg">
           <Image
             src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356928/PayyMe/People_at_work_e8ekra.png"
             alt="customer testimony imge"
@@ -28,6 +28,7 @@ export default function AboutUs() {
             height={331}
             className="rounded-lg"
             loading="lazy"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>

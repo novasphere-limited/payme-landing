@@ -13,7 +13,7 @@ export default function Contact() {
           Your journey to inclusion starts today. If you have any questions,
           contact our support team for any enquiries.
         </h6>
-        <LinkBtn text="Contact Us" href="/contact" />
+        <LinkBtn text="Contact us" href="/contact" />
       </div>
       <div className="w-full flex justify-center h-[324px] overflow-hidden">
         <Image

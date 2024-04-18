@@ -20,8 +20,9 @@ export default function Choose() {
                 width={500}
                 height={334}
                 alt="Why choose us"
-                className="rounded-lg"
+                className="rounded-lg w-full"
                 loading="lazy"
+                style={{ objectFit: "cover" }}
               />
             </div>
             <div>
