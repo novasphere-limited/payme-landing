@@ -27,12 +27,10 @@ export default function HoverMenu({ popText, popArray }) {
   };
 
   return (
-    <div>
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <button
         aria-controls="hover-menu"
         aria-haspopup="true"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
         className="text-base font-medium text-[#0B8657] flex items-center gap-2"
       >
         {popText}

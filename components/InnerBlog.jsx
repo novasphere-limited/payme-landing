@@ -2,6 +2,7 @@ import { useState } from "react";
 import SocialMedia from "./SocialPage";
 import Image from "next/image";
 import Link from "next/link";
+import NavTab from "./NavTab";
 
 export default function InnerBlog() {
   const [curIndex, setCurIndex] = useState(0);
@@ -29,37 +30,24 @@ export default function InnerBlog() {
   };
 
   return (
-    <div className="mb-[120px]">
-      <div
-        style={{ borderBottom: "2px solid #001F1F14" }}
-        className="pb-1 flex justify-center lg:mx-[80px] md:mx-9 sm:mx-6 mx-3"
-      >
-        {options.map((option, index) => (
-          <button
-            key={option.id}
-            className={`${
-              index == curIndex ? "text-warning600 border-b-2-warning600" : ""
-            } py-3 px-4 font-semibold text-sm`}
-            onClick={() => handleBtnChange(index)}
-          >
-            {option.text}
-          </button>
-        ))}
-      </div>
+    <div className="xl:mb-[120px] lg:mb-[90px] md:mb-[70px] sm:mb-[55px] mb-[44px]">
+      <NavTab />
       <div className="flex justify-center">
-        <h4 className="text-xs text-warning600 my-[37.7px] bg-[#CFECE1] p-1">
+        <h4 className="text-xs text-warning600 md:my-[37.7px] my-[32px] bg-[#CFECE1] p-1">
           ANNOUNCEMENTS
         </h4>
       </div>
       <div className="flex justify-center text-center mb-4">
         <h1
-          className="xl:text-[50px] text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium"
+          className="xl:text-[50px] text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium"
           style={{ maxWidth: "900px" }}
         >
           An Update on Q1 2024 Organizational Changes
         </h1>
       </div>
-      <h6 className="text-[#1F1F1F] text-center mb-[44px]">06 April, 2024</h6>
+      <h6 className="text-[#1F1F1F] text-center mb-[44px] font-normal text-sm md:text-base">
+        06 April, 2024
+      </h6>
       <div className="xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
         <div className="flex justify-center mb-5 h-[565px] overflow-hidden">
           <Image
@@ -86,21 +74,29 @@ export default function InnerBlog() {
                 />
               </div>
               <div>
-                <h4 className="text-[#1F1F1F] font-semibold">ALTHEA STORM</h4>
-                <p className="text-[#444444]">Wiza Team</p>
+                <h4 className="text-[#1F1F1F] font-medium md:text-base text-sm">
+                  ALTHEA STORM
+                </h4>
+                <p className="text-[#444444] md:text-base font-normal text-sm">
+                  Wiza Team
+                </p>
               </div>
             </div>
-            <p className="text-base font-normal mb-3">Share this article</p>
-            <SocialMedia />
+            <div>
+              <p className="md:text-base text-sm font-normal mb-3">
+                Share this article
+              </p>
+              <SocialMedia />
+            </div>
           </div>
           <div>
-            <h6 className="text-lg font-normal italic mb-8">
+            <h6 className="xl:text-lg text-xs md:text-base font-normal italic md:mb-8 mb-6">
               Earlier today, Chief Executive Officer Ham Serunjogi shared the
               following note on the Company’s organizational changes with all
               employees.
             </h6>
             <p className="text-base font-normal mb-4">Hey everyone</p>
-            <div className="text-[#696969] mb-[62px]">
+            <div className="text-[#696969] md:mb-[62px] mb-[44px] text-sm md:text-base">
               <p>
                 In the fast-paced world of technology, staying abreast of the
                 latest trends and developments is not just an option; it&apos;s
@@ -154,7 +150,7 @@ export default function InnerBlog() {
             </p>
 
             <p className="text-base font-medium mb-8">Read more:</p>
-            <ul>
+            <ul className="text-sm md:text-base">
               <Link href="#" className="underline text-warning600">
                 <p>
                   In the fast-paced world of technology, staying abreast of the

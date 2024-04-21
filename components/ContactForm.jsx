@@ -4,13 +4,13 @@ import Btn from "./Button";
 
 export default function ContactForm() {
   return (
-    <div className="margin-gen md:mb-8 mb-3">
+    <div className="margin-gen md:mb-8 mb-3 ">
       <div className="md:flex mt-5 gap-5">
         <div className="w-full">
-          <h2 className="md:text-[40px] text-5xl font-normal mb-4 text-[#060606]">
+          <h2 className="md:text-[40px] text-start text-5xl font-normal mb-4 text-[#060606]">
             Contact us
           </h2>
-          <p className="text-lg mb-6">
+          <p className="md:text-lg text-sm mb-6 text-start">
             Kindly fill the form to log your complaints and one of our customer
             service agent will be in touch shortly after..
           </p>
@@ -24,7 +24,7 @@ export default function ContactForm() {
                   height={18}
                 />
               </div>
-              <h6 className="text-lg">Support@payymenow.com</h6>
+              <h6 className="md:text-lg text-sm">Support@payymenow.com</h6>
             </div>
             <div className="flex gap-2 mb-3 items-center">
               <div>
@@ -35,12 +35,12 @@ export default function ContactForm() {
                   height={18}
                 />
               </div>
-              <h6 className="text-lg">+23489034566547</h6>
+              <h6 className="md:text-lg text-sm">+23489034566547</h6>
             </div>
           </div>
         </div>
         <div className="w-full">
-          <div className="rounded-md border-2">
+          <div className="rounded-md border-2 bg-[#fff]">
             <form className="p-5">
               <input
                 type="text"

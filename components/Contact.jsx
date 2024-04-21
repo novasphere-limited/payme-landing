@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import LinkBtn from "./LinkBtn";
 
 export default function Contact() {
   return (
     <div className="main-container md:flex items-center xl:px-[152px] px-3 sm:px-6 md:px-9 lg:px-[80px] md:py-[48px] py-6">
       <div className="w-full">
-        <h1 className="md:text-5xl text-3xl lg:mb-4 mb-2 pt-0">
+        <h1 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl lg:mb-4 mb-2 pt-0 font-medium">
           Our Team Is Always Here To Help
         </h1>
         <h6 className="text-base lg:mb-8 mb-1">

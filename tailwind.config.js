@@ -43,6 +43,9 @@ module.exports = {
         extrabold: 800,
         black: 900,
       },
+      fontFamily: {
+        rope: ["ma-rope", "sans-serif"],
+      },
       backgroundColor: {
         pry: "##35B181",
         secondary: "#2ecc71",

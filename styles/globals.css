@@ -28,7 +28,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -38,6 +38,10 @@
 body {
   /* font-family: "Satoshi", sans-serif; */
   font-family: "Graphik", sans-serif;
+}
+
+p {
+  font-family: "Nunito, sans-serif";
 }
 
 #__next img,
@@ -390,6 +394,13 @@ body {
   background-position: center;
   text-align: center;
 }
+.circ-bg-img {
+  background-image: url("/asset/circ-img.png");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  text-align: center;
+}
 .about-container-bg {
   background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356917/PayyMe/3d_render_pos_terminal_paper_check_bill_and_cards_or722l.png");
   background-size: cover;
@@ -404,9 +415,10 @@ body {
 }
 .index-bg {
   background-image: url("/asset/payyme-bg-shape.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  height: "865px";
+  width: "1440px";
 }
 .footer-container {
   background-color: #032015;
@@ -506,7 +518,7 @@ body {
   }
 
   .main-container {
-    padding: 1.5rem 2rem;
+    margin: 1.5rem 2rem;
   }
   .header-1_black {
     font-weight: 900;
@@ -1477,7 +1489,7 @@ body {
   }
 }
 
-@media (max-width: 500) {
+@media (max-width: 500px) {
   .sub-hero-pad {
     padding-left: 16px;
     padding-right: 16px;
@@ -1494,5 +1506,11 @@ body {
     bottom: 0;
     right: -150%;
     margin-left: 0rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .main-container {
+    margin: 0.25rem 0.25rem;
   }
 }

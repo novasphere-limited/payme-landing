@@ -73,7 +73,7 @@ export default function Navbar() {
           </Link>
         </ul>
         <div>
-          <Link href="/contact">
+          <Link href="#">
             <h1
               className="text-base navbar_outline font-medium"
               style={{ color: "#0B8657" }}
@@ -111,13 +111,13 @@ export default function Navbar() {
               <MouseOverPopover popText="Company" popArray={companyArray} />
             </li>
             <li className="mb-3">
-              <Link href="#">
+              <Link href="/contact">
                 <li className="text-base font-medium text-[#0B8657]">
                   Support
                 </li>
               </Link>
             </li>
-            <Link href="/contact" className="w-[250px]">
+            <Link href="#" className="w-[250px]">
               <h1
                 className="text-base navbar_outline w-[250px]"
                 style={{ color: "#0B8657" }}

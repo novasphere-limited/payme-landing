@@ -7,7 +7,7 @@ export default function Herosection() {
     <div className="xl:ms-[103px] mx-3 md:ms-[43px] sm:ms-[30px] ms-3 lg:ms-[73px] md:flex items-center pt-4 xl:gap-4 gap-3">
       <div className="w-full">
         <h6 className="label-2_bold text-grnSec mb-3">PayyME</h6>
-        <h2 className="xl:text-[40px] md:text-3xl text-2xl font-medium mb-3">
+        <h2 className="xl:text-[40px] md:text-3xl text-4xl font-medium mb-3">
           Transform Payments with Inclusion and Innovation -
           <span className="text-grnSec"> One </span>SMS at a Time
         </h2>

@@ -5,12 +5,12 @@ export default function BlogHerosection() {
   return (
     <div>
       <div className="blog-bg_image">
-        <div className="xl:px-[100px] lg:px-[75px] md:px-[50px] sm:px-[35px] px-4 py-[48px] backdrop-blur-sm bg-[#000000BF]">
-          <h1 className="font-semibold xl:text-[48px] lg:text-[44px] text-[36px] mb-4 text-[#FEFCFC]">
+        <div className="xl:px-[100px] lg:px-[75px] md:px-[50px] sm:px-[35px] px-4 py-[21px] backdrop-blur-sm bg-[#033A08] xl:py-[120px] sm:py-[40px] md:py-[75px] lg:py-[100px]">
+          <h1 className="font-semibold xl:text-[48px] lg:text-[44px]  text-2xl sm:text-4xl md:text-6xl lg:mb-4 sm:mb-2 mb-1 text-[#FEFCFC] font-rope">
             <span className="text-warning600">Payyme</span> in the news
           </h1>
 
-          <p className="text-normal text-[22px] w-[400px] mb-[42px] text-white">
+          <p className="text-normal md:text-[22px] text-base w-[400px] lg:mb-[42px] mb-[24px] text-white">
             The latest news, announcements from PayyMe
           </p>
 

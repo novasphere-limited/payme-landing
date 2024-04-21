@@ -5,10 +5,10 @@ export default function HowSection() {
     <div className="xl:px-[100px] lg:px-[70px] md:px-[35px] sm:px-[20px] px-3 bg-[#075134] xl:pt-[113px] pt-6 sm:pt-9 md:pt-[50px] lg:pt-[75px] xl:pb-[49px] pb-3 md:7">
       <div className="md:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center">
         <div className="w-full">
-          <h1 className="font-medium text-5xl mb-4 leading-[48px] text-[#FEFCFC]">
+          <h1 className="font-medium md:text-5xl mb-4 text-4xl text-[#FEFCFC]">
             Send & Receive Cash
           </h1>
-          <p className="text-base font-normal text-[#D3D0D0] mb-4">
+          <p className="md:text-base text-sm font-normal text-[#D3D0D0] mb-4">
             WIth a few keystrokes of sms text you can send and receive money in
             an instant across Nigeria without the complexity of a smart phone or
             internet access and the fun part is all of this can be done in your
@@ -16,9 +16,9 @@ export default function HowSection() {
             with PayyMe today!!.
           </p>
         </div>
-        <div className="w-full flex justify-center h-[342px] overflow-hidden">
+        <div className="w-full flex justify-center md:h-[342px] h-[208px] overflow-hidden">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356882/PayyMe/Group_1000003866_zhfjha.png"
+            src="/asset/how-1.png"
             alt="customer testimony imge"
             width={543}
             height={343}

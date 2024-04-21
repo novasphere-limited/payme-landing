@@ -54,27 +54,31 @@ export default function Slider() {
         {sliderArray.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div className="sm:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center">
-              <div className="w-full h-[331px] overflow-hidden flex justify-center rounded-lg">
+              <div className="w-full sm:h-[331px] h-[213px] overflow-hidden flex justify-center rounded-lg">
                 <Image
                   src={slide.imgSrc}
                   alt="customer testimony imge"
                   width={520}
                   height={331}
-                  className="rounded-lg w-[520px]"
+                  className="rounded-lg sm:w-[520px] slide-img"
                   loading="lazy"
                   style={{ objectFit: "cover" }}
                 />
               </div>
 
               <div className="w-full">
-                <h1 className="font-medium text-5xl mb-4 leading-[48px]">
+                <h1 className="font-medium md:text-5xl text-sm md:mb-4 mb-1 text-[#1F1F1F]">
                   {slide.title}
                 </h1>
-                <p className="text-base font-normal mb-4">{slide.text}</p>
-                <p className="text-base text-warning800 font-semibold mb-2">
+                <p className="text-base font-normal md:mb-4 mb-2">
+                  {slide.text}
+                </p>
+                <p className="md:text-base text-warning800 font-semibold mb-2 text-sm">
                   {slide.name}
                 </p>
-                <p className="text-sm font-normal">{slide.profession}</p>
+                <p className="sm:text-base text-sm font-normal md:text-xl">
+                  {slide.profession}
+                </p>
               </div>
             </div>
           </SwiperSlide>

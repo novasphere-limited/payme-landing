@@ -30,7 +30,7 @@ export default function NavTab() {
   return (
     <div
       style={{ borderBottom: "2px solid #001F1F14" }}
-      className="pb flex justify-center mx-[80px] mt-8 mb-[68px]"
+      className="pb flex justify-center xl:mx-[80px] sm:mx-[32px] md:mx-[42px] lg:mx-[54px] mx-[23px] mt-8 lg:mb-[68px] sm:mb-[40px] mb-6"
     >
       {options.map((option, index) => (
         <Link
@@ -38,9 +38,9 @@ export default function NavTab() {
           href={option.href}
           className={`${
             router.pathname === option.href
-              ? "text-warning600 border-b-4 border-warning600"
-              : ""
-          } py-3 px-4 font-semibold text-sm`}
+              ? "text-warning600 border-b-4 border-warning600 font-semibold"
+              : "font-normal"
+          } py-3 md:px-4 px-2  md:text-sm text-[13px]`}
         >
           {option.text}
         </Link>

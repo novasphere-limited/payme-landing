@@ -3,10 +3,15 @@ import Btn from "./Button";
 export default function Subscribe() {
   return (
     <div className="subscribe-container text-[#FEFCFC]">
-      <div className="backdrop-blur-lg bg-[#000000BF] p-4">
-        <h2 className="font-bold text-5xl mb-4">Stay in the loop</h2>
+      <div className="backdrop-blur-lg bg-[#000000BF] px-4 lg:py-[46px] py-[77px] sm:py-[67px]">
+        <h2 className="font-semibold font-rope xl:text-5xl md:mb-4  mb-2 text-2xl md:text-3xl lg:text-4xl">
+          Stay in the loop
+        </h2>
         <div className="justify-center flex">
-          <p className="label-4_regular mb-4" style={{ maxWidth: "494px" }}>
+          <p
+            className="text-sm font-normal md:text-base mb-4"
+            style={{ maxWidth: "494px" }}
+          >
             Learn how we’re breaking payments barriers through inclusion and
             innovation - one text at a time.
           </p>

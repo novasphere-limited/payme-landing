@@ -45,9 +45,11 @@ export default function FaqOptions() {
                 <Image height={24} width={24} alt="Faq icon" src={e.icon} />
               </div>
               <Link href={`/faq/${e.id}`}>
-                <h6 className="font-semibold text-base">{e.title}</h6>
+                <h6 className="font-semibold md:text-base text-sm">
+                  {e.title}
+                </h6>
               </Link>
-              <p className="text-sm font-normal mb-3">{e.content}</p>
+              <p className="md:text-sm text-xs font-normal mb-3">{e.content}</p>
               <div className="flex items-center gap-2">
                 <Image
                   height={24}
@@ -55,7 +57,9 @@ export default function FaqOptions() {
                   alt="Faq user icon"
                   src="/asset/faq-avatar-1.png"
                 />
-                <p className="text-[#737373]">By Christine . 5 articles</p>
+                <p className="text-[#737373] text-xs md:text-sm">
+                  By Christine . 5 articles
+                </p>
               </div>
             </div>
             <div>

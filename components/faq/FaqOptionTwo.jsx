@@ -26,7 +26,7 @@ export default function FaqOptionTwo() {
     <>
       <div className="md:flex margin-gen justify-between mb-10 xl:gap-[48px] md:gap-[32px] gap-[16px]">
         <div className="w-full">
-          <h2 className="text-5xl font-medium text-[#1F1F1F] mb-6">
+          <h2 className="xl:text-5xl text-2xl md:text-3xl lg:text-4xl font-medium text-[#1F1F1F] mb-6">
             Account Verification and Management:
           </h2>
           <p className="text-[#696969] text-sm mb-8">
@@ -62,7 +62,7 @@ export default function FaqOptionTwo() {
             before you are able to carry out transactions on your PayyMe
             account.
           </h6>
-          <h5 className="text-text-2xl text-[#1F1F1F] font-medium mb-2">
+          <h5 className="text-xl md:text-2xl text-[#1F1F1F] font-medium mb-2">
             What document do you need to verify your account on PayyMe
           </h5>
           <h6 className="text-base font-normal">
@@ -71,7 +71,7 @@ export default function FaqOptionTwo() {
           </h6>
         </div>
         <div className="w-full">
-          <h2 className="text-5xl font-medium text-[#1F1F1F] mb-6">
+          <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl font-medium text-[#1F1F1F] mb-6">
             Related Articles
           </h2>
           <div>

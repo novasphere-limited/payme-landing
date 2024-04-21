@@ -50,7 +50,7 @@ export default function CarouselSlide({ imgArray }) {
             }`}
           >
             <div className="flex justify-center">
-              <div className="flex justify-center h-[517px] w-[935px] overflow-hidden relative rounded-lg">
+              <div className="flex justify-center md:h-[517px] h-[222px] w-[935px] overflow-hidden relative rounded-lg">
                 <Image
                   src={image.img}
                   alt={`Slider image ${index}`}
@@ -65,10 +65,13 @@ export default function CarouselSlide({ imgArray }) {
                     background: "linear-gradient(to right, #FFFFFF, #FFFFFF00)",
                   }}
                 >
-                  <h6 className="text-2xl text-[#096B45] mb-2">
+                  <h6 className="md:text-2xl text-[#096B45] mb-2 text-sm sm:text-xl">
                     {image.title}
                   </h6>
-                  <p className="text-[18px]" style={{ maxWidth: "400px" }}>
+                  <p
+                    className="md:text-[18px] text-xs sm:text-sm"
+                    style={{ maxWidth: "400px" }}
+                  >
                     {image.text}
                   </p>
                 </div>
