@@ -21,7 +21,7 @@ export default function Herosection() {
 
         <LinkBtn href="#" text="Get Started" />
       </div>
-      <div className="w-full xl:h-[484px] h-[384px] overflow-hidden rounded-lg">
+      <div className="w-full md:h-[484px] h-auto overflow-hidden rounded-lg">
         <Image
           src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356965/PayyMe/Frame_1321315220_bxbqby.png"
           alt="Farmer image"

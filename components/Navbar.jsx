@@ -55,7 +55,7 @@ export default function Navbar() {
 
   return (
     <div className="bg-[#ECF3F54D]">
-      <div className="navbar margin-gen py-4 ">
+      <div className="navbar xl:px-[166px] py-4 lg:px-[134px] md:px-[84px] sm:px-[44px]">
         <Link href="/">
           <Image
             src="/asset/Paymee.png"

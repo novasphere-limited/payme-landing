@@ -35,7 +35,7 @@ const VideoComponent = () => {
   return (
     <div
       ref={videoRef}
-      className="md:my-[48px] my-[24px] flex justify-center xl:py-10 md:py-6 py-3 px-3 h-[400px] w-full"
+      className="md:my-[48px] my-[24px] flex justify-center xl:py-10 md:py-6 py-3 px-3 md:h-[400px] h-auto w-full"
     >
       {isInViewport && (
         <iframe

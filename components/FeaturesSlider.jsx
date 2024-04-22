@@ -40,7 +40,7 @@ export default function CarouselSlide({ imgArray }) {
     setCurrentImageIndex(e);
   };
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hiddenm pb-[44px] xl:pb-[100px] lg:pb-[85px] md:pb-[65px]">
       <div className="flex">
         {images.map((image, index) => (
           <div

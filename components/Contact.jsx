@@ -14,7 +14,7 @@ export default function Contact() {
         </h6>
         <LinkBtn text="Contact us" href="/contact" />
       </div>
-      <div className="w-full flex justify-center h-[324px] overflow-hidden">
+      <div className="w-full flex justify-center md:h-[324px] h-auto overflow-hidden">
         <Image
           src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356928/PayyMe/People_at_work_e8ekra.png"
           alt="customer-img"
