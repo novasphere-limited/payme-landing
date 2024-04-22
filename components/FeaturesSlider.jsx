@@ -39,8 +39,9 @@ export default function CarouselSlide({ imgArray }) {
   const handleSlideShow = (e) => {
     setCurrentImageIndex(e);
   };
+
   return (
-    <div className="relative overflow-hiddenm pb-[44px] xl:pb-[100px] lg:pb-[85px] md:pb-[65px]">
+    <div className="relative overflow-hidden pb-[44px] xl:pb-[100px] lg:pb-[85px] md:pb-[65px]">
       <div className="flex">
         {images.map((image, index) => (
           <div
@@ -50,7 +51,7 @@ export default function CarouselSlide({ imgArray }) {
             }`}
           >
             <div className="flex justify-center">
-              <div className="flex justify-center md:h-[517px] h-[222px] w-[935px] overflow-hidden relative rounded-lg">
+              <div className="flex justify-center md:h-[517px] h-[242px] w-[935px] overflow-hidden relative rounded-lg">
                 <Image
                   src={image.img}
                   alt={`Slider image ${index}`}
@@ -68,12 +69,12 @@ export default function CarouselSlide({ imgArray }) {
                   <h6 className="md:text-2xl text-[#096B45] mb-2 text-sm sm:text-xl">
                     {image.title}
                   </h6>
-                  <p
-                    className="md:text-[18px] text-xs sm:text-sm"
+                  <h6
+                    className="md:text-[18px] text-sm sm:text-base"
                     style={{ maxWidth: "400px" }}
                   >
                     {image.text}
-                  </p>
+                  </h6>
                 </div>
                 <div className="absolute inset-0 flex items-center justify-between p-4">
                   <button onClick={handlePrev}>

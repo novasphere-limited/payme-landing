@@ -417,8 +417,15 @@ p {
   background-image: url("/asset/payyme-bg-shape.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: "865px";
-  width: "1440px";
+}
+
+.blog-bg_image {
+  background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713783723/mapbase_eac3u5.png");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 455px;
 }
 .footer-container {
   background-color: #032015;

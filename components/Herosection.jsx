@@ -8,8 +8,8 @@ export default function Herosection() {
       <div className="w-full">
         <h6 className="label-2_bold text-grnSec mb-3">PayyME</h6>
         <h2 className="xl:text-[40px] md:text-3xl text-4xl font-medium mb-3">
-          Transform Payments with Inclusion and Innovation -
-          <span className="text-grnSec"> One </span>SMS at a Time
+          Transform Payments with Inclusion and Innovation - One
+          <span className="text-[#057310]"> SMS </span> at a Time
         </h2>
         <h3
           className="text-base font-normal xl:mb-[42px] mb-3"
@@ -21,7 +21,7 @@ export default function Herosection() {
 
         <LinkBtn href="#" text="Get Started" />
       </div>
-      <div className="w-full md:h-[484px] h-auto overflow-hidden rounded-lg">
+      <div className="w-full h-auto overflow-hidden rounded-lg">
         <Image
           src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356965/PayyMe/Frame_1321315220_bxbqby.png"
           alt="Farmer image"

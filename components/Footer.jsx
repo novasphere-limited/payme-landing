@@ -18,35 +18,77 @@ export default function Footer() {
           </div>
           <div className="flex gap-4 items-center mb-9">
             <Link href="/how">
-              <p className="text-sm">Products</p>
+              <h6 className="text-sm">Products</h6>
             </Link>
             <Link href="#">
-              <p className="text-sm">Support</p>
+              <h6 className="text-sm">Support</h6>
             </Link>
             <Link href="#">
-              <p className="text-sm">Careers</p>
+              <h6 className="text-sm">Careers</h6>
             </Link>
             <Link href="#">
-              <p className="text-sm">Terms</p>
+              <h6 className="text-sm">Terms</h6>
             </Link>
           </div>
-          <p className="text-sm">2023 PayyMe-All Right Reserved</p>
+          <h6 className="text-sm hidden sm:block">
+            2023 PayyMe-All Right Reserved
+          </h6>
         </div>
-        <div className="w-full flex sm:justify-end">
-          <div>
-            <h1 className="text-sm mb-4 sm:text-end">How can we help?</h1>
-            <div className="flex items-center gap-3 mb-[44px]">
-              <p
-                className="text-sm text-[#86D0B3] pe-2"
+        <div className="w-full flex sm:justify-end items-center">
+          <div className="w-full">
+            <h1
+              className="md:text-sm text-xl mb-4 sm:text-end text-white"
+              style={{ color: "#fff !important" }}
+            >
+              How can we help?
+            </h1>
+            <div className="sm:flex justify-end gap-3 md:mb-[44px] mb-[24px]">
+              <h6
+                className="text-sm hidden  text-[#86D0B3] pe-2 sm:flex items-center gap-1"
                 style={{ borderRight: "2px solid #C1C4E5" }}
               >
+                <div
+                  style={{
+                    height: "3.5px",
+                    width: "29px",
+                    background: "#0DA168",
+                  }}
+                ></div>
                 Help Docs & FAQs
-              </p>
-              <p className="text-sm text-[#C1C4E5]">Support via live Chat</p>
+              </h6>
+              <h6 className="text-sm text-[#86D0B3] pe-2 flex sm:hidden items-center gap-1 mb-[24px]">
+                <div
+                  style={{
+                    height: "3.5px",
+                    width: "29px",
+                    background: "#0DA168",
+                  }}
+                ></div>
+                Help Docs & FAQs
+              </h6>
+              <h6 className="text-sm text-[#C1C4E5] mb-[24px] sm:mb-0">
+                Support via live Chat
+              </h6>
+              <h6
+                className="text-sm  sm:hidden flex items-center pt-[24px]"
+                style={{ borderTop: "1px solid #C1C4E5" }}
+              >
+                <span
+                  style={{
+                    border: "1px solid #C1C4E5",
+                    width: "10px",
+                    height: "12px",
+                  }}
+                  className=" rounded-full flex items-center justify-center text-sm me-1"
+                >
+                  c
+                </span>
+                2023 PayyMe-All Right Reserved
+              </h6>
             </div>
 
             <div className="flex items-center sm:justify-end gap-3">
-              <p className="text-sm">Follow us:</p>
+              <h6 className="text-sm">Follow us:</h6>
               <SocialPage color="#ffffff" />
             </div>
           </div>
