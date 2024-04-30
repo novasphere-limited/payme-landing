@@ -44,7 +44,7 @@ export default function FaqOptionThree() {
           <p className="text-[#737373] mb-[44px]">
             Written by Ahmed <br /> Update a week ago
           </p>
-          <div className="mb-6 h-[250px] overflow-hidden">
+          <div className="mb-4 h-[250px] overflow-hidden">
             <Image
               src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356882/PayyMe/Frame_132131517_csfzry.png"
               alt="customer testimony imge"

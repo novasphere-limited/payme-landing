@@ -29,6 +29,8 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -486,7 +488,16 @@ p {
   padding-left: 167px;
   padding-right: 167px;
 }
-
+.faq-option {
+  border: 1px solid #dedede;
+  transition: border-color 0.4s ease;
+}
+.faq-option:hover {
+  border-color: #35b181;
+}
+.navbar-margin {
+  margin-top: 96px;
+}
 @media (max-width: 1380px) {
   .margin-gen {
     margin-left: 80px;
@@ -522,6 +533,9 @@ p {
   }
   .navbar-mobile {
     display: block;
+  }
+  .navbar-margin {
+    margin-top: 72px;
   }
 
   .main-container {

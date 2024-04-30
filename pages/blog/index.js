@@ -7,10 +7,12 @@ import BlogSlide from "@/components/BlogSlider";
 export default function Blog() {
   return (
     <Layout>
-      <BlogHerosection />
-      <BlogSlide />
-      <News />
-      <Subscribe />
+      <div className="navbar-margin">
+        <BlogHerosection />
+        <BlogSlide />
+        <News />
+        <Subscribe />
+      </div>
     </Layout>
   );
 }

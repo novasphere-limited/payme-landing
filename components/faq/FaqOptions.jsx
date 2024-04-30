@@ -35,10 +35,10 @@ export default function FaqOptions() {
       <NavTab />
       <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[32px] gap-[16px] my-[64px] margin-gen">
         {data.map((e) => (
-          <div
-            className="rounded-[15px] p-6 flex gap-[24px] items-center text-[#1A1A1A]"
-            style={{ border: "1px solid #DEDEDE" }}
+          <Link
+            className="rounded-[15px] p-6 flex gap-[24px] items-center text-[#1A1A1A] faq-option"
             key={e.id}
+            href={`/faq/${e.id}`}
           >
             <div className="w-full">
               <div className="h-[42px] w-[42px] rounded-full bg-[#F5F5F5] mb-4 flex items-center justify-center">
@@ -70,7 +70,7 @@ export default function FaqOptions() {
                 width={8}
               />
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </>

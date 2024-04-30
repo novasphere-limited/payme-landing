@@ -43,7 +43,7 @@ export default function FaqOptionOne() {
           <p className="text-[#737373] mb-[44px]">
             Written by Ahmed <br /> Update a week ago
           </p>
-          <div className="mb-1 h-[250px] overflow-hidden">
+          <div className="mb-4 h-[250px] overflow-hidden">
             <Image
               src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356881/PayyMe/Frame_1321315172_tgtdjx.png"
               alt="customer testimony imge"

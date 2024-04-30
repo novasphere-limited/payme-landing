@@ -8,7 +8,9 @@ export default function BlogInfo() {
 
   return (
     <Layout>
-      <InnerBlog />
+      <div className="navbar-margin">
+        <InnerBlog />
+      </div>
     </Layout>
   );
 }

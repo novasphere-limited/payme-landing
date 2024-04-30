@@ -6,13 +6,13 @@ import NavTab from "@/components/NavTab";
 
 export default function FaqIndividual() {
   return (
-    <div className="bg-[#FAF8FE]">
-      <Layout>
+    <Layout>
+      <div className="bg-[#FAF8FE] navbar-margin">
         <Faq />
         <NavTab />
         <FaqOptionFour />
         <Footer />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

@@ -8,15 +8,15 @@ import Subscribe from "@/components/Subscribe";
 
 export default function About() {
   return (
-    <div className="bg-[#FAF8FE]">
-      <Layout>
+    <Layout>
+      <div className="bg-[#FAF8FE] navbar-margin">
         <AboutHerosection />
         <AboutUs />
         <Value />
         <Team />
         <Trust />
         <Subscribe />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

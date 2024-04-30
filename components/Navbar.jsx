@@ -2,8 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import MouseOverPopover from "./PopDropdown";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Navbar() {
+  const router = useRouter();
+
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleNavbar = () => {
@@ -54,8 +57,13 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="bg-[#ECF3F54D]">
-      <div className="navbar xl:px-[166px] py-4 lg:px-[134px] md:px-[84px] sm:px-[44px]">
+    <div
+      className={`${
+        router.pathname === "/" ? "bg-[#ECF3F54D]" : "bg-[#ECF3F54D]"
+      }`}
+      style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
+    >
+      <div className="navbar xl:px-[166px] py-4 lg:px-[134px] md:px-[84px] sm:px-[44px] sticky">
         <Link href="/">
           <Image
             src="/asset/Paymee.png"

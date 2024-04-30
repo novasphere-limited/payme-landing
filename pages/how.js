@@ -5,14 +5,14 @@ import VideoComponent from "@/components/PayymeVideo";
 
 export default function How() {
   return (
-    <div className="bg-[#FAF8FE]">
-      <Layout>
+    <Layout>
+      <div className="bg-[#FAF8FE] navbar-margin">
         <div className="mb-[80px]">
           <HowSection />
           <HowSub />
           <VideoComponent />
         </div>
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }

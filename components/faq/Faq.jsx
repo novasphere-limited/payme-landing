@@ -5,7 +5,10 @@ export default function Faq() {
     <div className="faq-container-bg md:text-center">
       <div className="md:h-[456px] h-[209px] sm:h-[309px] flex justify-center items-center backdrop-blur-sm bg-[#000000BF] lg:px-8 sm:px-4 px-2">
         <div style={{ maxWidth: "728px" }}>
-          <h6 className="text-[#B4B4B4] mb-2 text-start text-sm md:text-[22px] sm:text-xl text-medium md:ps-9">
+          <h6 className="text-[#B4B4B4] mb-2 text-start text-sm md:text-[22px] sm:text-xl text-medium md:ps-3 flex gap-3 items-center">
+            <div
+              style={{ height: "3.5px", width: "29px", background: "#0DA168" }}
+            ></div>
             FAQS
           </h6>
           <h1 className="lg:text-[54px] md:text-[42px] sm:text-[36px] text-[20px] text-[#FDFBFB] mx-auto text-center md:mb-4 mb-2">

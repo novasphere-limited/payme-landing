@@ -4,11 +4,11 @@ import Layout from "@/components/Layout";
 
 export default function Blog() {
   return (
-    <div className="bg-[#FAF8FE]">
-      <Layout>
+    <Layout>
+      <div className="bg-[#FAF8FE] navbar-margin">
         <Faq />
         <FaqOptions />
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }
