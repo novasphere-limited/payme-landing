@@ -46,7 +46,7 @@ export default function Team() {
               alt="Team members icon"
               className={`h-[500px] rounded-md w-full ${
                 hoveredStates[i] ? "" : "filter grayscale"
-              } h-auto`}
+              } h-500`}
               loading="lazy"
               style={{ objectFit: "cover" }}
             />

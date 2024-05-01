@@ -30,7 +30,17 @@ export default function Footer() {
               <h6 className="text-sm">Terms</h6>
             </Link>
           </div>
-          <h6 className="text-sm hidden sm:block">
+          <h6 className="text-sm hidden sm:flex items-center gap-1">
+            <span
+              style={{
+                border: "1px solid #C1C4E5",
+                width: "10px",
+                height: "12px",
+              }}
+              className=" rounded-full flex items-center justify-center text-sm me-1"
+            >
+              c
+            </span>
             2023 PayyMe-All Right Reserved
           </h6>
         </div>
@@ -43,7 +53,8 @@ export default function Footer() {
               How can we help?
             </h1>
             <div className="sm:flex justify-end gap-3 md:mb-[44px] mb-[24px]">
-              <h6
+              <Link
+                href="/contact"
                 className="text-sm hidden  text-[#86D0B3] pe-2 sm:flex items-center gap-1"
                 style={{ borderRight: "2px solid #C1C4E5" }}
               >
@@ -55,8 +66,12 @@ export default function Footer() {
                   }}
                 ></div>
                 Help Docs & FAQs
-              </h6>
-              <h6 className="text-sm text-[#86D0B3] pe-2 flex sm:hidden items-center gap-1 mb-[24px]">
+              </Link>
+
+              <Link
+                className="text-sm text-[#86D0B3] pe-2 flex sm:hidden items-center gap-1 mb-[24px]"
+                href="/contact"
+              >
                 <div
                   style={{
                     height: "3.5px",
@@ -65,10 +80,12 @@ export default function Footer() {
                   }}
                 ></div>
                 Help Docs & FAQs
-              </h6>
-              <h6 className="text-sm text-[#C1C4E5] mb-[24px] sm:mb-0">
-                Support via live Chat
-              </h6>
+              </Link>
+              <Link href="/contact">
+                <h6 className="text-sm text-[#C1C4E5] mb-[24px] sm:mb-0">
+                  Support via live Chat
+                </h6>
+              </Link>
               <h6
                 className="text-sm  sm:hidden flex items-center pt-[24px]"
                 style={{ borderTop: "1px solid #C1C4E5" }}

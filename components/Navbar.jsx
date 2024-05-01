@@ -3,6 +3,7 @@ import Link from "next/link";
 import MouseOverPopover from "./PopDropdown";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import BasicMenu from "./MenuDropdown";
 
 export default function Navbar() {
   const router = useRouter();
@@ -115,10 +116,10 @@ export default function Navbar() {
         {showNavbar && (
           <ul>
             <li className="mb-3">
-              <MouseOverPopover popText="Products" popArray={productArray} />
+              <BasicMenu popText="Products" popArray={productArray} />
             </li>
             <li className="mb-3">
-              <MouseOverPopover popText="Company" popArray={companyArray} />
+              <BasicMenu popText="Company" popArray={companyArray} />
             </li>
             <li className="mb-3">
               <Link href="/contact">
