@@ -41,7 +41,7 @@ export default function BasicMenu({ popText, popArray }) {
       >
         <div className="rounded-md p-1 bg-white">
           {popArray.map((pop) => (
-            <MenuItem onClick={handleClose}>
+            <MenuItem onClick={handleClose} key={pop.id}>
               <Link
                 href={pop.href}
                 className="flex items-center gap-3 text-base font-normal text-[#484848] md:mb-[39px] mb-6"

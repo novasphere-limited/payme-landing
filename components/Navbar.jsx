@@ -78,7 +78,7 @@ export default function Navbar() {
           <ul>
             <MouseOverPopover popText="Products" popArray={productArray} />
             <MouseOverPopover popText="Company" popArray={companyArray} />
-            <Link href="#">
+            <Link href="/contact">
               <li className="text-base font-medium text-[#0B8657]">Support</li>
             </Link>
           </ul>
