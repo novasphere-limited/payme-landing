@@ -54,7 +54,7 @@ export default function Footer() {
             </h1>
             <div className="sm:flex justify-end gap-3 md:mb-[44px] mb-[24px]">
               <Link
-                href="/contact"
+                href="/faq"
                 className="text-sm hidden  text-[#86D0B3] pe-2 sm:flex items-center gap-1"
                 style={{ borderRight: "2px solid #C1C4E5" }}
               >
@@ -70,7 +70,7 @@ export default function Footer() {
 
               <Link
                 className="text-sm text-[#86D0B3] pe-2 flex sm:hidden items-center gap-1 mb-[24px]"
-                href="/contact"
+                href="/faq"
               >
                 <div
                   style={{
