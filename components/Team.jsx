@@ -44,7 +44,7 @@ export default function Team() {
               width={292}
               src={team.imgSrc}
               alt="Team members icon"
-              className={`w-full ${
+              className={`h-[500px] rounded-md w-full ${
                 hoveredStates[i] ? "" : "filter grayscale"
               } h-auto`}
               loading="lazy"
