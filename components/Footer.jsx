@@ -20,7 +20,7 @@ export default function Footer() {
             <Link href="/how">
               <h6 className="text-sm">Products</h6>
             </Link>
-            <Link href="#">
+            <Link href="/contact">
               <h6 className="text-sm">Support</h6>
             </Link>
             <Link href="#">
