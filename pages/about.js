@@ -9,13 +9,15 @@ import Subscribe from "@/components/Subscribe";
 export default function About() {
   return (
     <Layout>
-      <div className="bg-[#FAF8FE] navbar-margin">
+      <div className="bg-[#FAF8FE] navbar-margin ">
         <AboutHerosection />
-        <AboutUs />
-        <Value />
-        <Team />
-        <Trust />
-        <Subscribe />
+        <div className="about-bg-circ">
+          <AboutUs />
+          <Value />
+          <Team />
+          <Trust />
+          <Subscribe />
+        </div>
       </div>
     </Layout>
   );

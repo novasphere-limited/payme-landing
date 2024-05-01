@@ -67,7 +67,7 @@ export default function Slider() {
               </div>
 
               <div className="w-full">
-                <h1 className="font-medium md:text-5xl text-sm md:mb-4 mb-1 text-[#1F1F1F]">
+                <h1 className="font-medium xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl md:mb-4 mb-1 text-[#1F1F1F]">
                   {slide.title}
                 </h1>
                 <p className="text-base font-normal md:mb-4 mb-2">

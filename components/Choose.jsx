@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Choose() {
   return (
-    <div className="xl:px-[130px] px-3 sm:px-[32px] md:px-[52px] lg:px-[92px] text-center md:mt-8 mt-3">
+    <div className="xl:px-[130px] px-3 sm:px-[32px] md:px-[52px] lg:px-[92px] text-center md:my-[92px] my-6">
       <h1 className="xl:text-5xl sm:text-2xl md:text-3xl lg:text-4xl text-warning600 sm:mb-[14px] mb-2 font-medium text-xl">
         Why choose us
       </h1>

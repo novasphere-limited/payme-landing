@@ -57,38 +57,40 @@ export default function Navbar() {
   ];
 
   return (
-    <div
-      className={`${
-        router.pathname === "/" ? "bg-[#ECF3F54D]" : "bg-[#ECF3F54D]"
-      }`}
-      style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
-    >
-      <div className="navbar xl:px-[166px] py-4 lg:px-[134px] md:px-[84px] sm:px-[44px] sticky">
-        <Link href="/">
-          <Image
-            src="/asset/Paymee.png"
-            width={160}
-            height={63}
-            alt="paymee logo"
-            loading="lazy"
-          />
-        </Link>
-        <ul>
-          <MouseOverPopover popText="Products" popArray={productArray} />
-          <MouseOverPopover popText="Company" popArray={companyArray} />
-          <Link href="#">
-            <li className="text-base font-medium text-[#0B8657]">Support</li>
+    <>
+      <div
+        className={`${
+          router.pathname === "/" ? "bg-[#ECF3F54D]" : "bg-[#ECF3F54D]"
+        }`}
+        style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
+      >
+        <div className="navbar xl:px-[166px] py-4 lg:px-[134px] md:px-[84px] sm:px-[44px] sticky">
+          <Link href="/">
+            <Image
+              src="/asset/Paymee.png"
+              width={160}
+              height={63}
+              alt="paymee logo"
+              loading="lazy"
+            />
           </Link>
-        </ul>
-        <div>
-          <Link href="#">
-            <h1
-              className="text-base navbar_outline font-medium"
-              style={{ color: "#0B8657" }}
-            >
-              Get Started
-            </h1>
-          </Link>
+          <ul>
+            <MouseOverPopover popText="Products" popArray={productArray} />
+            <MouseOverPopover popText="Company" popArray={companyArray} />
+            <Link href="#">
+              <li className="text-base font-medium text-[#0B8657]">Support</li>
+            </Link>
+          </ul>
+          <div>
+            <Link href="#">
+              <h1
+                className="text-base navbar_outline font-medium"
+                style={{ color: "#0B8657" }}
+              >
+                Get Started
+              </h1>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="navbar-mobile">
@@ -136,6 +138,6 @@ export default function Navbar() {
           </ul>
         )}
       </div>
-    </div>
+    </>
   );
 }

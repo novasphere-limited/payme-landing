@@ -49,7 +49,7 @@ p {
 #__next img,
 #__next video {
   max-width: none !important; /* Override max-width */
-  height: auto !important; /* Override height */
+  /* height: auto !important; Override height */
 }
 
 .header-1_black {
@@ -403,6 +403,12 @@ p {
   /* background-position: center; */
   text-align: center;
 }
+.about-bg-circ {
+  background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508323/Group_213_efcpgu.png");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+}
 .about-container-bg {
   background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356917/PayyMe/3d_render_pos_terminal_paper_check_bill_and_cards_or722l.png");
   background-size: cover;
@@ -498,6 +504,20 @@ p {
 .navbar-margin {
   margin-top: 96px;
 }
+
+.custom-button {
+  font-size: 16px;
+  color: #0b8657;
+  font-weight: medium;
+}
+
+.tooltip-popper {
+  backdrop-filter: none !important;
+}
+.spec-pt {
+  padding-top: 96px;
+}
+
 @media (max-width: 1380px) {
   .margin-gen {
     margin-left: 80px;
@@ -535,7 +555,11 @@ p {
     display: block;
   }
   .navbar-margin {
-    margin-top: 72px;
+    margin-top: 0px;
+  }
+
+  .spec-pt {
+    padding-top: 0px;
   }
 
   .main-container {

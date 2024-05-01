@@ -3,7 +3,7 @@ import LinkBtn from "./LinkBtn";
 
 export default function AboutUs() {
   return (
-    <div className="xl:px-[152px] px-3 sm:px-[32px] md:px-[52px] lg:px-[92px] xl:mt-[87px] mt-5 md:mt-9">
+    <div className="xl:px-[152px] px-3 sm:px-[32px] md:px-[52px] lg:px-[92px] xl:pt-[87px] pt-5 md:pt-9">
       <h1 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-warning600 xl:mb-[64px] sm:mb-4 mb-2 md:mb-9 text-center font-medium">
         About Us
       </h1>

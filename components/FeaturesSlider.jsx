@@ -13,7 +13,7 @@ export default function CarouselSlide({ imgArray }) {
     },
     {
       id: 2,
-      img: "/asset/payyme-feature-2.png",
+      img: "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356964/PayyMe/Two_teenage_girls_texting_together_at_home_on_smartphones_hc2j7w.png",
       title: "Pay Bills",
       text: "Pay your everyday bills without a glitch, one SMS at a time.",
     },
@@ -41,7 +41,7 @@ export default function CarouselSlide({ imgArray }) {
   };
 
   return (
-    <div className="relative overflow-hidden pb-[44px] xl:pb-[100px] lg:pb-[85px] md:pb-[65px]">
+    <div className="relative ">
       <div className="flex">
         {images.map((image, index) => (
           <div
@@ -50,18 +50,40 @@ export default function CarouselSlide({ imgArray }) {
               index === currentImageIndex ? "" : "hidden"
             }`}
           >
-            <div className="flex justify-center">
-              <div className="flex justify-center md:h-[517px] h-[242px] w-[935px] overflow-hidden relative rounded-lg">
+            <div className="flex justify-center sm:mx-[30px]">
+              <div className="flex justify-center md:h-auto h-[342px] relative rounded-lg">
                 <Image
                   src={image.img}
                   alt={`Slider image ${index}`}
                   height={529}
                   width={935}
                   priority={true}
-                  className="rounded-md"
+                  className="rounded-md xl:w-[932px] w-full z-10"
+                  style={{ objectFit: "cover" }}
                 />
+
+                <div className="absolute top-[-48px] right-[-44px] z-0 h-[180px] sm:block hidden">
+                  <Image
+                    alt=""
+                    height={220}
+                    width={150}
+                    src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1714562817/Ornament_13_yqaoug.png"
+                    className="h-full"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
+                <div className="absolute bottom-[-48px] left-[-44px] z-0 h-[180px] sm:block hidden">
+                  <Image
+                    alt=""
+                    height={200}
+                    width={150}
+                    src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1714562817/Ornament_13_yqaoug.png"
+                    className="h-full"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
                 <div
-                  className="absolute bottom-0 left-0 md:px-6 px-3 md:py-4 py-2"
+                  className="absolute bottom-0 left-0 md:px-6 px-3 md:py-4 py-2 z-10"
                   style={{
                     background: "linear-gradient(to right, #FFFFFF, #FFFFFF00)",
                   }}
@@ -71,12 +93,12 @@ export default function CarouselSlide({ imgArray }) {
                   </h6>
                   <h6
                     className="md:text-[18px] text-sm sm:text-base"
-                    style={{ maxWidth: "400px" }}
+                    style={{ maxWidth: "503px" }}
                   >
                     {image.text}
                   </h6>
                 </div>
-                <div className="absolute inset-0 flex items-center justify-between p-4">
+                <div className="absolute inset-0 flex items-center justify-between p-4 z-10">
                   <button onClick={handlePrev}>
                     <Image
                       height={28}

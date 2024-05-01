@@ -11,11 +11,11 @@ import VideoComponent from "@/components/PayymeVideo";
 export default function Home() {
   return (
     <Layout>
-      <div className="index-bg pt-[96px]">
-        <Herosection />
-        <Features />
-      </div>
       <div className="bg-[#FAF8FE]">
+        <div className="index-bg spec-pt">
+          <Herosection />
+          <Features />
+        </div>
         <Slider />
         <VideoComponent />
         <Choose />

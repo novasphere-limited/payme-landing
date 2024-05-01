@@ -109,18 +109,38 @@ export const ChooseList = [
 export const TeamList = [
   {
     id: 1,
-    imgSrc: "/asset/paymee-team-1.png",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508324/image_CEO_bwe94p.png",
+    name: "Ahmed",
+    post: "Co-Founder & CEO",
+    url: "linkedin.ahmed-sanni",
+    link: "http://linkedin.com/in/ahmed-sanni-794584109",
   },
   {
     id: 2,
-    imgSrc: "/asset/paymee-team-2.png",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508324/IMAGE_CMO_avr7tt.png",
+    name: "Charles",
+    post: "Co-Founder & CEO",
+    url: "linkedin.charles-adetola",
+    link: "http://linkedin.com/in/charles-adetola",
   },
   {
     id: 3,
-    imgSrc: "/asset/paymee-team-3.png",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508324/image_HEAD_ENGG_izxqoa.png",
+    name: "Faruq",
+    post: "CTO & Head Engineer",
+    url: "linkedin.ahmedfaruq888",
+    link: "http://linkedin.com/in/ahmedfaruk888",
   },
   {
     id: 4,
-    imgSrc: "/asset/paymee-team-4.png",
+    imgSrc:
+      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508326/image_CPO_x9nkqm.png",
+    name: "Maryam",
+    post: "Co-CTO & CPO",
+    url: "linkedin.maryam-olabisi",
+    link: "https://www.linkedin.com/in/maryam-olabisi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
 ];
