@@ -23,7 +23,7 @@ export default function Footer() {
             <Link href="/contact">
               <h6 className="text-sm">Support</h6>
             </Link>
-            <Link href="#">
+            <Link href="/career">
               <h6 className="text-sm">Careers</h6>
             </Link>
             <Link href="#">
