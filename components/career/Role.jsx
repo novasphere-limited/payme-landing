@@ -16,7 +16,7 @@ export default function CareerRole() {
             style={{ borderBottom: "1px solid #A9A7A7" }}
           >
             <h5 className="text-2xl">Business & Customer Operation</h5>
-            <div className="p-4 flex ms-auto w-[713px] justify-between">
+            <div className="p-4 flex ms-auto w-[713px] justify-between bg-[#ECF3F54D] rounded-[10px]">
               <div>
                 <h5 className="text-2xl mb-1">Customer Success Manager</h5>
                 <p className="font-normal text-sm text-[#D3D0D0]">
@@ -39,7 +39,7 @@ export default function CareerRole() {
           >
             <h5 className="text-2xl">Engineering</h5>
             <div className="ms-auto">
-              <div className="p-4 flex ms-auto w-[713px] justify-between mb-6">
+              <div className="p-4 flex ms-auto w-[713px] justify-between mb-6 bg-[#ECF3F54D] rounded-[10px]">
                 <div>
                   <h5 className="text-2xl mb-1">Head of Engineering</h5>
                   <p className="font-normal text-sm text-[#D3D0D0]">
@@ -57,7 +57,7 @@ export default function CareerRole() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 flex ms-auto w-[713px] justify-between mb-6">
+              <div className="p-4 flex ms-auto w-[713px] justify-between bg-[#ECF3F54D] rounded-[10px]">
                 <div>
                   <h5 className="text-2xl mb-1">Senior Software Engineering</h5>
                   <p className="font-normal text-sm text-[#D3D0D0]">
@@ -82,7 +82,7 @@ export default function CareerRole() {
             style={{ borderBottom: "1px solid #A9A7A7" }}
           >
             <h5 className="text-2xl">Finance</h5>
-            <div className="p-4 flex ms-auto w-[713px] justify-between">
+            <div className="p-4 flex ms-auto w-[713px] justify-between bg-[#ECF3F54D] rounded-[10px]">
               <div>
                 <h5 className="text-2xl mb-1">Senior Software Engineering</h5>
                 <p className="font-normal text-sm text-[#D3D0D0]">
