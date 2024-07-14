@@ -4,9 +4,9 @@ import HelpPayment from "@/components/HelpPayment";
 import Choose from "@/components/Choose";
 import Features from "@/components/Features";
 import Herosection from "@/components/Herosection";
-import Layout from "@/components/Layout";
 import Slider from "@/components/Slide";
 import VideoComponent from "@/components/PayymeVideo";
+import Layout from "@/layout";
 
 export default function Home() {
   return (

@@ -1,7 +1,6 @@
 import Faq from "@/components/faq/Faq";
-import FaqOptionThree from "@/components/faq/FaqOptionThree";
-import Footer from "@/components/Footer";
-import Layout from "@/components/Layout";
+import FaqOptionFour from "@/components/faq/FaqOptionFour";
+import Footer from "@/parts/footer";
 import NavTab from "@/components/NavTab";
 
 export default function FaqIndividual() {
@@ -10,7 +9,7 @@ export default function FaqIndividual() {
       <div className="bg-[#FAF8FE] navbar-margin">
         <Faq />
         <NavTab />
-        <FaqOptionThree />
+        <FaqOptionFour />
         <Footer />
       </div>
     </Layout>

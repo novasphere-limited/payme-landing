@@ -1,8 +1,8 @@
 import Faq from "@/components/faq/Faq";
 import FaqOptionOne from "@/components/faq/FaqOptionOne";
-import Footer from "@/components/Footer";
-import Layout from "@/components/Layout";
+import Layout from "@/layout";
 import NavTab from "@/components/NavTab";
+import Footer from "@/parts/footer";
 
 export default function FaqIndividual() {
   return (

@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function CareerLife() {
   return (
-    <div className="mt-[100px] text-[#444444]">
-      <div className="flex mx-[108px] mb-[100px]">
+    <div className="xl:py-[100px] py-8 md:py-[75px] lg:py-[80px] text-[#444444] xl:mx-[100px] lg:mx-[65px] md:mx-[48px] sm:mx-8 px-5">
+      <div className="lg:flex xl:mb-[100px] mb-8 md:mb-[75px] lg:mb-[80px]">
         <div className="w-full">
-          <h2 className="font-medium text-[34px] mb-1 inline-flex">
+          <h2 className="font-medium lg:text-[34px] text-base sm:text-2xl mb-1 inline-flex">
             Life at PayyMe{" "}
             <span className="">
               <Image
@@ -17,7 +17,7 @@ export default function CareerLife() {
             </span>
           </h2>
         </div>
-        <h6 className="text-base w-full">
+        <h6 className="sm:text-base text-sm w-full">
           We’re an <span className="font-medium">African fintech</span> proud to
           serve more than five million customers. As a 
           <span className="font-medium">global startup</span>, we work at a fast
@@ -39,9 +39,9 @@ export default function CareerLife() {
           Chipper offices dotted around the world.
         </h6>
       </div>
-      <div className="mx-[173px] flex gap-[99px] items-center mb-[100px]">
-        <div className="w-full">
-          <h2 className="font-medium text-[34px] mb-1 inline-flex">
+      <div className="lg:px-[73px] md:px-[43px] lg:flex justify-between items-center xl:mb-[100px] mb-[44px] md:mb-[75px] lg:mb-[80px]">
+        <div className="w-full mb-6 lg:mb-0">
+          <h2 className="font-medium lg:text-[34px] text-base sm:text-2xl mb-1 inline-flex">
             Imagine it PayyMe{" "}
             <span className="">
               <Image
@@ -66,7 +66,7 @@ export default function CareerLife() {
           </button>
         </div>
       </div>
-      <div className="bg-[#FFFFFF40] rounded-[100px] mb-6 shadow-style max-w-[1028px] py-5 px-[162px] mx-auto text-center">
+      <div className="bg-[#FFFFFF40] md:rounded-[100px] rounded-[10px] border-2 md:border-0 border-[#0DA16859] mb-6 shadow-style max-w-[1028px] py-5 xl:px-[161px] lg:px-[111px] md:px-[46px] px-[22px] mx-auto text-center">
         <h6>
           Join at a pivotal moment; the opportunity is huge, and Payyme is just
           getting started. Help us shape the future of the African continent.
