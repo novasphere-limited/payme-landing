@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import LinkBtn from "./LinkBtn";
+import Typer from "./typed";
 
 export default function Herosection() {
   return (
     <div className="xl:ms-[103px] mx-3 md:ms-[43px] sm:ms-[30px] ms-3 lg:ms-[73px] md:flex items-center pt-7 xl:gap-4 gap-3">
       <div className="w-full">
-        <h6 className="label-2_bold text-grnSec mb-3">PayyME</h6>
-        <h2 className="xl:text-[40px] md:text-3xl text-4xl font-medium mb-3">
+        <Typer />
+        <h2 className="xl:text-[40px] md:text-3xl text-4xl font-medium mb-3 mt-[42px]">
           Transform Payments with Inclusion and Innovation - One
           <span className="text-[#057310]"> SMS </span> at a Time
         </h2>
