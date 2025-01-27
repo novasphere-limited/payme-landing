@@ -3,19 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import NavTab from "./NavTab";
 import { useEffect, useState } from "react";
-import { useGetBlogInfo } from "@/service/blog";
+import { useGetFeaturedInfo } from "@/service/featured-in";
 
-export default function InnerBlog({ id }) {
+export default function InnerFeatured({ id }) {
   const [fetchData, setFetchData] = useState(false);
   const {
-    getBlogInfoData,
-    getBlogInfoIsLoading,
-    filterGetBlogInfo,
-    getBlogError,
-  } = useGetBlogInfo({ enabled: fetchData });
+    getFeaturedInfoData,
+    getFeaturedInfoIsLoading,
+    filterGetFeaturedInfo,
+    getFeaturedError,
+  } = useGetFeaturedInfo({ enabled: fetchData });
   useEffect(() => {
     if (id) {
-      filterGetBlogInfo(id);
+      filterGetFeaturedInfo(id);
       setFetchData(true);
     }
   }, [id]);
@@ -31,15 +31,15 @@ export default function InnerBlog({ id }) {
     }).format(new Date(isoString));
   };
 
-  if (getBlogInfoIsLoading) {
+  if (getFeaturedInfoIsLoading) {
     return (
       <div className="font-bold text-center pt-6 text-4xl text-black">
-        Fetching blog details!!!
+        Fetching featured-in details!!!
       </div>
     );
   }
 
-  if (getBlogError) {
+  if (getFeaturedError) {
     return (
       <div className="font-bold text-center pt-6 text-4xl text-black">
         Oopz! An error occured.
@@ -60,12 +60,12 @@ export default function InnerBlog({ id }) {
           className="xl:text-[50px] text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium"
           style={{ maxWidth: "900px" }}
         >
-          {getBlogInfoData?.title}
+          {getFeaturedInfoData?.title}
         </h1>
       </div>
       <h6 className="text-[#1F1F1F] text-center mb-[44px] font-normal text-sm md:text-base">
         {formatDate(
-          getBlogInfoData?.created_date || "2025-01-12T10:15:13.194Z"
+          getFeaturedInfoData?.created_date || "2025-01-12T10:15:13.194Z"
         )}
       </h6>
       <div className="xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
@@ -73,7 +73,7 @@ export default function InnerBlog({ id }) {
           <Image
             alt="Inner blog image"
             src={
-              getBlogInfoData?.fileUrl ||
+              getFeaturedInfoData?.fileUrl ||
               "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356898/PayyMe/Man_s_hands_close-up_holding_cup_of_coffee_and_a_newspaper_znpz7e.png"
             }
             height={565}
@@ -98,7 +98,7 @@ export default function InnerBlog({ id }) {
               </div>
               <div>
                 <h4 className="text-[#1F1F1F] font-medium md:text-base text-sm">
-                  {user?.full_name || "Anonymous"}
+                  {getFeaturedInfoData?.full_name || "Anonymous"}
                 </h4>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function InnerBlog({ id }) {
           <div
             className="font-normal text-sm mb-[22px] text-[#444444]"
             dangerouslySetInnerHTML={{
-              __html: getBlogInfoData?.content,
+              __html: getFeaturedInfoData?.content,
             }}
           />
           {/* <div>

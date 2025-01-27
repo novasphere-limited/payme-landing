@@ -52,6 +52,12 @@ p {
   /* height: auto !important; Override height */
 }
 
+input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .header-1_black {
   font-weight: 900;
   font-size: 3rem;

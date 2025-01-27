@@ -18,7 +18,6 @@ export const useGetBlogPosts = () => {
     blogsContentIsLoading: isLoading,
     blogsContentData: data?.data?.data || [],
     blogsContentFilter: filter,
-    blogsContentError: ErrorHandler(error),
     refetchBlogContent: refetch,
     setBlogContentFilter: setFilter,
   };
@@ -41,6 +40,7 @@ export const useGetBlogInfo = ({ enabled = false }) => {
     getBlogInfoIsFetched: isFetched,
     getBlogInfoIsLoading: isLoading,
     getBlogInfoData: data?.data?.data || {},
+    getBlogError: error,
     refreshGetBlogInfo: refetch,
     filterGetBlogInfo: setFilter,
   };

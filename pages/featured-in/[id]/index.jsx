@@ -1,15 +1,15 @@
 import { useRouter } from "next/router";
 import Layout from "@/layout";
-import InnerBlog from "@/components/InnerBlog";
+import InnerFeatured from "@/components/innerFeatured";
 
-export default function BlogInfo() {
+export default function FeaturedInfo() {
   const router = useRouter();
   const { id } = router.query;
 
   return (
     <Layout>
       <div className="navbar-margin">
-        <InnerBlog id={id} />
+        <InnerFeatured id={id} />
       </div>
     </Layout>
   );

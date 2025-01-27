@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
 import theme from "../src/Theme";
 import createEmotionCache from "../src/createEmotionCache";
+import TanstackProvider from "@/providers/tanstackProvider";
 
 const clientSideEmotionCache = createEmotionCache();
 
@@ -22,11 +23,10 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
         />
       </Head>
       <ThemeProvider theme={theme}>
-        {/* <Provider store={store}> */}
-        <CssBaseline />
-        <Component {...pageProps} />
-
-        {/* </Provider> */}
+        <TanstackProvider>
+          <CssBaseline />
+          <Component {...pageProps} />
+        </TanstackProvider>
       </ThemeProvider>
     </CacheProvider>
   );

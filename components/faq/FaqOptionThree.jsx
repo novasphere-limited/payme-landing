@@ -33,17 +33,6 @@ export default function FaqOptionThree() {
           <p className="text-[#696969] text-sm mb-8">
             What is PayyMe and how do we operate?
           </p>
-          <div className="flex items-center gap-2">
-            <Image
-              height={24}
-              width={24}
-              alt="Faq user icon"
-              src="/asset/faq-avatar-1.png"
-            />
-          </div>
-          <p className="text-[#737373] mb-[44px]">
-            Written by Ahmed <br /> Update a week ago
-          </p>
           <div className="mb-4 h-[250px] overflow-hidden">
             <Image
               src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356882/PayyMe/Frame_132131517_csfzry.png"
@@ -77,21 +66,17 @@ export default function FaqOptionThree() {
               >
                 <div className="w-full">
                   <div className="h-[42px] w-[42px] rounded-full bg-[#F5F5F5] mb-4 flex items-center justify-center">
-                    <Image height={24} width={24} alt="Faq icon" src={e.icon} />
+                    <Image
+                      height={24}
+                      width={24}
+                      alt="Faq icon"
+                      src={"/favicon_io/faq-icon-1.svg"}
+                    />
                   </div>
                   <Link href={`/faq/${e.id}`}>
                     <h6 className="font-semibold text-base">{e.title}</h6>
                   </Link>
                   <p className="text-sm font-normal mb-3">{e.content}</p>
-                  <div className="flex items-center gap-2">
-                    <Image
-                      height={24}
-                      width={24}
-                      alt="Faq user icon"
-                      src="/asset/faq-avatar-1.png"
-                    />
-                    <p className="text-[#737373]">By Christine . 5 articles</p>
-                  </div>
                 </div>
                 <div>
                   <Image

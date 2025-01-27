@@ -12,13 +12,8 @@ export default function NavTab() {
     },
     {
       id: 2,
-      text: "Press releases",
-      href: "#",
-    },
-    {
-      id: 3,
-      text: "Newsroom",
-      href: "#",
+      text: "Featured-In",
+      href: "/featured-in",
     },
     {
       id: 4,
@@ -26,7 +21,6 @@ export default function NavTab() {
       href: "/faq",
     },
   ];
-  console.log(router.pathname);
   return (
     <div
       style={{ borderBottom: "2px solid #001F1F14" }}

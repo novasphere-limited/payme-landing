@@ -18,9 +18,9 @@ export const useGetFAQs = () => {
     faqsContentIsLoading: isLoading,
     faqsContentData: data?.data?.data || [],
     faqsContentFilter: filter,
-    faqsContentError: ErrorHandler(error),
     refetchFaqContent: refetch,
     setFaqContentFilter: setFilter,
+    faqErrorData: error,
   };
 };
 
@@ -43,5 +43,6 @@ export const useGetFaqInfo = ({ enabled = false }) => {
     getFaqInfoData: data?.data?.data || {},
     refreshGetFaqInfo: refetch,
     filterGetFaqInfo: setFilter,
+    faqInfoError: error,
   };
 };

@@ -1,7 +1,7 @@
 import Faq from "@/components/faq/Faq";
 import FaqOptionFour from "@/components/faq/FaqOptionFour";
-import Footer from "@/parts/footer";
 import NavTab from "@/components/NavTab";
+import Layout from "@/layout";
 
 export default function FaqIndividual() {
   return (
@@ -10,7 +10,6 @@ export default function FaqIndividual() {
         <Faq />
         <NavTab />
         <FaqOptionFour />
-        <Footer />
       </div>
     </Layout>
   );

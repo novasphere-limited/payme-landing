@@ -42,6 +42,7 @@ export const useGetFeaturedInfo = ({ enabled = false }) => {
     getFeaturedInfoIsFetched: isFetched,
     getFeaturedInfoIsLoading: isLoading,
     getFeaturedInfoData: data?.data?.data || {},
+    getFeaturedError: error,
     refreshGetFeaturedInfo: refetch,
     filterGetFeaturedInfo: setFilter,
   };

@@ -1,7 +1,7 @@
 import ContactForm from "@/components/ContactForm";
-import Layout from "@/components/Layout";
+import Layout from "@/layout";
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <Layout>
       <div className="bg-[#FAF8FE] navbar-margin">

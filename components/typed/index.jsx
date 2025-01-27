@@ -18,7 +18,7 @@ const Typer = () => {
     };
   }, []);
 
-  return <span className="element text-2xl font-bold text-[#075134]"></span>;
+  return <span className="element text-5xl font-bold text-[#075134]"></span>;
 };
 
 export default Typer;

@@ -2,7 +2,7 @@ import Image from "next/image";
 import NavTab from "./NavTab";
 import Link from "next/link";
 
-export default function BlogSlide({ data }) {
+export default function FeaturedSlide({ data }) {
   const formatDate = (isoString) => {
     return new Intl.DateTimeFormat("en-US", {
       year: "numeric",
@@ -70,14 +70,14 @@ export default function BlogSlide({ data }) {
                 <h4 className="text-[#1F1F1F] font-medium text-xs">
                   {data?.user || "ALTHEA STORM"}
                 </h4>
-                <p className="text-[#444444] text-sm mb-2">
+                <p className="text-[#444444] text-sm">
                   {formatDate(data?.created_date || "2025-01-12T10:15:13.194Z")}
                 </p>
               </div>
             </div>
             <Link
               className="text-2_bold flex gap-2 items-center mt-auto"
-              href={`/blog/${data?.id}`}
+              href={`/featured-in/${data?.id}`}
             >
               <p className="text-warning600 font-medium text-base font-rope">
                 Read More
