@@ -59,8 +59,9 @@ export default function CareerMission() {
           </div>
         </div>
         <div className="w-full grid grid-cols-2 md:gap-6 sm:gap-4 gap-2 mt-[44px] lg:mt-0">
-          {TeamList.map((team) => (
+          {TeamList.map((team, index) => (
             <Image
+              key={index}
               src={team.imgSrc}
               height={292}
               width={292}

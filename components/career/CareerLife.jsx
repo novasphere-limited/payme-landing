@@ -53,7 +53,7 @@ export default function CareerLife() {
             </span>
           </h2>
           <h6 className="text-base">
-            You're just clicks away from your next seamless payment.
+            You&apos;re just clicks away from your next seamless payment.
           </h6>
         </div>
         <div className="py-[34px] w-full text-center bg-[#FFFFFF40] rounded-[10px] shadow-style ">
