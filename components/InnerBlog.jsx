@@ -98,7 +98,7 @@ export default function InnerBlog({ id }) {
               </div>
               <div>
                 <h4 className="text-[#1F1F1F] font-medium md:text-base text-sm">
-                  {user?.full_name || "Anonymous"}
+                  {getBlogInfoData?.full_name || "Anonymous"}
                 </h4>
               </div>
             </div>
