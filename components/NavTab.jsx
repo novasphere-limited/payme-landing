@@ -12,13 +12,8 @@ export default function NavTab() {
     },
     {
       id: 2,
-      text: "Press releases",
-      href: "#",
-    },
-    {
-      id: 3,
-      text: "Newsroom",
-      href: "#",
+      text: "Featured-In",
+      href: "/featured-in",
     },
     {
       id: 4,
@@ -26,7 +21,6 @@ export default function NavTab() {
       href: "/faq",
     },
   ];
-  console.log(router.pathname);
   return (
     <div
       style={{ borderBottom: "2px solid #001F1F14" }}
@@ -37,7 +31,7 @@ export default function NavTab() {
           key={option.id}
           href={option.href}
           className={`${
-            router.pathname === option.href
+            router.pathname.includes(option.href)
               ? "text-warning600 border-b-4 border-warning600 font-semibold"
               : "font-normal"
           } py-3 md:px-4 px-2  md:text-sm text-[13px]`}

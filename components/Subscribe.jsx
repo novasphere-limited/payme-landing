@@ -26,7 +26,9 @@ export default function Subscribe() {
               placeholder="Email"
               className="p-3 sm:mb-3 lg:mb-0 border-0 rounded-md lg:border-0 w-full bg-transparent"
             />
-            <Btn text="Subscribe" />
+            <div>
+              <Btn text="Subscribe" />
+            </div>
           </form>
         </div>
       </div>

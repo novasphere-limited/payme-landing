@@ -1,33 +1,51 @@
-import { useState } from "react";
 import SocialMedia from "./SocialPage";
 import Image from "next/image";
 import Link from "next/link";
 import NavTab from "./NavTab";
+import { useEffect, useState } from "react";
+import { useGetBlogInfo } from "@/service/blog";
 
-export default function InnerBlog() {
-  const [curIndex, setCurIndex] = useState(0);
+export default function InnerBlog({ id }) {
+  const [fetchData, setFetchData] = useState(false);
+  const {
+    getBlogInfoData,
+    getBlogInfoIsLoading,
+    filterGetBlogInfo,
+    getBlogError,
+  } = useGetBlogInfo({ enabled: fetchData });
+  useEffect(() => {
+    if (id) {
+      filterGetBlogInfo(id);
+      setFetchData(true);
+    }
+  }, [id]);
 
-  const options = [
-    {
-      id: 1,
-      text: "Blog",
-    },
-    {
-      id: 2,
-      text: "Press releases",
-    },
-    {
-      id: 3,
-      text: "Newsroom",
-    },
-    {
-      id: 4,
-      text: "FAQ's",
-    },
-  ];
-  const handleBtnChange = (i) => {
-    setCurIndex(i);
+  const formatDate = (isoString) => {
+    return new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+    }).format(new Date(isoString));
   };
+
+  if (getBlogInfoIsLoading) {
+    return (
+      <div className="font-bold text-center pt-6 text-4xl text-black">
+        Fetching blog details!!!
+      </div>
+    );
+  }
+
+  if (getBlogError) {
+    return (
+      <div className="font-bold text-center pt-6 text-4xl text-black">
+        Oopz! An error occured.
+      </div>
+    );
+  }
 
   return (
     <div className="xl:mb-[120px] lg:mb-[90px] md:mb-[70px] sm:mb-[55px] mb-[44px]">
@@ -42,17 +60,22 @@ export default function InnerBlog() {
           className="xl:text-[50px] text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium"
           style={{ maxWidth: "900px" }}
         >
-          An Update on Q1 2024 Organizational Changes
+          {getBlogInfoData?.title}
         </h1>
       </div>
       <h6 className="text-[#1F1F1F] text-center mb-[44px] font-normal text-sm md:text-base">
-        06 April, 2024
+        {formatDate(
+          getBlogInfoData?.created_date || "2025-01-12T10:15:13.194Z"
+        )}
       </h6>
       <div className="xl:mx-[120px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
         <div className="flex justify-center mb-5 h-[565px] overflow-hidden">
           <Image
             alt="Inner blog image"
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356898/PayyMe/Man_s_hands_close-up_holding_cup_of_coffee_and_a_newspaper_znpz7e.png"
+            src={
+              getBlogInfoData?.fileUrl ||
+              "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356898/PayyMe/Man_s_hands_close-up_holding_cup_of_coffee_and_a_newspaper_znpz7e.png"
+            }
             height={565}
             width={1032}
             className="rounded-lg"
@@ -75,11 +98,8 @@ export default function InnerBlog() {
               </div>
               <div>
                 <h4 className="text-[#1F1F1F] font-medium md:text-base text-sm">
-                  ALTHEA STORM
+                  {getBlogInfoData?.full_name || "Anonymous"}
                 </h4>
-                <p className="text-[#444444] md:text-base font-normal text-sm">
-                  Wiza Team
-                </p>
               </div>
             </div>
             <div>
@@ -89,7 +109,13 @@ export default function InnerBlog() {
               <SocialMedia />
             </div>
           </div>
-          <div>
+          <div
+            className="font-normal text-sm mb-[22px] text-[#444444]"
+            dangerouslySetInnerHTML={{
+              __html: getBlogInfoData?.content,
+            }}
+          />
+          {/* <div>
             <h6 className="xl:text-lg text-xs md:text-base font-normal italic md:mb-8 mb-6">
               Earlier today, Chief Executive Officer Ham Serunjogi shared the
               following note on the Company’s organizational changes with all
@@ -170,7 +196,7 @@ export default function InnerBlog() {
                 </p>
               </Link>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,7 +1,23 @@
 import Image from "next/image";
 import NavTab from "./NavTab";
+import Link from "next/link";
 
-export default function BlogSlide() {
+export default function BlogSlide({ data }) {
+  const formatDate = (isoString) => {
+    return new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+    }).format(new Date(isoString));
+  };
+  const truncateHTML = (html, maxLength) => {
+    const text = html.replace(/<[^>]*>/g, "");
+    return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
+  };
+
   return (
     <div className="xl:mb-[120px] md:mb-[50px] mb-8">
       <NavTab />
@@ -16,7 +32,10 @@ export default function BlogSlide() {
           <div className="w-full md:h-[332px] overflow-hidden rounded-lg h-[214px]">
             <Image
               alt="Nova slider image"
-              src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356910/PayyMe/Article_Figure_Link_linkedin-sales-solutions-wS73LE0GnKs-unsplash.jpg_zrubau.png"
+              src={
+                data?.fileUrl ||
+                "https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356910/PayyMe/Article_Figure_Link_linkedin-sales-solutions-wS73LE0GnKs-unsplash.jpg_zrubau.png"
+              }
               width={473}
               height={332}
               className="rounded-lg w-full"
@@ -25,15 +44,17 @@ export default function BlogSlide() {
             />
           </div>
           <div className="rounded-lg p-5 w-full py-6">
-            <h6 className="text-xs md:mb-4 mb-2"> Linkedin — 6 min read</h6>
+            <h6 className="text-xs md:mb-4 mb-2"> {data?.tag} — 6 min read</h6>
             <h2 className="xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-base font-medium md:mb-4 mb-2">
-              How to Find Email Addresses on LinkedIn in 2024
+              {data?.title}
             </h2>
-            <p className="sm:text-base text-sm md:mb-6 mb-4">
-              As a content writer who mostly works for B2B companies, LinkedIn
-              is my go-to platform for finding potential clients because…
-            </p>
-            <div className="flex items-center gap-4">
+            <div
+              dangerouslySetInnerHTML={{
+                __html: truncateHTML(data?.content || "", 100),
+              }}
+              className="sm:text-base text-sm md:mb-6 mb-4"
+            />
+            <div className="flex items-center gap-4 mb-2">
               <div
                 style={{ height: "44px", width: "44px" }}
                 className="rounded-full bg-[#D9D9D9]"
@@ -47,11 +68,27 @@ export default function BlogSlide() {
               </div>
               <div>
                 <h4 className="text-[#1F1F1F] font-medium text-xs">
-                  ALTHEA STORM
+                  {data?.user || "ALTHEA STORM"}
                 </h4>
-                <p className="text-[#444444] text-sm">Wiza Team</p>
+                <p className="text-[#444444] text-sm mb-2">
+                  {formatDate(data?.created_date || "2025-01-12T10:15:13.194Z")}
+                </p>
               </div>
             </div>
+            <Link
+              className="text-2_bold flex gap-2 items-center mt-auto"
+              href={`/blog/${data?.id}`}
+            >
+              <p className="text-warning600 font-medium text-base font-rope">
+                Read More
+              </p>
+              <Image
+                src="/favicon_io/payyme-arrow-up.svg"
+                alt="Arrow icon"
+                width={24}
+                height={24}
+              />
+            </Link>
           </div>
         </div>
       </div>
