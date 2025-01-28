@@ -31,7 +31,7 @@ export default function NavTab() {
           key={option.id}
           href={option.href}
           className={`${
-            router.pathname === option.href
+            router.pathname.includes(option.href)
               ? "text-warning600 border-b-4 border-warning600 font-semibold"
               : "font-normal"
           } py-3 md:px-4 px-2  md:text-sm text-[13px]`}

@@ -64,7 +64,7 @@ export default function CarouselSlide({ imgArray }) {
 
                 <div className="absolute top-[-48px] right-[-44px] z-0 h-[180px] sm:block hidden">
                   <Image
-                    alt=""
+                    alt="Random snaps"
                     height={220}
                     width={150}
                     src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1714562817/Ornament_13_yqaoug.png"
@@ -74,7 +74,7 @@ export default function CarouselSlide({ imgArray }) {
                 </div>
                 <div className="absolute bottom-[-48px] left-[-44px] z-0 h-[180px] sm:block hidden">
                   <Image
-                    alt=""
+                    alt="Random snaps"
                     height={200}
                     width={150}
                     src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1714562817/Ornament_13_yqaoug.png"

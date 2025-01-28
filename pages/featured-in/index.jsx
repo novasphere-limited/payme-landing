@@ -18,6 +18,7 @@ export default function Blog() {
     const data = {
       limit: 100,
       page: 1,
+      isPayme: true,
     };
 
     setFeaturedContentsFilter({ ...data });
@@ -29,10 +30,18 @@ export default function Blog() {
       <div className="navbar-margin">
         <BlogHerosection />
         {featuredContentsData?.items && (
-          <div>
-            <FeaturedSlide data={featuredContentsData?.items[0]} />
-            <FeaturedNews data={featuredContentsData?.items.slice(1)} />
-          </div>
+          <>
+            {featuredContentsData?.items?.length < 1 ? (
+              <p className="font-bold text-center pt-6 text-4xl text-black">
+                Oopz! No content...
+              </p>
+            ) : (
+              <div>
+                <FeaturedSlide data={featuredContentsData?.items[0]} />
+                <FeaturedNews data={featuredContentsData?.items.slice(1)} />
+              </div>
+            )}
+          </>
         )}
         <Subscribe />
       </div>

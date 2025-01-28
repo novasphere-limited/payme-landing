@@ -4,7 +4,6 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_API_URL: {
       PAYYME_BASE_URL: process.env.API_URL,
-      CLOUDINARY_UPLOAD_URL: process.env.CLOUDINARY_UPLOAD_URL,
     },
   },
   modularizeImports: {

@@ -1,4 +1,3 @@
-import { getAccessToken } from "/utils";
 import axios from "axios";
 
 class HttpService {

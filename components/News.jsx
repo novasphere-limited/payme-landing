@@ -7,7 +7,6 @@ export default function News({ data }) {
     const text = html.replace(/<[^>]*>/g, "");
     return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
   };
-  console.log(data);
   return (
     <div className="xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
       <div className="relative">

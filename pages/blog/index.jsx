@@ -18,21 +18,30 @@ export default function Blog() {
     const data = {
       limit: 100,
       page: 1,
+      isPayme: true,
     };
 
     setBlogContentFilter({ ...data });
     setFetchData(true);
   }, []);
-  console.log(blogsContentData?.items);
+
   return (
     <Layout>
       <div className="navbar-margin">
         <BlogHerosection />
         {blogsContentData?.items && (
-          <div>
-            <BlogSlide data={blogsContentData?.items[0]} />
-            <News data={blogsContentData?.items.slice(1)} />
-          </div>
+          <>
+            {blogsContentData?.items?.length < 1 ? (
+              <p className="font-bold text-center pt-6 text-4xl text-black">
+                Oopz! No content...
+              </p>
+            ) : (
+              <div>
+                <BlogSlide data={blogsContentData?.items[0]} />
+                <News data={blogsContentData?.items.slice(1)} />
+              </div>
+            )}
+          </>
         )}
         <Subscribe />
       </div>
