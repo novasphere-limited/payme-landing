@@ -50,7 +50,7 @@ export default function Navbar() {
     {
       id: 3,
       text: "Featured In",
-      href: "/about",
+      href: "/featured-in",
       icon: "/favicon_io/pop-img-6.svg",
     },
     { id: 4, text: "FAQ's ", href: "/faq", icon: "/asset/pop-img-7.png" },
