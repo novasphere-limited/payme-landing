@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import LinkBtn from "./LinkBtn";
 import Typer from "./typed";
+import OpenSms from "./opensms";
 
 export default function Herosection() {
   return (
@@ -19,8 +20,7 @@ export default function Herosection() {
           Without worrying about connectivity, PayyME helps small businesses
           and  individuals pay and get paid
         </h3>
-
-        <LinkBtn href="#" text="Get Started" />
+        <OpenSms text="Get Started" />
       </div>
       <div className="w-full h-auto overflow-hidden rounded-lg">
         <Image

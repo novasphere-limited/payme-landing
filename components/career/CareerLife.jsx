@@ -68,7 +68,7 @@ export default function CareerLife() {
       </div>
       <div className="bg-[#FFFFFF40] md:rounded-[100px] rounded-[10px] border-2 md:border-0 border-[#0DA16859] mb-6 shadow-style max-w-[1028px] py-5 xl:px-[161px] lg:px-[111px] md:px-[46px] px-[22px] mx-auto text-center">
         <h6>
-          Join at a pivotal moment; the opportunity is huge, and Payyme is just
+          Join at a pivotal moment; the opportunity is huge, and PayyMe is just
           getting started. Help us shape the future of the African continent.
         </h6>
       </div>

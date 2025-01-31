@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LinkBtn from "./LinkBtn";
+import OpenSms from "./opensms";
 
 export default function AboutUs() {
   return (
@@ -17,7 +18,7 @@ export default function AboutUs() {
             we plan to make financial services accessible to everyone,
             especially those with little knowledge about how technology works.
           </h6>
-          <LinkBtn href="#" text="Get Started" />
+          <OpenSms text="Get Started" />
         </div>
 
         <div className="w-full h-[331px] overflow-hidden rounded-lg">

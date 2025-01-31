@@ -15,7 +15,7 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>Payyme</title>
+        <title>PayyMe</title>
         <link
           rel="shortcut icon"
           href="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713368199/PayyMe_favicon_sp6p1h.png"
