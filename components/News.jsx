@@ -14,7 +14,7 @@ export default function News({ data }) {
           <div
             style={{ height: "3.5px", width: "29px", background: "#0DA168" }}
           ></div>
-          News at Payyme
+          News at PayyMe
         </h2>
       </div>
       <div

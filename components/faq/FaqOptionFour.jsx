@@ -6,7 +6,7 @@ export default function FaqOptionFour() {
     {
       id: 1,
       icon: "/favicon_io/faq-icon-1.svg",
-      title: "Getting started on Payyme",
+      title: "Getting started on PayyMe",
       content: "FAQ's and Common Issues",
     },
     {

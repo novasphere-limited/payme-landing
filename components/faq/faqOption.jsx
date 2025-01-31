@@ -74,7 +74,7 @@ export default function FaqInfo() {
           </ul>
 
           <h6 className="text-base font-normal mb-6">
-            Using Payyme puts you in charge of your funds. Either you urgently
+            Using PayyMe puts you in charge of your funds. Either you urgently
             need to send money to someone in the night and there are no pos
             around to help carry out the transaction or you are in a remote
             setting with no internet connection but still need to carry out

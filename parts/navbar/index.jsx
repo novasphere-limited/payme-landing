@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import HoverMenu from "@/components/PopDropdown";
 import BasicMenu from "@/components/MenuDropdown";
@@ -12,6 +12,22 @@ export default function Navbar() {
 
   const handleNavbar = () => {
     setShowNavbar(!showNavbar);
+  };
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    if (
+      /android/i.test(userAgent) ||
+      /iPhone|iPad|iPod/i.test(navigator.userAgent)
+    ) {
+      setIsMobile(true);
+    }
+  });
+  const handleClick = (e) => {
+    if (!isMobile) {
+      e.preventDefault();
+    }
   };
 
   const productArray = [
@@ -83,7 +99,7 @@ export default function Navbar() {
             </Link>
           </ul>
           <div>
-            <Link href="#">
+            <Link href={`sms:+2349137073409`} onClick={(e) => handleClick(e)}>
               <h1
                 className="text-base navbar_outline font-medium"
                 style={{ color: "#0B8657" }}
@@ -123,12 +139,16 @@ export default function Navbar() {
             </li>
             <li className="mb-3">
               <Link href="/contact">
-                <li className="text-base font-medium text-[#0B8657]">
+                <span className="text-base font-medium text-[#0B8657]">
                   Support
-                </li>
+                </span>
               </Link>
             </li>
-            <Link href="#" className="w-[250px]">
+            <Link
+              href={`sms:+2349137073409`}
+              onClick={(e) => handleClick(e)}
+              className="w-[250px]"
+            >
               <h1
                 className="text-base navbar_outline w-[250px]"
                 style={{ color: "#0B8657" }}

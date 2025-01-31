@@ -1,5 +1,6 @@
 import Link from "next/link";
 import LinkBtn from "./LinkBtn";
+import OpenSms from "./opensms";
 
 export default function HelpPayment() {
   return (
@@ -15,9 +16,8 @@ export default function HelpPayment() {
       <p className="text-base font-normal mb-3">
         Redefining finance, embracing inclusion, innovating solutions.
       </p>
-      <LinkBtn
+      <OpenSms
         text="Get Started"
-        href="#"
         style={{ color: "#0B8657", background: "#fff" }}
       />
     </div>
