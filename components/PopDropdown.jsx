@@ -18,7 +18,7 @@ const LightTooltip = styled(({ className, ...props }) => (
 export default function HoverMenu({ popText, popArray }) {
   return (
     <LightTooltip title={<MenuItems popArray={popArray} />} placement="bottom">
-      <button className="text-base font-medium text-[#0B8657] flex items-center gap-2 custom-button">
+      <button className="transition-all duration-300 ease-in-out hover:font-bold text-base font-medium text-[#0B8657] flex items-center gap-2 custom-button">
         {popText}
         <Image
           src="/favicon_io/arrow-down.svg"
