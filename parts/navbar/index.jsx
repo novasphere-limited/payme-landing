@@ -95,13 +95,15 @@ export default function Navbar() {
             <HoverMenu popText="Products" popArray={productArray} />
             <HoverMenu popText="Company" popArray={companyArray} />
             <Link href="/contact">
-              <li className="text-base font-medium text-[#0B8657]">Support</li>
+              <li className="text-base font-medium text-[#0B8657] hover:font-semibold transition-all duration-800 ease-in-out">
+                Support
+              </li>
             </Link>
           </ul>
           <div>
             <Link href={`sms:+2349137073409`} onClick={(e) => handleClick(e)}>
               <h1
-                className="text-base navbar_outline font-medium"
+                className="text-base navbar_outline font-medium hover:shadow-md transition-all duration-300 ease-in-out"
                 style={{ color: "#0B8657" }}
               >
                 Get Started

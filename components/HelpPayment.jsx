@@ -18,7 +18,7 @@ export default function HelpPayment() {
       </p>
       <OpenSms
         text="Get Started"
-        style={{ color: "#0B8657", background: "#fff" }}
+        style={{ color: "#0B8657", background: "#fff", hover: "" }}
       />
     </div>
   );

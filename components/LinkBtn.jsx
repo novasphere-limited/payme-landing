@@ -6,7 +6,7 @@ export default function LinkBtn({ href, text, style, onClick }) {
       <Link href={href}>
         <button
           onClick={onClick}
-          className="md:text-2xl text-sm font-medium my-5 md:px-[48px] md:py-[10px] sm:px-[30px] px-3 py-3 bg-warning600 text-white rounded-[4px] w-full sm:w-[248px]"
+          className="md:text-2xl text-sm font-medium my-5 md:px-[48px] md:py-[10px] sm:px-[30px] px-3 py-3 bg-warning600 hover:bg-warning600/80 hover:shadow-md transition-all duration-300 ease-in-out text-white rounded-[4px] w-full sm:w-[248px]"
           style={style}
         >
           {text}

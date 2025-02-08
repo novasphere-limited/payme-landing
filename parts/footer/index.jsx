@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer-container text-[#C1C4E5] xl:px-[120px] lg:px-[70px] md:px-[35px] sm:px-[20px] px-3">
       <div className="sm:flex md:pb-8 pb-2 justify-between">
@@ -18,16 +20,24 @@ export default function Footer() {
           </div>
           <div className="flex gap-4 items-center mb-9">
             <Link href="/how">
-              <h6 className="text-sm">Products</h6>
+              <h6 className="text-sm hover:underline hover:font-semibold">
+                Products
+              </h6>
             </Link>
-            <Link href="/contact">
-              <h6 className="text-sm">Support</h6>
+            <Link href="/faq">
+              <h6 className="text-sm hover:underline hover:font-semibold">
+                Support
+              </h6>
             </Link>
             <Link href="/career">
-              <h6 className="text-sm">Careers</h6>
+              <h6 className="text-sm hover:underline hover:font-semibold">
+                Careers
+              </h6>
             </Link>
             <Link href="#">
-              <h6 className="text-sm">Terms</h6>
+              <h6 className="text-sm hover:underline hover:font-semibold">
+                Terms
+              </h6>
             </Link>
           </div>
           <h6 className="text-sm hidden sm:flex items-center gap-1">
@@ -41,13 +51,13 @@ export default function Footer() {
             >
               c
             </span>
-            2023 PayyMe-All Right Reserved
+            {currentYear} PayyMe-All Right Reserved
           </h6>
         </div>
         <div className="w-full flex sm:justify-end items-center">
           <div className="w-full">
             <h1
-              className="md:text-sm text-xl mb-4 sm:text-end text-white"
+              className="md:text-sm text-xl mb-4 sm:text-end text-white hover:font-semibold hover:underline"
               style={{ color: "#fff !important" }}
             >
               How can we help?
@@ -55,7 +65,7 @@ export default function Footer() {
             <div className="sm:flex justify-end gap-3 md:mb-[44px] mb-[24px]">
               <Link
                 href="/faq"
-                className="text-sm hidden  text-[#86D0B3] pe-2 sm:flex items-center gap-1"
+                className="text-sm hidden  text-[#86D0B3] pe-2 sm:flex items-center gap-1 hover:underline"
                 style={{ borderRight: "2px solid #C1C4E5" }}
               >
                 <div
@@ -82,7 +92,7 @@ export default function Footer() {
                 Help Docs & FAQs
               </Link>
               <Link href="/contact">
-                <h6 className="text-sm text-[#C1C4E5] mb-[24px] sm:mb-0">
+                <h6 className="text-sm text-[#C1C4E5] mb-[24px] sm:mb-0 hover:underline hover:font-semibold">
                   Support via live Chat
                 </h6>
               </Link>
@@ -100,7 +110,7 @@ export default function Footer() {
                 >
                   c
                 </span>
-                2023 PayyMe-All Right Reserved
+                {currentYear} PayyMe-All Right Reserved
               </h6>
             </div>
 
