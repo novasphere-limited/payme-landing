@@ -4,7 +4,7 @@ import Typed from "typed.js";
 const Typer = () => {
   useEffect(() => {
     const options = {
-      strings: ["PayyME", "Sanwo mi", "Biya ni", "kwuo m ugwo"],
+      strings: ["PayyMe", "Sanwo mi", "Biya ni", "kwuo m ugwo"],
       typeSpeed: 400,
       backSpeed: 400,
       loop: true,
@@ -18,7 +18,7 @@ const Typer = () => {
     };
   }, []);
 
-  return <span className="element text-5xl font-bold text-[#075134]"></span>;
+  return <span className="element text-5xl font-medium text-[#075134]"></span>;
 };
 
 export default Typer;

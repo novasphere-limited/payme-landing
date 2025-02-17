@@ -44,11 +44,7 @@ export default function FaqOptions() {
               <div className="h-[42px] w-[42px] rounded-full bg-[#F5F5F5] mb-4 flex items-center justify-center">
                 <Image height={24} width={24} alt="Faq icon" src={e.icon} />
               </div>
-              <Link href={`/faq/${e.id}`}>
-                <h6 className="font-semibold md:text-base text-sm">
-                  {e.title}
-                </h6>
-              </Link>
+              <h6 className="font-semibold md:text-base text-sm">{e.title}</h6>
               <p className="md:text-sm text-xs font-normal mb-3">{e.content}</p>
             </div>
             <div>

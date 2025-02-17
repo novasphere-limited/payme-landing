@@ -17,7 +17,7 @@ export default function Herosection() {
           className="text-base font-normal xl:mb-[42px] mb-3"
           style={{ maxWidth: "615px" }}
         >
-          Without worrying about connectivity, PayyME helps small businesses
+          Without worrying about connectivity, PayyMe helps small businesses
           and  individuals pay and get paid
         </h3>
         <OpenSms text="Get Started" />

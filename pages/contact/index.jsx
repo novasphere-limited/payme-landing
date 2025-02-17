@@ -5,7 +5,7 @@ export default function ContactPage() {
   return (
     <Layout>
       <div className="bg-[#FAF8FE] navbar-margin">
-        <div className="circ-bg-img">
+        <div>
           <ContactForm />
         </div>
       </div>

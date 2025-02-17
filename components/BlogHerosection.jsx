@@ -33,6 +33,12 @@ export default function BlogHerosection() {
                   type="text"
                   placeholder="Search..."
                   className="border-none w-full bg-transparent"
+                  style={{
+                    outline: "none !important",
+                    border: "none !important",
+                    boxShadow: "none !important",
+                    color: "#fff !important",
+                  }}
                 />
               </form>
             </div>
