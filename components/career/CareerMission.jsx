@@ -4,19 +4,19 @@ export default function CareerMission() {
   const TeamList = [
     {
       id: 1,
-      imgSrc: "/asset/team-1_1.png",
+      imgSrc: "/asset/career-1.jpg",
     },
     {
       id: 2,
-      imgSrc: "/asset/team-1_2.png",
+      imgSrc: "/asset/career-2.jpg",
     },
     {
       id: 3,
-      imgSrc: "/asset/team-1_3.png",
+      imgSrc: "/asset/career-3.jpg",
     },
     {
       id: 4,
-      imgSrc: "/asset/team-1_4.png",
+      imgSrc: "/asset/career-4.jpg",
     },
   ];
 
@@ -26,10 +26,8 @@ export default function CareerMission() {
         <div className="w-full justify-center flex flex-col">
           <div className="sm:mb-auto mb-8">
             <h1 className="font-medium xl:text-5xl sm:text-xl md:text-2xl lg:text-3xl text-base md:mb-4 mb-2 text-[#043623] text-center">
-              <span style={{ width: "29px", borderTop: "3.5px solid #0DA168" }}>
-                Our
-              </span>{" "}
-              Mission
+              <span className="border-t-[3.5px] border-[#0DA168] pt-1">O</span>
+              ur Mission
             </h1>
 
             <h6 className="sm:text-base text-sm font-normal md:mb-4 mb-2">
@@ -43,10 +41,8 @@ export default function CareerMission() {
           </div>
           <div>
             <h1 className="font-medium xl:text-5xl sm:text-xl md:text-2xl lg:text-3xl text-base md:mb-4 mb-2 text-[#043623] text-center">
-              <span style={{ width: "29px", borderTop: "3.5px solid #0DA168" }}>
-                Our
-              </span>{" "}
-              Goal
+              <span className="border-t-[3.5px] border-[#0DA168] pt-1">O</span>
+              ur Goal
             </h1>
 
             <h6 className="sm:text-base text-sm font-normal md:mb-4 mb-2">

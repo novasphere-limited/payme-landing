@@ -78,15 +78,13 @@ export const NewsList = [
 export const ChooseList = [
   {
     id: 1,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356953/PayyMe/image_21_aealaj.png",
+    imgSrc: "/asset/chose-1.jpg",
     title: "Simplified Payments",
     text: "With PayyME, simple text messages can help manage your finances, transfer and receive funds and much more. No need for complex apps or an internet connection.",
   },
   {
     id: 2,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356953/PayyMe/image_212_dhkz0a.png",
+    imgSrc: "/asset/chose-2.png",
     title: "Inclusive Access",
     text: "Experience banking without barriers. Regardless of technological access or location, transact with ease on PayyMe.",
   },
@@ -99,8 +97,7 @@ export const ChooseList = [
   },
   {
     id: 4,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356928/PayyMe/image_25_eb64i5.png",
+    imgSrc: "/asset/chose-4.jpg",
     title: "Community Connection",
     text: "We are connecting and empowering people through accessible and simplified innovative solutions.",
   },
@@ -109,8 +106,7 @@ export const ChooseList = [
 export const TeamList = [
   {
     id: 1,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508324/image_CEO_bwe94p.png",
+    imgSrc: "/asset/cto-1.png",
     name: "Ahmed",
     post: "Co-Founder & CEO",
     url: "linkedin.ahmed-sanni",
@@ -118,8 +114,7 @@ export const TeamList = [
   },
   {
     id: 2,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508324/IMAGE_CMO_avr7tt.png",
+    imgSrc: "/asset/cto-2.png",
     name: "Charles",
     post: "Co-Founder & CEO",
     url: "linkedin.charles-adetola",
@@ -127,8 +122,7 @@ export const TeamList = [
   },
   {
     id: 3,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508324/image_HEAD_ENGG_izxqoa.png",
+    imgSrc: "/asset/cto-3.png",
     name: "Faruq",
     post: "CTO & Head Engineer",
     url: "linkedin.ahmedfaruq888",
@@ -136,8 +130,7 @@ export const TeamList = [
   },
   {
     id: 4,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508326/image_CPO_x9nkqm.png",
+    imgSrc: "/asset/cto-4.png",
     name: "Maryam",
     post: "Co-CTO & CPO",
     url: "linkedin.maryam-olabisi",

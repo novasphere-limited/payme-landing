@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 @font-face {
   src: url("../public/Satoshi/Graphik Family/Graphik-Light-Trial.otf");
   font-family: "Graphik";
@@ -53,9 +56,14 @@ p {
 }
 
 input:focus {
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+}
+.input-form:focus {
+  border: 2px solid #e6e6e6 !important;
+  color: #000000;
 }
 
 .header-1_black {
@@ -404,16 +412,16 @@ input:focus {
 }
 .circ-bg-img {
   background-image: url("/asset/circ-img.png");
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
-  text-align: center;
+  background-position: center;
 }
 .about-bg-circ {
-  background-image: url("https://res.cloudinary.com/dstqfrcxx/image/upload/v1714508323/Group_213_efcpgu.png");
+  background-image: url("/asset/about-bg-circ.png");
   background-size: contain;
-  /* background-repeat: no-repeat; */
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top 104px left 52px;
+  background-size: 629px 535px;
 }
 
 .about-container-bg {
@@ -1223,6 +1231,9 @@ input:focus {
 }
 
 @media (max-width: 800px) {
+  .hide-bgimg {
+    background-image: none !important;
+  }
   .sub-hero-pad {
     padding-left: 40px;
     padding-right: 40px;

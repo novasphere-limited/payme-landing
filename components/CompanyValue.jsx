@@ -10,10 +10,18 @@ export default function Value() {
         ></div>
         Company Core Value
       </h1>
-      <div className="md:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center xl:mb-[64px] mb-3 sm:mb-6 md:mb-9">
-        <div className="w-full xl:h-[331px] h-auto overflow-hidden rounded-lg mb-4 md:mb-0">
+      <div
+        style={{
+          backgroundImage: 'url("/asset/about-bg-circ.png")',
+          backgroundSize: "620px 620px",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "bottom -20px right 52px",
+        }}
+        className="md:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center xl:mb-[64px] mb-3 sm:mb-6 md:mb-9"
+      >
+        <div className="w-full rounded-lg mb-4 md:mb-0">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Light_bulb_with_drawing_graph_ipmzfw.png"
+            src="/asset/mission-1.jpg"
             alt="customer testimony imge"
             width={520}
             height={331}
@@ -23,9 +31,7 @@ export default function Value() {
         </div>
         <div className="w-full justify-center">
           <h1 className="font-medium xl:text-5xl sm:text-xl md:text-2xl lg:text-3xl text-base md:mb-4 mb-2 text-[#043623] text-center">
-            <span style={{ width: "29px", borderTop: "3.5px solid #0DA168" }}>
-              Our
-            </span>{" "}
+            <span className="border-t-[3.5px] border-[#0DA168] pt-1">O</span>ur
             Mission
           </h1>
 
@@ -42,9 +48,7 @@ export default function Value() {
       <div className="hidden md:flex xl:gap-[68px] lg:gap-[54px] md:gap-[42px] sm:gap-[30px] gap-[16px] items-center">
         <div className="w-full">
           <h1 className="font-medium xl:text-5xl sm:text-xl md:text-2xl lg:text-3xl text-base md:mb-4 mb-2 text-center text-[#043623]">
-            <span style={{ width: "29px", borderTop: "3.5px solid #0DA168" }}>
-              Our
-            </span>{" "}
+            <span className="border-t-[3.5px] border-[#0DA168] pt-1">O</span>ur
             Goal
           </h1>
 
@@ -56,9 +60,9 @@ export default function Value() {
             safe and secure financial solutions available to all.
           </h6>
         </div>
-        <div className="w-full xl:h-[331px] h-auto overflow-hidden rounded-lg">
+        <div className="w-full rounded-lg">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Assortment_of_luxurious_chess_pieces_aqcwox.png"
+            src="/asset/mission-2.jpg"
             alt="customer testimony imge"
             width={520}
             height={331}
@@ -69,9 +73,9 @@ export default function Value() {
         </div>
       </div>
       <div className=" block md:hidden ">
-        <div className="w-full xl:h-[331px] h-auto mb-4 md:mb-0 overflow-hidden">
+        <div className="w-full mb-4 md:mb-0 overflow-hidden">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356919/PayyMe/Assortment_of_luxurious_chess_pieces_aqcwox.png"
+            src="/asset/mission-2.jpg"
             alt="customer testimony imge"
             width={520}
             height={331}
@@ -82,9 +86,7 @@ export default function Value() {
         </div>
         <div className="w-full">
           <h1 className="font-medium xl:text-5xl sm:text-xl md:text-2xl lg:text-3xl text-base md:mb-4 mb-2 text-center text-[#043623]">
-            <span style={{ width: "29px", borderTop: "3.5px solid #0DA168" }}>
-              Our
-            </span>{" "}
+            <span className="border-t-[3.5px] border-[#0DA168] pt-1">O</span>ur
             Goal
           </h1>
 

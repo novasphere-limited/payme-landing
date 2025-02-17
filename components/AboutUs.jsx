@@ -23,7 +23,7 @@ export default function AboutUs() {
 
         <div className="w-full h-[331px] overflow-hidden rounded-lg">
           <Image
-            src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356928/PayyMe/People_at_work_e8ekra.png"
+            src="/asset/work.jpg"
             alt="customer testimony imge"
             width={520}
             height={331}

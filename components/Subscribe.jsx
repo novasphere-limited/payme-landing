@@ -24,6 +24,11 @@ export default function Subscribe() {
             <input
               type="email"
               placeholder="Email"
+              style={{
+                outline: "none !important",
+                border: "none !important",
+                boxShadow: "none !important",
+              }}
               className="p-3 sm:mb-3 lg:mb-0 border-0 rounded-md lg:border-0 w-full bg-transparent"
             />
             <div>
