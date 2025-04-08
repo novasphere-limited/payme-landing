@@ -12,7 +12,8 @@ export default function Subscribe() {
     });
   const handleSubmit = () => {
     const payload = {
-      email,
+      subscriberEmail: email,
+      isPayyme: true,
     };
     subscribeDataPayload(payload);
   };
