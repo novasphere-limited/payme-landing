@@ -5,15 +5,17 @@ import { toast } from "sonner";
 
 export default function Subscribe() {
   const [email, setEmail] = useState("");
+
   const { subscribeData, subscribeDataIsLoading, subscribeDataPayload } =
     useSubscribe((res) => {
       setEmail("");
       toast.success("Subscribed successfully!");
     });
+
   const handleSubmit = () => {
     const payload = {
       subscriberEmail: email,
-      isPayyme: true,
+      IsPayyme: true,
     };
     subscribeDataPayload(payload);
   };
