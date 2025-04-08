@@ -22,9 +22,9 @@ export default function Legals() {
         <div className="bg-white px-[1.5rem] rounded-[22px] pb-[2.75rem] pt-[3.75rem]">
           <h6 className="text-[#0C0C0C] text-xl mb-4">Product Details</h6>
           <p className="font-normal text-base text-[#333232] mb-4">
-            Beautya's 1st revitalizing serum that concentrates the double power
-            of the Rose de Granville from the stem to the flower to revitalize
-            the skin twice as fast (1) and visibly rejuvenate.
+            Beautya@apos;s 1st revitalizing serum that concentrates the double
+            power of the Rose de Granville from the stem to the flower to
+            revitalize the skin twice as fast (1) and visibly rejuvenate.
             <br /> Created after 20 years of research, the 10,000 (2)
             micro-pearls rich in revitalizing rose micro-nutrients are now
             completed by the power of the Rose sap. The next-generation, 92%
@@ -69,9 +69,9 @@ export default function Legals() {
         <div className="bg-white px-[1.5rem] rounded-[22px] mb-[2.75rem] pt-[3.75rem] pb-8">
           <h6 className="text-[#0C0C0C] text-xl mb-4">Product Details</h6>
           <p className="font-normal text-base text-[#333232] mb-4">
-            Beautya's 1st revitalizing serum that concentrates the double power
-            of the Rose de Granville from the stem to the flower to revitalize
-            the skin twice as fast (1) and visibly rejuvenate.
+            Beautya@aposs 1st revitalizing serum that concentrates the double
+            power of the Rose de Granville from the stem to the flower to
+            revitalize the skin twice as fast (1) and visibly rejuvenate.
             <br /> Created after 20 years of research, the 10,000 (2)
             micro-pearls rich in revitalizing rose micro-nutrients are now
             completed by the power of the Rose sap. The next-generation, 92%
@@ -106,9 +106,9 @@ export default function Legals() {
         <div className="bg-white px-[1.5rem] rounded-[22px]">
           <h6 className="text-[#0C0C0C] text-xl mb-4">Product Details</h6>
           <p className="font-normal text-base text-[#333232] mb-4">
-            Beautya's 1st revitalizing serum that concentrates the double power
-            of the Rose de Granville from the stem to the flower to revitalize
-            the skin twice as fast (1) and visibly rejuvenate.
+            Beautya@aposs 1st revitalizing serum that concentrates the double
+            power of the Rose de Granville from the stem to the flower to
+            revitalize the skin twice as fast (1) and visibly rejuvenate.
             <br /> Created after 20 years of research, the 10,000 (2)
             micro-pearls rich in revitalizing rose micro-nutrients are now
             completed by the power of the Rose sap. The next-generation, 92%
