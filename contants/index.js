@@ -90,8 +90,7 @@ export const ChooseList = [
   },
   {
     id: 3,
-    imgSrc:
-      "https://res.cloudinary.com/dstqfrcxx/image/upload/t_Banner 16:9/v1713356953/PayyMe/Group_1000003865_xtw9bh.png",
+    imgSrc: "/asset/chose-3.png",
     title: "Security",
     text: "Your data and transactions are safe with us",
   },

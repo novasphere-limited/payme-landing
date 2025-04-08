@@ -1,6 +1,19 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export default function HowSub() {
+  const router = useRouter();
+  const { tab } = router.query;
+
+  useEffect(() => {
+    if (tab) {
+      const section = document.getElementById(tab.toString());
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [tab]);
   return (
     <div
       style={{
@@ -12,6 +25,7 @@ export default function HowSub() {
       className="hide-bgimg"
     >
       <div
+        id="instant-airtime-data"
         style={{
           backgroundImage: 'url("/asset/circ.png")',
           backgroundSize: "contain",
@@ -22,7 +36,7 @@ export default function HowSub() {
       >
         <div className="w-full">
           <Image
-            src="/asset/product-3.png"
+            src="/asset/how-new-1.png"
             alt="customer testimony imge"
             width={464}
             height={455}
@@ -42,7 +56,10 @@ export default function HowSub() {
           </h6>
         </div>
       </div>
-      <div className="xl:pt-[100px] lg:pt-[75px] md:pt-[60px] sm:pt-9 pt-6 sub-hero-pad sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center xl:mb-[100px] lg:mb-[75px] md:mb-[60px] sm:mb-9 mb-6 ">
+      <div
+        id="pay-bills"
+        className="xl:pt-[100px] lg:pt-[75px] md:pt-[60px] sm:pt-9 pt-6 sub-hero-pad sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center xl:mb-[100px] lg:mb-[75px] md:mb-[60px] sm:mb-9 mb-6 "
+      >
         <div className="w-full">
           <h1 className="font-medium xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-2 md:mb-4  leading-[48px] text-[#1F1F1F]">
             Pay Bills
@@ -55,7 +72,7 @@ export default function HowSub() {
         </div>
         <div className="w-full">
           <Image
-            src="/asset/product-2.png"
+            src="/asset/how-new-2.png"
             alt="customer testimony imge"
             width={520}
             height={433}
@@ -64,7 +81,10 @@ export default function HowSub() {
           />
         </div>
       </div>
-      <div className="xl:mb-[100px] lg:mb-[80px] md:mb-[60px] sm:mb-14 mb-11 sub-hero-pad sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center">
+      <div
+        id="create-account"
+        className="xl:mb-[100px] lg:mb-[80px] md:mb-[60px] sm:mb-14 mb-11 sub-hero-pad sm:flex xl:gap-[68px] md:gap-[48px] gap-[16px] items-center"
+      >
         <div className="w-full">
           <h1 className="font-medium xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl mb-2 md:mb-4  leading-[48px] text-[#1F1F1F]">
             Create Account
@@ -77,7 +97,7 @@ export default function HowSub() {
         </div>
         <div className="w-full relative">
           <Image
-            src="/asset/product-1.png"
+            src="/asset/how-new-3.png"
             alt="customer testimony imge"
             width={579}
             height={433}

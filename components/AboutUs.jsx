@@ -1,5 +1,4 @@
 import Image from "next/image";
-import LinkBtn from "./LinkBtn";
 import OpenSms from "./opensms";
 
 export default function AboutUs() {
@@ -20,10 +19,9 @@ export default function AboutUs() {
           </h6>
           <OpenSms text="Get Started" />
         </div>
-
         <div className="w-full h-[331px] overflow-hidden rounded-lg">
           <Image
-            src="/asset/work.jpg"
+            src="/asset/about-work.jpg"
             alt="customer testimony imge"
             width={520}
             height={331}

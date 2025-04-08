@@ -371,10 +371,14 @@ input:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffffffa8;
+  backdrop-filter: blur(98px);
 }
 .navbar-mobile {
   display: none;
   margin: 0.5rem 1rem;
+  background-color: #ffffffa8;
+  backdrop-filter: blur(98px);
 }
 
 .navbar ul {

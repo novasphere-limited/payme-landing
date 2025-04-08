@@ -7,7 +7,7 @@ export default function CarouselSlide({ imgArray }) {
   const images = [
     {
       id: 1,
-      img: "/asset/payyme-feature-1.png",
+      img: "/asset/slider-1.png",
       title: "Bank with the Unbanked",
       text: "Need to pay or receive payment from someone without a bank account? Use PayyMe.",
     },

@@ -24,6 +24,7 @@ export default function Navbar() {
       setIsMobile(true);
     }
   });
+
   const handleClick = (e) => {
     if (!isMobile) {
       e.preventDefault();
@@ -38,29 +39,42 @@ export default function Navbar() {
       icon: "/favicon_io/pop-img-1.svg",
     },
     {
+      id: 4,
+      text: "Instant Airtime & Data",
+      href: "/how?tab=instant-airtime-data",
+      icon: "/favicon_io/pop-img-1.svg",
+    },
+    {
       id: 2,
       text: "Pay Bill",
-      href: "/how",
+      href: "/how?tab=pay-bills",
       icon: "/favicon_io/pop-img-2.svg",
     },
     {
       id: 3,
       text: "Airtime & Data",
-      href: "/how",
+      href: "/how?tab=create-account",
       icon: "/favicon_io/pop-img-3.svg",
     },
   ];
+
   const companyArray = [
+    {
+      id: 8,
+      text: "About Us",
+      href: "/about",
+      icon: "/asset/pop-img-7.png",
+    },
     {
       id: 1,
       text: "Leadership Team",
-      href: "/about",
+      href: "/about?tab=leadership-team",
       icon: "/asset/pop-img-4.png",
     },
     {
       id: 2,
       text: "Company Core Value",
-      href: "/about",
+      href: "/about?tab=core-values",
       icon: "/favicon_io/pop-img-5.svg",
     },
     {

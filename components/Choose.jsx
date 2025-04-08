@@ -21,15 +21,19 @@ export default function Choose() {
             key={index}
           >
             <div className="mb-2 flex justify-center">
-              <Image
-                src={choose.imgSrc}
-                width={500}
-                height={334}
-                alt="Why choose us"
-                className="rounded-lg w-full"
-                loading="lazy"
-                style={{ objectFit: "cover" }}
-              />
+              <div className="relative w-full h-[334px]">
+                <Image
+                  src={choose.imgSrc}
+                  width={500}
+                  height={334}
+                  alt="Why choose us"
+                  className="rounded-lg w-full h-full object-cover"
+                  loading="lazy"
+                />
+                {index === 2 && (
+                  <div className="absolute inset-0 bg-black/80 rounded-lg" />
+                )}
+              </div>
             </div>
             <div>
               <h4 className="lg:text-[22px] text-sm sm:text-base md:text-xl text-warning600 font-medium mb-2">
