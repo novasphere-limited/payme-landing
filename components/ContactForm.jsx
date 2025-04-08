@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Btn from "./Button";
 import { useState } from "react";
+import { toast } from "sonner";
+import { useContactForm } from "@/service/forms";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -10,6 +12,17 @@ export default function ContactForm() {
     subject: "",
     message: "",
   });
+  const { contactData, contactDataIsLoading, contactDataPayload } =
+    useContactForm((res) => {
+      toast.success("Form submitted successfully!");
+      setFormData({
+        firstName: "",
+        lastName: "",
+        phoneNumber: "",
+        subject: "",
+        message: "",
+      });
+    });
 
   const handleChange = (e) => {
     setFormData((prevState) => ({
@@ -19,8 +32,9 @@ export default function ContactForm() {
   };
 
   const handleSubmit = () => {
-    console.log(formData);
+    contactDataPayload(formData);
   };
+
   return (
     <div
       style={{
@@ -75,12 +89,19 @@ export default function ContactForm() {
           }}
         >
           <div className="rounded-md border-2 bg-[#fff]">
-            <form className="py-[50px] px-[30px]" onSubmit={handleSubmit}>
+            <form
+              className="py-[50px] px-[30px]"
+              onSubmit={(e) => {
+                e.preventDefault();
+                handleSubmit();
+              }}
+            >
               <input
                 type="text"
                 placeholder="First name"
                 className="p-3 w-full mb-5 border-2 rounded-[4px] input-form"
                 name="firstName"
+                value={formData?.firstName}
                 onChange={(e) => handleChange(e)}
               />
               <input
@@ -88,6 +109,7 @@ export default function ContactForm() {
                 placeholder="Last name"
                 className="p-3 w-full mb-5 border-2 rounded-[4px] input-form"
                 name="lastName"
+                value={formData?.lastName}
                 onChange={(e) => handleChange(e)}
               />
               <input
@@ -96,6 +118,7 @@ export default function ContactForm() {
                 className="p-3 w-full mb-3 border-2 rounded-[4px] input-form"
                 name="phoneNumber"
                 onChange={(e) => handleChange(e)}
+                value={formData?.phoneNumber}
               />
               <input
                 type="text"
@@ -103,6 +126,7 @@ export default function ContactForm() {
                 className="p-3 w-full mb-5 border-2 rounded-[4px] input-form"
                 name="subject"
                 onChange={(e) => handleChange(e)}
+                value={formData?.subject}
               />
               <textarea
                 placeholder="Your message"
@@ -110,13 +134,12 @@ export default function ContactForm() {
                 style={{ minHeight: "200px" }}
                 name="message"
                 onChange={(e) => handleChange(e)}
+                value={formData?.message}
               ></textarea>
               <Btn
                 text="Submit"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleSubmit();
-                }}
+                type="submit"
+                disabled={contactDataIsLoading}
               />
             </form>
           </div>

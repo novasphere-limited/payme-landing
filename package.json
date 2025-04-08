@@ -12,6 +12,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
@@ -22,8 +23,8 @@
     "@popperjs/core": "^2.11.8",
     "@react-google-maps/api": "^2.19.2",
     "@reduxjs/toolkit": "^1.9.1",
-    "@tanstack/react-query": "^5.49.2",
     "@swc/helpers": "^0.5.3",
+    "@tanstack/react-query": "^5.49.2",
     "autoprefixer": "^10.4.14",
     "axios": "^1.2.2",
     "eslint": "8.32.0",
@@ -37,8 +38,10 @@
     "react-player": "^2.16.0",
     "react-redux": "^8.0.5",
     "sass": "^1.57.1",
+    "sonner": "^2.0.3",
     "swiper": "^10.3.1",
     "tailwindcss": "^3.3.2",
     "typed.js": "^2.1.0"
-  }
+  },
+  "packageManager": "yarn@3.3.0+sha512.16136ce2bbe4239c67bdb29c7af54918e0d8ef3029076bc4f30d32f5cdc35b6a081d8bff0ed404a32dc3da45f01bd7e0b9d12e83f1fc42638a3adc77115fafad"
 }

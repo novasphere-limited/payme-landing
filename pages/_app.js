@@ -7,6 +7,7 @@ import { CacheProvider } from "@emotion/react";
 import theme from "../src/Theme";
 import createEmotionCache from "../src/createEmotionCache";
 import TanstackProvider from "@/providers/tanstackProvider";
+import { Toaster } from "sonner";
 
 const clientSideEmotionCache = createEmotionCache();
 
@@ -25,6 +26,7 @@ function App({ Component, emotionCache = clientSideEmotionCache, pageProps }) {
       <ThemeProvider theme={theme}>
         <TanstackProvider>
           <CssBaseline />
+          <Toaster position="top-right" richColors closeButton />
           <Component {...pageProps} />
         </TanstackProvider>
       </ThemeProvider>
