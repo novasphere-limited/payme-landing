@@ -14,4 +14,6 @@ export const routes = {
     return `/payymenow/utils/features?${params}`;
   },
   getFeaturedIn: (id) => `/payymenow/utils/get-feature-id/${id}`,
+  contact: () => `/payymenow/contact-us/payyme`,
+  subscribe: () => `/payymenow/contact-us/newsletter`,
 };

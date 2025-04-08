@@ -34,7 +34,7 @@ export default function Footer() {
                 Careers
               </h6>
             </Link>
-            <Link href="#">
+            <Link href="/terms-and-condition">
               <h6 className="text-sm hover:underline hover:font-semibold">
                 Terms
               </h6>

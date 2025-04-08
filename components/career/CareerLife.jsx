@@ -3,44 +3,48 @@ import Image from "next/image";
 export default function CareerLife() {
   return (
     <div className="xl:py-[100px] py-8 md:py-[75px] lg:py-[80px] text-[#444444] xl:mx-[100px] lg:mx-[65px] md:mx-[48px] sm:mx-8 mx-6">
-      <div className="lg:flex">
+      <h2 className="relative font-medium lg:text-[34px] text-2xl lg:mb-10 sm:md-7 mb-5 inline-flex">
+        Life at PayyMe{" "}
+        <span className="absolute top-0 right-[-14px]">
+          <Image
+            src="/asset/stripe.png"
+            alt="Stripe icon"
+            height={27}
+            width={26}
+          />
+        </span>
+      </h2>
+      <div className="flex gap-10 lg:flex-row flex-col">
         <div className="w-full">
-          <h2 className="relative font-medium lg:text-[34px] text-2xl mb-1 inline-flex">
-            Life at PayyMe{" "}
-            <span className="absolute top-0 right-[-14px]">
-              <Image
-                src="/asset/stripe.png"
-                alt="Stripe icon"
-                height={27}
-                width={26}
-              />
-            </span>
-          </h2>
+          <h6 className="sm:text-base text-sm w-full text-[#444444]">
+            We’re a growing African fintech company focused on solving the
+            problem of access to digital banking services for more than 30
+            million unbanked individuals in Nigeria and across Africa. Our
+            mission is to make the digital payment system an inclusive one—fast,
+            trusted, and easily accessible, regardless of location or social
+            status. We believe that everyone should have access to secure and
+            efficient financial services, no matter their background.
+            <br />
+            <br />
+            To achieve this, we are always on the lookout for exceptional talent
+            who are performance- and result-driven, capable of adapting to a
+            fast-paced environment, and passionate about solving real customer
+            problems. By building a team of individuals who share our vision, we
+            can continue to innovate and break down barriers to financial
+            inclusion, ensuring that more people across Africa can engage with
+            the digital economy.
+          </h6>
         </div>
-        <h6 className="sm:text-base text-sm w-full text-[#444444]">
-          We’re an African fintech proud to serve more than five million
-          customers. As a  global startup, we work at a fast pace (we call it
-          ‘PayyMe Now’) across multiple timezones to solve some of the toughest
-          challenges in order to deliver on our mission: to provide the most
-          trusted and accessible financial services for people living in Africa
-          and beyond.
-          <br />
-          <br />
-          This means we place emphasis on high-performance, outcome-driven
-          results and adaptability. How we go about our work is just as
-          important, and our Chipper values:Be Customer Obsessed, Be Bold, Be an
-          Owner, Be Communicative to Develop Trust— guide how we show up for
-          each other. We believe we do our best work by adopting a hybrid
-          approach; mixing remote with regular time spent together in one of our
-          Chipper offices dotted around the world.
-        </h6>
+        <div className="flex items-center justify-center mb-3">
+          <Image
+            height={312}
+            width={499}
+            alt="Life at payyme image"
+            src="/asset/payyme-life.png"
+            className="object-fit"
+          />
+        </div>
       </div>
-      {/* <div className="bg-[#FFFFFF40] md:rounded-[100px] rounded-[10px] border-2 md:border-0 border-[#0DA16859] mb-6 shadow-style max-w-[1028px] py-5 xl:px-[161px] lg:px-[111px] md:px-[46px] px-[22px] mx-auto text-center">
-        <h6>
-          Join at a pivotal moment; the opportunity is huge, and PayyMe is just
-          getting started. Help us shape the future of the African continent.
-        </h6>
-      </div> */}
     </div>
   );
 }

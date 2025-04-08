@@ -34,7 +34,7 @@ export default function HoverMenu({ popText, popArray }) {
 
 function MenuItems({ popArray }) {
   return (
-    <div className="rounded-md bg-white py-4 space-y-6">
+    <div className="rounded-md bg-white py-4 space-y-2">
       {popArray.map((pop) => (
         <MenuItem key={pop.id} pop={pop} />
       ))}

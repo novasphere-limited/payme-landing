@@ -45,8 +45,8 @@ export default function Slider() {
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         navigation
         scrollbar={{ draggable: true }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
         {sliderArray.map((slide) => (
           <SwiperSlide key={slide.id}>

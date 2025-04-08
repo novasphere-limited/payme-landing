@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import LinkBtn from "./LinkBtn";
 import Typer from "./typed";
 import OpenSms from "./opensms";
 
@@ -24,7 +22,7 @@ export default function Herosection() {
       </div>
       <div className="w-full h-auto overflow-hidden rounded-lg">
         <Image
-          src="https://res.cloudinary.com/dstqfrcxx/image/upload/v1713356965/PayyMe/Frame_1321315220_bxbqby.png"
+          src="/asset/hero-herosect.png"
           alt="Farmer image"
           width={632}
           height={480}

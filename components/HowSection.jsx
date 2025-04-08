@@ -18,9 +18,9 @@ export default function HowSection() {
         </div>
         <div className="w-full flex justify-center md:h-[342px] h-[208px] overflow-hidden">
           <Image
-            src="/asset/double-phone.png"
+            src="/asset/how-img.png"
             alt="customer testimony imge"
-            width={543}
+            width={548}
             height={343}
             className="rounded-lg w-full"
             loading="lazy"

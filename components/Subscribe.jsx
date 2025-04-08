@@ -1,6 +1,25 @@
+import { useState } from "react";
 import Btn from "./Button";
+import { useSubscribe } from "@/service/forms";
+import { toast } from "sonner";
 
 export default function Subscribe() {
+  const [email, setEmail] = useState("");
+
+  const { subscribeData, subscribeDataIsLoading, subscribeDataPayload } =
+    useSubscribe((res) => {
+      setEmail("");
+      toast.success("Subscribed successfully!");
+    });
+
+  const handleSubmit = () => {
+    const payload = {
+      subscriberEmail: email,
+      IsPayyme: true,
+    };
+    subscribeDataPayload(payload);
+  };
+
   return (
     <div className="subscribe-container text-[#FEFCFC]">
       <div className="backdrop-blur-lg bg-[#000000BF] px-4 lg:py-[46px] py-[77px] sm:py-[67px]">
@@ -18,21 +37,31 @@ export default function Subscribe() {
         </div>
         <div className="flex justify-center">
           <form
-            className="flex lg:border-2 rounded-md sm:p-2 bg-transparent w-[662px] justify-between items-center"
-            style={{ border: "1px solid #0DA168" }}
+            className="w-[662px] flex flex-col sm:p-2 bg-transparent"
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleSubmit();
+            }}
           >
-            <input
-              type="email"
-              placeholder="Email"
-              style={{
-                outline: "none !important",
-                border: "none !important",
-                boxShadow: "none !important",
-              }}
-              className="p-3 sm:mb-3 lg:mb-0 border-0 rounded-md lg:border-0 w-full bg-transparent"
-            />
-            <div>
-              <Btn text="Subscribe" />
+            <div
+              className="flex justify-between items-center rounded-md overflow-hidden"
+              style={{ border: "1px solid #0DA168" }}
+            >
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="p-3 w-full border-0 outline-none bg-transparent"
+                style={{
+                  boxShadow: "none",
+                }}
+              />
+              <Btn
+                text="Subscribe"
+                type="submit"
+                disabled={subscribeDataIsLoading}
+              />
             </div>
           </form>
         </div>

@@ -10,6 +10,7 @@ export default function BasicMenu({ popText, popArray }) {
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
+    setAnchorEl(null);
   };
   const handleClose = () => {
     setAnchorEl(null);
