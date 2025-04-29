@@ -1478,6 +1478,1077 @@ export default function Legals() {
       </h6>
       <br />
       <br />
+      <h4 className="font-medium">17. TERM AND TERMINATION</h4>
+      <br />
+      <br />
+      <h6>
+        Term: Once this Agreement is effective, there is no minimum contract
+        period. This Agreement shall continue until it is terminated.
+        Termination shall be effected in accordance with this clause.
+        <br />
+        <br />
+        Termination by notice
+        <br />
+        <br />
+        You may terminate this Agreement at any time, subject to you emailing us
+        at Support@payymenow.com and requesting that we close your Account. It
+        may take up to 30 days for your Account closure to be complete.
+        <br />
+        <br />
+        If you are an Individual or Micro Enterprise, we may terminate this
+        Agreement at any time, subject to providing you with a period of two
+        months’ notice.
+        <br />
+        <br />
+        If you are a Large Enterprise, we may terminate the Agreement at any
+        time on notice.
+        <br />
+        <br />
+        Where you have a Business Account, you may not terminate this Agreement
+        to evade any investigation or review pursuant to clause 13 above. If you
+        attempt to terminate this Agreement while we are conducting an
+        investigation or review, we may hold your funds for up to 180 days to
+        protect us or a third party against the risk of reversals, chargebacks,
+        claims, fees, fines, penalties, and other liability. You will remain
+        liable for all obligations related to your Account even after the
+        Account is closed.
+        <br />
+        <br />
+        Termination by us and right to refuse to provide services
+        <br />
+        <br />
+        In connection with our obligations under Applicable Law, we reserve the
+        right to refuse to provide any services to you and the right to
+        immediately terminate this Agreement entered into with you, in the
+        occurrence of one or several of the following circumstances:
+        <br />
+        <br />
+        a) You are not:
+        <br />
+        <br />
+        If you are an Individual;
+        <br />
+        <br />
+        ● at least 18 years of age;
+        <br />
+        <br />
+        ● capable of entering into legally binding contracts;
+        <br />
+        <br />
+        ● a resident of a country in which we operate; and / or
+        <br />
+        <br />
+        If you are a Legal Entity:
+        <br />
+        <br />
+        ● where relevant, validly incorporated / registered (as appropriate);
+        <br />
+        <br />
+        ● capable of entering into legally binding contracts;
+        <br />
+        <br />
+        ● incorporated / registered (as appropriate) in a country in which we
+        operate; and / or
+        <br />
+        <br />
+        ● incorporated / registered (as appropriate) in Nigeria
+        <br />
+        <br />
+        b) We are unable to apply one or several due diligence measures to you
+        to its full satisfaction, including being unable:
+        <br />
+        <br />
+        ● to identify your purpose on using our services;
+        <br />
+        <br />
+        ● to verify your identity and, where relevant, that of any beneficial
+        owners we consider relevant; and / or
+        <br />
+        <br />
+        ● to obtain sufficient understanding supported by relevant documents and
+        / or information on the origin of your funds, source of your wealth or
+        other proof of your financial situation;
+        <br />
+        <br />
+        c) You do not, regardless of our demand, present us with additional
+        information and / or documents, which we are obliged to collect under
+        Applicable Law;
+        <br />
+        <br />
+        d) You carry out any activity in breach of Applicable Laws, or which we
+        consider harmful (either to the App or to another person) or immoral;
+        <br />
+        <br />
+        e) You have:
+        <br />
+        <br />
+        ● presented us with incorrect or insufficient information and / or
+        documents;
+        <br />
+        <br />
+        ● not performed an obligation under this Agreement; or
+        <br />
+        <br />
+        ● caused damage to us or created a threat giving rise to such damage;
+        <br />
+        <br />
+        f) We suspect that you may be involved with or that the services
+        provided to you may be used for money laundering, terrorist financing,
+        fraud or any other illegal activity and we are unable to remove such
+        suspicions;
+        <br />
+        <br />
+        g) There are circumstances related to you or a person affiliated with
+        you which indicates to a higher risk of money laundering, terrorist
+        financing, fraud or any other illegal activity and, in connection
+        thereof, we do not wish to provide services to you;
+        <br />
+        <br />
+        h) You or a person affiliated with you are or has been the subject of an
+        international financial sanction;
+        <br />
+        <br />
+        i) You have overdue payables to us for which we have the right to claim
+        from you for interest for late payment;
+        <br />
+        <br />
+        j) a competent public authority or another competent authority,
+        including any competent law enforcement authority, supervision
+        authority, tax authority, court or bailiff, has given us a lawful order
+        to terminate your Account or to restrict the services provided to you in
+        any other way;
+        <br />
+        <br />
+        k) an administrator of an international clearing system, including an
+        international card organization, a correspondent bank working with us or
+        any other intermediary to the services provided to you demands that we
+        restrict the services provided to you; and / or
+        <br />
+        <br />
+        l) We may not provide services to you under Applicable Law and / or we
+        have the right under Applicable Law to refuse from providing services to
+        you and / or we have the right under Applicable Law to immediately
+        terminate the Agreement entered into with you.
+        <br />
+        <br />
+        If we have exercised our right stipulated in clause 13.6 to refuse to
+        provide services to you or to terminate an Agreement entered into with
+        you it shall not be liable to you for any costs, losses, claims, and
+        expenses caused to you as a result of it taking this action.
+        <br />
+        <br />
+        Consequences of termination
+        <br />
+        <br />
+        Upon termination of this Agreement for any reason, we have the right to
+        prohibit your access to the Services, including without limitation by
+        deactivating your Account, and to refuse future access to the Services
+        by you or if a business entity, its parent, affiliates or subsidiaries
+        or its or their successors.
+        <br />
+        <br />
+        Upon the termination of this Agreement, we shall:
+        <br />
+        <br />
+        ● reject any Payment Transactions that have not yet been deemed to be
+        received;
+        <br />
+        <br />
+        ● close your E-Wallet; and
+        <br />
+        <br />
+        ● redeem any remaining E-Money held in your E-Wallet to your Nominated
+        Account, less any fees due and payable to us.
+        <br />
+        <br />
+        Following the transfer set out in this Agreement, we will have no
+        further obligations towards you in respect of this Agreement.
+        <br />
+        <br />
+        If we are unable (for whatever reason) to redeem any remaining E-Money
+        held in your E-Wallet to your Nominated Account following a termination,
+        we will retain the credit balance in a segregated account until notified
+        of a valid payment account (which would be capable of satisfying the
+        requirements of a Nominated Account) to which it can transfer the funds.
+        <br />
+        <br />
+        Where there is an insufficient balance of E-Money to satisfy all fees
+        due and payable to us, you will be required to transfer any outstanding
+        amounts (after the amounts due and payable have been offset against the
+        E-Wallet balance) to an account nominated by us within 5 Business Days.
+        <br />
+        <br />
+        We are not required to redeem any E-Money from your E-Wallet where you
+        made a request for redemption more than six years after the date of
+        termination of this Agreement.
+      </h6>
+      <br />
+      <br />
+      <h4>
+        <span className="font-medium"> 18. STATEMENTS</span>
+      </h4>
+      <br />
+      <br />
+      <h6>
+        You may at any time view or download a statement of E-Money issuances,
+        Payment Transactions and Redemptions made to or from your E-Wallet via
+        PayyMe in a section labelled “Account History” and we shall make
+        available to you a monthly account statement for the previous 12 months
+        from the date of your request. If this statement shows any transaction
+        which was not made by you, please report this by reaching out to us at
+        Support@payymenow.com.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 19. FEES</h4>
+      <br />
+      <br />
+      <h6>
+        You are obliged to pay us the fees outlined in the Fee Schedule for the
+        services provided to you by us under this Agreement.
+        <br />
+        <br />
+        If there is a Fee included in the Fee Schedule for a service provided to
+        you, we will debit the funds from the corresponding currency wallet in
+        your account. Fees are collected in the currency associated with the
+        transaction or product. If there are insufficient funds, we will auto
+        deduct from any e-value/funds held by the user on the app without
+        notifying you.
+        <br />
+        <br />
+        In case there is monthly fee included in the Fee Schedule for a service
+        provided to you, then we shall debit the respective amount from your
+        E-Wallet in advance on the Business Day that the relevant service was
+        first provided to you and then the same Business Day in each subsequent
+        month, unless the Agreement or the Fee Schedule indicates otherwise.
+        <br />
+        <br />
+        Following a Payment Transaction, you are liable to us for the full
+        amount of the payment plus any additional fees incurred if the payment
+        is later invalidated for any reason. This means that, in addition to any
+        other liability, you will be responsible for the sum of the Payment
+        Transaction, plus applicable fees if you make an unsuccessful claim or a
+        chargeback, or if there is a reversal of the Payment Transaction. You
+        agree to allow us to recover any amounts due to us by deducting the
+        relevant sum your E-Wallet. If there are insufficient funds in your
+        E-Wallet to cover the amount due, you agree to reimburse us through the
+        other means including those set out in this Agreement.
+        <br />
+        <br />
+        If we make a payment to you for a claim, reversal, or chargeback that
+        you file with us against a recipient of your payment, you agree that we
+        assume your rights against the recipient and third parties related to
+        the payment, and may pursue those rights directly or on your behalf, in
+        our discretion.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium">
+        {" "}
+        20. TRANSACTION LIMITS AND REGULATORY COMPLIANCE
+      </h4>
+      <br />
+      <br />
+      <h6>
+        o ensure security and comply with Nigerian financial regulations,
+        different account tiers have different transaction limits. These limits
+        apply to daily transfers, monthly transaction volumes, and maximum
+        account balances in accordance with Central Bank of Nigeria guidelines.
+        <br />
+        <br />
+        Your initial account tier is determined during registration based on the
+        level of identification provided. You can upgrade your account tier by
+        providing additional verification documents through our customer service
+        channels or authorized agents.
+        <br />
+        <br />
+        We implement strict anti-money laundering measures as required by the
+        Money Laundering (Prohibition) Act and CBN regulations. This includes
+        monitoring transactions for suspicious patterns and reporting certain
+        transactions to regulatory authorities as legally required. We may
+        request additional information about particular transactions to fulfil
+        our regulatory obligations.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 21. AMENDING THIS AGREEMENT</h4>
+      <br />
+      <br />
+      <h6>
+        The valid versions of this Agreement and the Fee Schedule shall be
+        deemed to be the newest versions of the documents available on the
+        Website.
+        <br />
+        <br />
+        As our services evolve and regulations change, we may update these
+        Terms. We shall have the right to unilaterally amend this Agreement
+        including the Fee Schedule. We'll notify you of any material changes
+        through SMS notifications, or other appropriate channels at least 30
+        days before they take effect.
+        <br />
+        <br />
+        Your continued use of our services after such notifications constitutes
+        acceptance of the modified Terms. If you do not agree with the updated
+        Terms, you should discontinue using our services and contact our
+        customer service to close your account.
+        <br />
+        <br />
+        If you are an Individual or Micro Enterprise, we will notify you at
+        least two months in advance of the amendments entering into force,
+        unless stipulated otherwise. If you do not accept the amendments, then
+        you may, at any time prior to the entry into force of the amendments,
+        terminate the Agreement without any additional fees effective
+        immediately by notifying us via the Website or other PayyMe services or
+        by email to Support@payymenow.com. If you have not, prior to the entry
+        into force of the amendments, notified us that you do not agree to the
+        amendments, then it shall be deemed that you have agreed to the
+        amendments and you will no longer be able to terminate the Agreement
+        under this clause.
+        <br />
+        <br />
+        If you are a Large Enterprise, we will use reasonable endeavours to
+        notify you of any amendment in advance, but are not obliged to do so.
+        <br />
+        <br />
+        If you are a Large Enterprise, any amendments to interest rates shall be
+        carried out in accordance with the above clauses.
+        <br />
+        <br />
+        If it becomes apparent that any provision of any Agreement is void under
+        Applicable Law, then subject to Applicable Law we shall have the right
+        to unilaterally amend the Agreement by replacing the void provision with
+        a valid provision so that the purpose of the valid provision would, as
+        much as possible, serve the purpose of the void provision. In such case
+        we shall notify you about the amendment via PayyMe or by email. In such
+        case you do not have the right to terminate the Agreement in accordance
+        with the above clause.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 22. NOTICES</h4>
+      <br />
+      <br />
+      <h6>
+        General All notices / communications made in respect of the Agreement,
+        and any provided under it by us, will be in English.
+        <br />
+        <br />
+        Notices to You
+        <br />
+        <br />
+        We may provide you with notices/communications in connection with the
+        services provided to you via:
+        <br />
+        <br />
+        ● PayyMe – when you access our SMS service;
+        <br />
+        <br />
+        ● Post – to the most recent postal address you provided to us; or
+        <br />
+        <br />
+        ● E-mail – to the most recent e-mail address you provided to us.
+        <br />
+        <br />
+        ● SMS Text Messaging - to the most recent phone you provide to us.
+        <br />
+        <br />
+        ● Telephone - to the most recent phone you provide to us.
+        <br />
+        <br />
+        You undertake that the contact details provided to us are up to date and
+        that you can be reached using these contact details. If the contact
+        details should change, then you shall without delay provide us with your
+        updated contact details. You can update your contact details as set out
+        in clause below.
+        <br />
+        <br />
+        Notices sent to you by us are deemed to have been received by you when:
+        <br />
+        <br />
+        ● sent by post – three Business Days after being posted;
+        <br />
+        <br />
+        ● sent by E-Mail – on the Business Day it is sent;
+        <br />
+        <br />
+        ● you access any PayyMe service
+        <br />
+        <br />
+        Notices to us
+        <br />
+        <br />
+        Any notice to us must be sent by post to: FAO: Legal Department, Abuja
+        FCT Nigeria or by email to legal@novasphereltd.com.
+        <br />
+        <br />
+        If you notify us of any event orally, we may require that you send us
+        written confirmation within 10 Business Days. During the course of our
+        investigation of such an event, we may request additional information
+        from you.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 23 . PRIVACY AND DATA PROTECTION</h4>
+      <br />
+      <br />
+      <h6>
+        Protecting your privacy is very important to us. Please review our
+        Privacy Policy in order to better understand our commitment to
+        maintaining your privacy and protecting your data, as well as our use
+        and disclosure of your information.
+        <br />
+        <br />
+        If you receive information about another PayyMe customer through the
+        Services, you must keep the information confidential and only use it in
+        connection with the service. You may not disclose or distribute a PayyMe
+        user’s information to a third party or use the information for marketing
+        purposes without that user’s express consent.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 24 . RESPONSIBILITIES AND RESTRICTIONS</h4>
+      <br />
+      <br />
+      <h6>
+        While using our services, you agree to use them only for lawful purposes
+        and in accordance with these Terms. You are responsible for ensuring
+        that information you provide, particularly recipient details for
+        transfers, is accurate. We cannot be held responsible for transfers to
+        incorrect recipients resulting from information you provided.
+        <br />
+        <br />
+        Our service is for personal or authorized business use only. You agree
+        not to use our platform for any illegal activities, including money
+        laundering, fraud, terrorism financing, or any violation of Nigerian
+        laws. You also agree not to attempt to reverse-engineer our SMS short
+        codes or bypass any security measures we've implemented.
+        <br />
+        <br />
+        We respect your privacy and expect you to respect others' privacy as
+        well. You agree not to use our service to collect information about
+        other users or to send unsolicited commercial messages. Our commitment
+        to protecting your information is detailed in our Privacy Policy, which
+        forms part of these Terms
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 25 . PAYYME</h4>
+      <br />
+      <br />
+      <h6>
+        <span className="font-medium">SMS SERVICE INFRASTRUCTURE</span>
+        <br />
+        <br />
+        Our financial services are delivered through Short Message Service (SMS)
+        technology, which operates across various mobile networks and devices in
+        Nigeria. We recognize that our service relies on multiple external
+        infrastructure components to function effectively. These robust
+        infrastructures designed to ensure secure, efficient, and reliable
+        message transmission. By using our services, you acknowledge and agree
+        that:
+        <br />
+        <br />
+        <span className="font-medium">Network Reliance: </span> Our SMS services
+        depend on mobile network operators (MNOs) and third- party SMS gateway
+        providers for message delivery. These network providers are responsible
+        for:
+        <br />
+        <br />
+        ● Providing and maintaining cellular network connectivity for SMS
+        transmission
+        <br />
+        <br />
+        ● Ensuring basic connectivity
+        <br />
+        <br />
+        ● Transmitting SMS session data
+        <br />
+        <br />
+        We do not guarantee real-time delivery of messages, as transmission may
+        be affected by network congestion, carrier limitations, or technical
+        disruptions beyond our control.
+        <br />
+        <br />
+        <span className="font-medium">SMS Gateways & Aggregators:</span> We may
+        utilize SMS gateways and aggregators to facilitate message routing,
+        optimize delivery, and enhance service reliability. These intermediaries
+        help ensure that messages reach users promptly and securely.
+        <br />
+        <br />
+        Short Message Service Centre (SMSC): Messages sent through our platform
+        are processed via SMSCs, which manage message storage, forwarding, and
+        retries in case of temporary delivery failures. While we strive to
+        ensure timely delivery, we are not liable for delays or non- delivery
+        caused by third-party service failures.
+        <br />
+        <br />
+        Security & Encryption: We implement industry-standard security measures
+        to protect SMS communications. However, SMS is inherently less secure
+        than other communication channels. Users are advised not to share
+        sensitive financial information via SMS unless explicitly instructed
+        through secure verification processes.
+        <br />
+        <br />
+        Service Availability & Restrictions: Our SMS services may be subject to
+        regional carrier regulations, fair usage policies, and
+        government-mandated restrictions. We reserve the right to suspend or
+        terminate SMS-based services in compliance with legal and regulatory
+        requirements.
+        <br />
+        <br />
+        User Network and Device Responsibilities: As a user, you are responsible
+        for ensuring that the mobile number linked to your account is accurate
+        and up to date. We are not responsible for messages sent to incorrect or
+        outdated numbers due to user error. As a user, you acknowledge and agree
+        that:
+        <br />
+        <br />
+        ● You are responsible for any charges imposed by your mobile network
+        operator for SMS sessions
+        <br />
+        <br />
+        ● Different network operators may have varying SMS access fees
+        <br />
+        <br />
+        ● Device compatibility is your responsibility
+        <br />
+        <br />
+        ● Network connectivity issues are not grounds for service liability
+        claims
+        <br />
+        <br />
+        <span className="font-medium">
+          {" "}
+          THIRD-PARTY SERVICE DEPENDENCIES & LIMITATIONS
+        </span>
+        <br />
+        <br />
+        PayyMe, our SMS-based financial service, relies on external service
+        providers, including mobile network operators (MNOs), SMS gateways,
+        aggregators, and device manufacturers. While we strive to provide a
+        secure and reliable SMS-based financial service, you acknowledge and
+        accept the following limitations, risks associated with the SMS service
+        infrastructure, and third-party dependencies:
+        <br />
+        <br />
+        <span className="font-medium">
+          Role of Mobile Network Operators (MNOs) & Device Manufacturers:
+        </span>{" "}
+        MNOs and device manufacturers facilitate SMS transmission but do not
+        manage or control our financial services. As such, they are not
+        responsible for:
+        <br />
+        <br />
+        ● The performance, availability, or reliability of PayyMe.
+        <br />
+        <br />
+        ● Financial transaction processing, authorization, or financial service
+        delivery.
+        <br />
+        <br />
+        ● PayyMe customer support, dispute resolution, or service-related
+        inquiries.
+        <br />
+        <br />
+        All support requests must be directed to our official customer service
+        channels.
+        <br />
+        <br />
+        <span className="font-medium">
+          SMS Infrastructure Limitations & Risks:{" "}
+        </span>
+        Due to the nature of SMS technology and third- party dependencies, you
+        acknowledge that:
+        <br />
+        <br />
+        ● Network & Delivery Failures – SMS delivery is subject to mobile
+        network availability, signal strength, carrier restrictions, third-party
+        service disruptions, device compatibility, network operator technical
+        configurations, temporary network interruptions, etc. Messages may be
+        delayed, undelivered, or out of order due to factors beyond our control.
+        We cannot guarantee uninterrupted service due to factors outside our
+        direct control.
+        <br />
+        <br />
+        ● Security & Interception Risks – SMS messages are not end-to-end
+        encrypted and may be intercepted, spoofed, or accessed by unauthorized
+        third parties. You are advised to exercise caution when sending or
+        receiving financial information via SMS.
+        <br />
+        <br />
+        ● User Device & Number Issues – If you lose access to your registered
+        mobile number, fail to keep accurate or update your contact details,
+        experience device malfunctions, or the registered number becomes
+        inactive, you may not receive critical messages or transaction alerts.
+        We are not responsible for any resulting inconvenience or financial
+        loss.
+        <br />
+        <br />
+        ● Third-Party Service Dependencies – Our platform relies on external SMS
+        gateways, aggregators, and mobile network operators to facilitate
+        communication. Service disruptions, maintenance, or compliance
+        requirements imposed by these third parties may impact the availability
+        of our SMS services.
+        <br />
+        <br />
+        ● Fraud & Unauthorized Access – Phishing scams, social engineering
+        attacks, and unauthorized SIM swaps pose risks to SMS-based
+        authentication and notifications. We will never request sensitive
+        financial details via SMS, and users must remain vigilant against
+        fraudulent messages.
+        <br />
+        <br />
+        ● Regulatory & Compliance Restrictions – Our SMS services may be subject
+        to government regulations, carrier policies, or regional restrictions
+        that impact availability.
+        <br />
+        <br />
+        <span className="font-medium">Limitation of Liability</span>
+        <br />
+        <br />
+        To the fullest extent permitted by law, we are not liable for any
+        direct, indirect, incidental, special, or consequential damages arising
+        from:
+        <br />
+        <br />
+        ● SMS service disruptions, delays, or inaccuracies in SMS delivery due
+        to network issues, technical disruptions, or third-party service
+        failures,
+        <br />
+        <br />
+        ● Unauthorized access to your messages resulting from interception, SIM
+        swap fraud, or other security breaches beyond our control.
+        <br />
+        <br />
+        ● User negligence, errors, omissions, or failure to keep registered
+        contact information accurate and up to date.
+        <br />
+        <br />
+        ● Regulatory or carrier-imposed restrictions that limit the
+        functionality or availability of our SMS-based services.
+        <br />
+        <br />
+        By using PayyMe, you acknowledge these limitations and agree that we,
+        along with mobile network operators and device manufacturers, shall not
+        be held responsible for any losses, damages, liabilities, or disruptions
+        resulting from the inherent limitations of the SMS service
+        infrastructure, third-party service dependencies, or user actions.
+        <br />
+        <br />
+        <span className="font-medium">REGULATORY COMPLIANCE</span>
+        <br />
+        <br />
+        PayyMe, our SMS-based financial service, operates in accordance with
+        applicable laws, regulations, and industry standards governing mobile
+        communications, financial transactions, and data protection. By using
+        our services, you acknowledge and agree to the following:
+        <br />
+        <br />
+        <span className="font-medium">
+          1. Compliance with Telecommunications and Financial Regulations
+        </span>{" "}
+        – We adhere to regulatory requirements set by the Nigerian
+        Communications Commission (NCC), the Central Bank of Nigeria (CBN), and
+        other applicable regulatory bodies. These regulations may affect service
+        availability, transaction limits, and message content.
+        <br />
+        <br />
+        <span className="font-medium">2. Data Protection and Privacy</span> – We
+        comply with the Nigerian Data Protection Act, and other relevant data
+        protection laws including obligations related to the collection,
+        processing, and storage of user information. SMS communications may be
+        monitored, logged, or retained as required by law or regulatory
+        authorities.
+        <br />
+        <br />
+        <span className="font-medium">
+          3. Government and Regulatory Requests
+        </span>{" "}
+        – We may be required to disclose certain user data or transaction
+        records to regulatory agencies, law enforcement, or other authorized
+        entities in compliance with legal obligations. Such disclosures will be
+        made in accordance with applicable laws and due process.
+        <br />
+        <br />
+        <span className="font-medium">
+          4. Regional and International Restrictions
+        </span>{" "}
+        – Our SMS services may be subject to country-specific regulations,
+        including restrictions on international messaging, financial
+        transactions, or mobile service provider policies. We reserve the right
+        to suspend or modify services in response to regulatory changes.
+        <br />
+        <br />
+        <span className="font-medium">5. User Compliance Obligations</span> –
+        You are responsible for ensuring that your use of PayyMe complies with
+        all applicable laws and regulations in your jurisdiction. Any
+        <br />
+        <br />
+        misuse, fraudulent activity, or violation of regulatory requirements may
+        result in service suspension or legal consequences.
+        <br />
+        <br />
+        <span className="font-medium">Limitation of Liability</span>
+        <br />
+        <br />
+        To the fullest extent permitted by law, we are not liable for any
+        direct, indirect, incidental, special, or consequential damages arising
+        from:
+        <br />
+        <br />
+        ● Regulatory changes, restrictions, or compliance requirements that
+        impact the availability, functionality, or terms of PayyMe.
+        <br />
+        <br />
+        ● Delays or disruptions caused by government-imposed service
+        suspensions, security measures, or policy updates.
+        <br />
+        <br />
+        ● User failure to comply with applicable laws, leading to penalties,
+        service termination, or legal consequences.
+        <br />
+        <br />
+        By using PayyMe, you acknowledge that regulatory requirements may affect
+        service delivery and agree that we shall not be held responsible for any
+        losses, liabilities, or limitations resulting from compliance
+        obligations or legal mandates. Mobile network operators, device
+        manufacturers, and other third-party service dependencies have no legal
+        obligation to support or maintain our financial service infrastructure
+        beyond providing the required SMS service infrastructure.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 26 . NTELLECTUAL PROPERTY</h4>
+      <br />
+      <br />
+      <h6>
+        Our SMS service design, workflows, and proprietary technologies are
+        exclusively owned by NOVASPHERE TECHNOLOGY SOLUTIONS LTD. Mobile network
+        operators and device manufacturers have no claim to our service
+        infrastructure or intellectual property.
+        <br />
+        <br />
+        All aspects of our service, including our SMS interface, workflows,
+        designs, and related content, are protected by intellectual property
+        laws. Our service is licensed, not sold, to you for your personal use
+        only. Nothing in these Terms transfers any ownership rights to you.
+        <br />
+        <br />
+        The NOVASPHERE TECHNOLOGY SOLUTIONS LTD. and PayyMe (including other
+        PayyMe services) name, logo, and all related products, and services
+        described on any other operated by the company (including the Website)
+        and any mobile application operated by the company (including PayyMe)
+        are either trademarks or registered trademarks of the company or its
+        affiliates or licensors. You may not copy, imitate, or use them without
+        the company’s prior written consent. In addition, all page headers,
+        custom graphics, button icons, and scripts are service marks,
+        trademarks, and / or trade dress of the company. You may not copy,
+        imitate, or use them without our prior written consent. You may use HTML
+        logos provided by the company through our vendor services, SMS tools,
+        promotional tools, or affiliate programs without prior written consent
+        for the purpose of directing web and SMS traffic to the service. You may
+        not alter, modify or change these HTML logos in any way, use them in a
+        manner that is disparaging to the company, PayyMe, or PayyMe Service or
+        display them in any manner that implies the company’s sponsorship or
+        endorsement. All right, title, and interest in and to any website or
+        service operated by the company and any content thereon is the exclusive
+        property of the company and its licensors. Certain other product or
+        service names, brand names and company names may be trademarks of their
+        respective owners.
+        <br />
+        <br />
+        PayyMe and all PayyMe services (and any other website or application
+        operated by us) may feature third party offers and enable product
+        searches. We do not warrant that product descriptions, pricing, search
+        results, user ratings and reviews or any other content on the any such
+        website is accurate, complete, reliable, or current. This information is
+        provided for informational purposes only and does not constitute an
+        endorsement by us of any product, service, or vendor.
+        <br />
+        <br />
+        License Grant
+        <br />
+        <br />
+        Certain of the PayyMe Services require the use of software and software
+        applications provided to you through the company (collectively
+        “Software”) owned by the company (“Novasphere Technology Solutions
+        Ltd.”) and its licensors grant you a limited, nonexclusive license to
+        use the company’s Software that we provide to you solely in accordance
+        with this Agreement and any user documentation we may provide, including
+        all updates, upgrades, new versions and replacements of the Software
+        (all of which become part of the “Software”) for your personal use only
+        in accordance with this Agreement. If the Software will be downloaded to
+        a mobile device, this license extends to your use of the Software on a
+        device that you own or control, as long as your use is permitted by the
+        usage rules set forth for your particular device (for example, the Apple
+        App Store Terms of Use). You may not rent, lease or otherwise transfer
+        your rights in the Parent Software to a third party. You must comply
+        with the implementation and use requirements for the Parent Software
+        contained in this Agreement or in any Services documentation we provide
+        to you. If you do not comply with such implementation and use
+        requirements, you will be liable for all resulting damages suffered by
+        you, us, or any third parties. You agree not to alter, reproduce, adapt,
+        distribute, display, publish, reverse engineer, translate, disassemble,
+        decompile or otherwise attempt to create any source code which is
+        derived from the software. You acknowledge that all rights, title and
+        interest to the Software are owned by the company. Your rights to use
+        the Software cease immediately upon termination of this Agreement and
+        you must delete all of your copies of the Software.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 27 . LIABILITY</h4>
+      <br />
+      <br />
+      <h6>
+        If we incur any damages because you violate our policies, break any
+        laws, or otherwise cause us to suffer any damages or incur any expenses
+        then we may hold your funds up to 180 days, we may recover from you the
+        damages incurred from each violation and take legal action against you
+        to recover additional losses, investigation costs, fines, or legal fees
+        we may incur.
+        <br />
+        <br />
+        Unless otherwise prohibited by Applicable Law, you assume all
+        responsibility for your use of the Services and use them at your own
+        risk. To the fullest extent permissible under Applicable Law, all such
+        representations, warranties, guarantees and conditions are disclaimed,
+        including, but not limited to, any implied warranties of
+        merchantability, fitness for a particular purpose, title,
+        noninfringement of intellectual property rights, or other terms which
+        might otherwise be implied by statute, common law or in equity. We do
+        not warrant that the services will be uninterrupted or error-free, that
+        defects will be corrected, or that the services, or the servers that
+        process information for the services, are free of viruses, bugs or other
+        harmful components.
+        <br />
+        <br />
+        On behalf of us, Covered Third Parties, and each of our respective
+        affiliates, vendors, agents and suppliers, we make the following
+        disclaimers set forth in this clause: the Services are provided on an
+        “as is”, “as available” and “with all faults” basis, without any
+        representations, warranties, guarantees, or conditions of any kind,
+        express, implied or statutory, including, but not limited to, any
+        warranty as to the use or operation of the services, or the information,
+        content or other materials related to the services, whether provided by
+        us, any third party, or any of the Covered Third Parties. Neither we,
+        nor any third party, nor any of the Covered Third Parties warrant nor
+        make any representations regarding the use or the results of the
+        services in terms of correctness, accuracy, timeliness, reliability, or
+        otherwise.
+        <br />
+        <br />
+        You assume the entire cost of all necessary maintenance, repair, or
+        correction to any equipment you use in accessing any of the services,
+        including, but not limited to, your mobile phone or other device.
+        <br />
+        <br />
+        Neither we, nor any third party (including any Covered Third Parties),
+        nor any of their respective affiliates, vendors, agents or suppliers
+        will be liable for, and you agree not to seek against any of the
+        foregoing, any damages of any kind arising from the use of the services,
+        including, but not limited to, indirect, special, incidental, punitive,
+        exemplary, consequential damages or damages resulting from the use of
+        Services, loss of use of the Services, lost data, lost profits, or
+        business interruption arising out of or in any way connected with the
+        use of the services, any delays in the services, or the inability to use
+        the services, or any portion thereof, whether based on contract, tort,
+        negligence, strict liability or otherwise, even if all or any of us have
+        been advised of the possibility of such damages and even if any remedy
+        fails of its essential purpose.
+        <br />
+        <br />
+        <span className="font-medium">Limitations on Liability</span>
+        <br />
+        <br />
+        Except as otherwise expressly provided in this Agreement, and to the
+        extent permissible under Applicable Law, our (including our officers,
+        employees or agents) cumulative liability to you for any claims or
+        damages arising out of or related to your use of the Services shall not
+        exceed the Fees you paid to us for the Services provided under this
+        Agreement. Indemnification Except to the extent that any loss is due to
+        a Party’s (the “Non-Breaching Party”) negligence, wilful default or
+        fraud or that of the Non-Breaching Party’s employees or Non-Breaching
+        Party’s affiliated companies, the other Party will indemnify the
+        Non-Breaching Party against all costs, losses, claims and expenses which
+        may be incurred or made by the Non-Breaching Party arising as a result
+        of or in connection with this Agreement.
+        <br />
+        <br />
+        <span className="font-medium">Release</span>
+        <br />
+        <br />
+        If you have a dispute with one or more other PayyMe customers relating
+        to payment, we are not responsible for any such dispute and you hereby
+        release us (and our officers, directors, agents, joint ventures and
+        employees) from any and all claims, demands and damages (actual and
+        consequential) of every kind and nature arising out of or in any way
+        connected with such disputes.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium">
+        {" "}
+        28 . APPLICABLE LAW AND DISPUTE RESOLUTION
+      </h4>
+      <br />
+      <br />
+      <h6>
+        his Agreement will be governed by Nigerian law and the courts of Nigeria
+        will have exclusive jurisdiction over any claim, dispute or matter.
+        <br />
+        <br />
+        You shall have the right to submit any complaints about the services
+        provided to you by e-mail to us. We will handle all complaints in
+        accordance with our Complaints Handling Procedures, a summary of which
+        is set out on the Website.
+        <br />
+        <br />
+        If you are an Individual or Micro Enterprise and we have not replied to
+        a duly submitted customer complaint within 15 days, then you may have a
+        right to seek recourse from the Public Complaints Commission in Nigeria.
+        The terms for seeking recourse from the Public Complaints Commission are
+        stipulated in more detail on the website of the Public Complaints
+        Commission at https://pcc.org.ng/jsst-add-ticket
+        <br />
+        <br />
+        If we cannot resolve your issue through our customer service channels,
+        disputes shall be resolved through mediation in accordance with the
+        Arbitration and Conciliation Act of Nigeria. The mediation shall take
+        place in Abuja FCT, Nigeria, in the English language.
+        <br />
+        <br />
+        For regulatory complaints regarding our financial services, you have the
+        right to escalate unresolved issues to the Consumer Protection
+        Department of the Central Bank of Nigeria after attempting to resolve
+        them directly with us.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 29 . SURVIVAL AND FORCE MAJEURE</h4>
+      <br />
+      <br />
+      <h6>
+        In the event of termination of this Agreement or the Services, the terms
+        in this Agreement that by their nature are continuing shall survive such
+        termination, including but not limited to clauses 1, 13, 15, 17, 19 to
+        30.
+        <br />
+        <br />
+        We shall not be liable for any delay or failure in the performance or in
+        delivery or shipment of materials, or for any damages suffered by you by
+        reason of such delay or failures, directly or indirectly caused by or in
+        any manner arising from or connected with acts of God, acts of public
+        enemies, riots, disease (including pandemics and/or epidemics), strikes,
+        acts of governmental agencies, labour difficulties, failure of our
+        power, telecommunications or other suppliers, delays in securing or
+        shortages of raw materials, breakdown or destruction of any system or
+        equipment, or any other cause or causes beyond our control, whether or
+        not similar to those enumerated herein.
+      </h6>
+      <br />
+      <br />
+      <h4 className="font-medium"> 30 . GENERAL PROVISIONS</h4>
+      <br />
+      <br />
+      <h6>
+        You acknowledge and agree that this Agreement is between you and us, not
+        with any third party (including, but not limited to, any Covered Third
+        Party), and that we are solely responsible for the Services. Your use of
+        the Services may be subject to separate agreements you may enter into
+        with a Covered Third Party. You agree to comply with all applicable
+        Covered Third-Party terms of agreement when using the Services. We are
+        not a party to agreements with a Covered Third Party and have no
+        responsibility for the products and services provided by such Covered
+        Third Parties.
+        <br />
+        <br />
+        It is your responsibility to determine what, if any, taxes apply to any
+        Payment Transaction you make or receive, and it is your responsibility
+        to collect, report and remit the correct tax to the appropriate tax
+        authority. We are not responsible for determining whether taxes apply to
+        your transaction, or for collecting, reporting or remitting any taxes
+        arising from any transaction.
+        <br />
+        <br />
+        This Agreement and other documents (including but not limited to the
+        Privacy Policy) referenced in or linked to this Agreement, which are
+        hereby incorporated herein and made a part of this Agreement by this
+        reference, contain yours and our entire Agreement regarding your use of
+        the Services.
+        <br />
+        <br />
+        If any provision of this Agreement is deemed to be illegal or
+        unenforceable, such provision shall be enforced to the extent possible,
+        and any remaining illegality or unenforceability will not affect the
+        validity or enforceability of any other provisions of this Agreement,
+        which together will be construed as if such illegal or unenforceable
+        provision had not been included in this Agreement.
+        <br />
+        <br />
+        Unless the right of enforcement is expressly granted, it is not intended
+        that any provision of this Agreement shall be enforceable by any person
+        who is not a party to this Agreement.
+        <br />
+        <br />
+        The clause headings in this Agreement are for convenience of reference
+        only and are not to be considered as parts, provisions or
+        interpretations of this Agreement.
+        <br />
+        <br />
+        You may not transfer, assign, mortgage, charge, subcontract, declare a
+        trust over or deal in any other manner with any or all of your rights
+        and obligations under this Agreement without our prior written consent.
+        We shall have the right to assign, transfer or novate the Agreement or
+        any rights and obligations under any Agreement to a third party without
+        your consent.
+        <br />
+        <br />
+        We reserve the right to transfer or assign this Agreement or any right
+        or obligation under this Agreement at any time.
+        <br />
+        <br />
+        Our delay or failure to act with respect to a breach by you or others
+        does not waive our right to act with respect to that breach or
+        subsequent or similar breaches.
+        <br />
+        <br />
+        Nothing in this Agreement shall be deemed to create any form of
+        partnership, joint venture or any other similar relationship between you
+        and us, and / or other individuals or entities involved with providing
+        the services under this Agreement.
+        <br />
+        <br />
+        The Company may arrange for Bank PLC ("BANK") to provide you with access
+        to a debit card (a PayyMe Card”). By using the PayyMe Card, you agree to
+        the bank’s Prepaid Card Terms and Conditions, as applicable (each the
+        “PayyMe Card Terms”). For avoidance of doubt, the applicable PayyMe Card
+        Terms are between you and the bank, not the Company, and in the event of
+        any inconsistency between this Agreement and the applicable PayyMe Card
+        Terms, the applicable PayyMe Card Terms shall govern your use of the
+        PayyMe Card and your relationship with the bank.
+        <br />
+        <br />
+        <span className="font-medium">Service Update: </span>The Service is
+        designed to facilitate secure and efficient financial transactions via
+        SMS-based technology. The Company may, at its discretion, expand the
+        scope of the Service to include additional platforms such as mobile
+        applications, web-based portals, or other digital interfaces.
+        Furthermore, the Company reserves the right to extend the Service beyond
+        the current jurisdiction, enabling cross-border or international
+        transactions, subject to applicable regulatory approvals. Any such
+        expansion may introduce new features, terms, and conditions, which will
+        be communicated to Users in advance. Continued use of the Service after
+        such modifications shall constitute acceptance of the updated scope.
+        <br />
+        <br />
+        <span className="font-medium">HOW TO CONTACT US</span>
+        <br />
+        If you are dissatisfied with any aspect of the Services that you have
+        received from PayyMe, you can send a complaint to
+        legal@novasphereltd.com, or lodge a complaint using the PayyMe service
+        or website customer support chat.
+      </h6>
     </div>
   );
 }
