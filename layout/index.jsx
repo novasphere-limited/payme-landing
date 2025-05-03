@@ -3,10 +3,12 @@ import Navbar from "@/parts/navbar";
 
 export default function Layout({ children }) {
   return (
-    <>
-      <Navbar />
-      <main>{children}</main>
+    <section>
+      <div className="max-w-[1440px] mx-auto">
+        <Navbar />
+        <main>{children}</main>
+      </div>
       <Footer />
-    </>
+    </section>
   );
 }

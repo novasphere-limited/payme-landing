@@ -103,6 +103,7 @@ export default function ContactForm() {
                 name="firstName"
                 value={formData?.firstName}
                 onChange={(e) => handleChange(e)}
+                required
               />
               <input
                 type="text"
@@ -119,6 +120,7 @@ export default function ContactForm() {
                 name="phoneNumber"
                 onChange={(e) => handleChange(e)}
                 value={formData?.phoneNumber}
+                required
               />
               <input
                 type="text"
@@ -127,6 +129,7 @@ export default function ContactForm() {
                 name="subject"
                 onChange={(e) => handleChange(e)}
                 value={formData?.subject}
+                required
               />
               <textarea
                 placeholder="Your message"
@@ -135,6 +138,7 @@ export default function ContactForm() {
                 name="message"
                 onChange={(e) => handleChange(e)}
                 value={formData?.message}
+                required
               ></textarea>
               <Btn
                 text="Submit"

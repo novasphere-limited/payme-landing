@@ -90,10 +90,16 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`${
+        className={`mx-auto ${
           router.pathname === "/" ? "bg-[#ECF3F54D]" : "bg-[#ECF3F54D]"
         }`}
-        style={{ position: "fixed", top: "0", width: "100%", zIndex: "1000" }}
+        style={{
+          position: "fixed",
+          top: "0",
+          width: "100%",
+          zIndex: "1000",
+          maxWidth: "1440px",
+        }}
       >
         <div className="navbar xl:px-[166px] py-4 lg:px-[134px] md:px-[84px] sm:px-[44px] sticky">
           <Link href="/">

@@ -47,6 +47,8 @@ export default function Slider() {
         scrollbar={{ draggable: true }}
         // onSlideChange={() => console.log("slide change")}
         // onSwiper={(swiper) => console.log(swiper)}
+        className="w-full"
+        style={{ maxWidth: "100%" }}
       >
         {sliderArray.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -59,7 +61,7 @@ export default function Slider() {
                   height={331}
                   className="rounded-lg slide-img"
                   loading="lazy"
-                  style={{ objectFit: "cover" }}
+                  // style={{ objectFit: "cover" }}
                 />
               </div>
 

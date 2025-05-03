@@ -8,7 +8,7 @@ export default function CareerRole() {
           className="pb-4 pt-[59px] l:px-[64px] lg:px-[48px] md:px-[36px] sm:px-[24px] px-4 md:text-5xl text-2xl"
           style={{ borderBottom: "1px solid #A9A7A7" }}
         >
-          Find your best role
+          Find your best role ☺
         </h3>
         <div>
           <div

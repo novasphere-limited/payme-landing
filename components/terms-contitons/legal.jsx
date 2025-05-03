@@ -142,8 +142,10 @@ export default function Legals() {
     //     </div>
     //   </div>
     // </div>
-    <div className="bg-[#FAF8FE] xl:px-[100px] lg:px-[75px] md:px-[50px] sm:px-[35px] px-4  pt-[51px] pb-[123px]">
-      <h4>User Agreement Valid as of April 1, 2025</h4>
+    <div className="bg-[#FAF8FE] xl:px-[100px] lg:px-[75px] md:px-[50px] sm:px-[35px] px-4  pt-[51px] pb-[123px] md:text-base text-sm">
+      <h4 className="font-medium lg:text-[22px] text-xl">
+        User Agreement Valid as of April 1, 2025
+      </h4>
       <br />
       <h6>
         Welcome to{" "}
@@ -180,7 +182,10 @@ export default function Legals() {
         part of these Terms, please refrain from using our services.
       </h6>
       <br />
-      <h4> 1 . DEFINITIONS</h4>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        {" "}
+        1 . DEFINITIONS
+      </h4>
       <br />
       <h6>
         Throughout these Terms, certain words and phrases have specific
@@ -422,9 +427,8 @@ export default function Legals() {
         Novasphere Technology Solutions Ltd., and our subsidiaries
       </h6>
       <br />
-      <h4>
-        {" "}
-        <spa className="font-medium"> 2 . THIRD-PARTY PROVIDER </spa>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        2 . THIRD-PARTY PROVIDER
       </h4>
       <br />
       <h6>
@@ -491,27 +495,29 @@ export default function Legals() {
         Agreement by the company. You may, at any time and at no cost to you,
         obtain a copy of this Agreement applicable to you by accessing the
         Website or other PayyMe services and downloading the version available.
-        Alternatively, you may contact us at legal@novasphereltd.com and we will
-        provide a copy to you via e-mail or post.
+        Alternatively, you may contact us at{" "}
+        <span className="text-[#0015FF]">legal@novasphereltd.com</span> and we
+        will provide a copy to you via e-mail or post.
       </h6>
       <br />
-      <br />
-      <h6>
-        {" "}
-        <span className="font-medium">3. ABOUT OUR SERVICES </span>
-      </h6>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        3. ABOUT OUR SERVICES
+      </h4>
       <br />
       <h4>
         PayyMe, our SMS-based financial service platform, allows you to perform
         various financial transactions directly from your mobile device without
         requiring internet access. Through simple SMS short codes, you can
         transfer money, check balances, pay bills, purchase airtime, and access
-        other financial services we may introduce over time. We've designed our
-        service to be accessible to all Nigerians with a mobile phone,
-        regardless of whether you have a smartphone or internet connectivity.
-        Our mission is to make financial services more inclusive and to bring
-        the convenience of digital payments to everyone, everywhere in Nigeria.
-        he services that will be provided by us under this Agreement shall
+        other financial services we may introduce over time. <br /> <br />
+        We've designed our service to be accessible to all Nigerians with a
+        mobile phone, regardless of whether you have a smartphone or internet
+        connectivity. Our mission is to make financial services more inclusive
+        and to bring the convenience of digital payments to everyone, everywhere
+        in Nigeria.
+        <br />
+        <br />
+        The services that will be provided by us under this Agreement shall
         include:
         <br />
         <br />
@@ -538,8 +544,8 @@ export default function Legals() {
       </h4>
       <br />
       <br />
-      <h4>
-        <span className="font-medium">4. ELIGIBILITY TO USE OUR SERVICES</span>{" "}
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        4. ELIGIBILITY TO USE OUR SERVICES
       </h4>
       <br />
       <h6>
@@ -559,12 +565,8 @@ export default function Legals() {
         (KYC) requirements
       </h6>
       <br />
-      <br />
-      <h4>
-        {" "}
-        <span className="font-medium">
-          5. ACCOUNT REGISTRATION AND SECURITY{" "}
-        </span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        5. ACCOUNT REGISTRATION AND SECURITY
       </h4>
       <br />
       <h6>
@@ -590,9 +592,8 @@ export default function Legals() {
         suspicious activities is essential to maintaining account security.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 6. OPENING AN ACCOUNT</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        6. OPENING AN ACCOUNT
       </h4>
       <br />
       <h6>
@@ -668,24 +669,27 @@ export default function Legals() {
         <br />
         ● as a proof of your identity, a copy of any of the following documents:
         <br />
-        o a valid international passport;
+        <span className="ps-4">o a valid international passport;</span>
         <br />
-        o a valid Nigerian national identification card; or
+        <span className="ps-4"></span>o a valid Nigerian national identification
+        card; or
         <br />
-        o Bank verification number (BVN)
+        <span className="ps-4"></span>o Bank verification number (BVN)
         <br />
         <br />
         ● as a proof of your address, a copy of any of the following documents:
         <br />
-        o a valid Nigerian driving license;
+        <span className="ps-4">o a valid Nigerian driving license;</span>
         <br />
-        o lease contract;
+        <span className="ps-4"> o lease contract;</span>
         <br />
-        o recent bank statement;
+        <span className="ps-4">o recent bank statement;</span>
         <br />
-        o recent government issued tax statement; or
+        <span className="ps-4">
+          o recent government issued tax statement; or
+        </span>
         <br />
-        o recent utility bill.
+        <span className="ps-4">o recent utility bill.</span>
         <br />
         <br />
         <span className="font-medium">If you are a Legal Entity:</span>
@@ -730,34 +734,42 @@ export default function Legals() {
         <br />
         ● the contact information for your primary representative;
         <br />
-        o the full name(s),
+        <span className="ps-4">o the full name(s),</span>
         <br />
-        o address(es),
+        <span className="ps-4">o address(es),</span>
         <br />
-        o date(s) and place(s) of birth,
+        <span className="ps-4">o date(s) and place(s) of birth,</span>
         <br />
-        o nationality(ies),
+        <span className="ps-4">o nationality(ies),</span>
         <br />
-        o the identity documents referred to above for each of your directors
-        (or relevant equivalents),
+        <span className="ps-4">
+          o the identity documents referred to above for each of your directors
+          (or relevant equivalents),
+        </span>
         <br />
-        o any shareholders (or relevant equivalents) holding 25% or more of the
-        share capital (or equivalent) in the Legal Entity, and/or any ultimate
-        beneficial owner(s);
+        <span className="ps-4">
+          o any shareholders (or relevant equivalents) holding 25% or more of
+          the share capital (or equivalent) in the Legal Entity, and/or any
+          ultimate beneficial owner(s);
+        </span>
         <br />
         <br />
         ● as a proof of your address, a copy of any of the following documents:
         <br />
-        o extract from your jurisdiction of the establishment of the
-        establishment's relevant commercial register;
+        <span className="ps-4">
+          o extract from your jurisdiction of the establishment of the
+          establishment's relevant commercial register;
+        </span>
         <br />
-        o lease contract;
+        <span className="ps-4">o lease contract;</span>
         <br />
-        o recent bank statement;
+        <span className="ps-4">o recent bank statement;</span>
         <br />
-        o recent government issued tax statement; or
+        <span className="ps-4">
+          o recent government issued tax statement; or
+        </span>
         <br />
-        o recent utility bill.
+        <span className="ps-4">o recent utility bill.</span>
         <br />
         <br />
         We may request, in our sole discretion:
@@ -766,8 +778,7 @@ export default function Legals() {
         ● you to provide one or more answers to security questions that will be
         used as part of any Authorisation under this Agreement; and
         <br />
-        <br />
-        ● Any additional information or documents we deem necessary and
+        <br />● Any additional information or documents we deem necessary and
         appropriate in line with our assessment of risks relevant to you as a
         client, both in course of review of your application and during the
         whole period of validity of this Agreement. You undertake that all
@@ -777,9 +788,10 @@ export default function Legals() {
         identify that they were false, inaccurate and / or incorrect in any
         form, then you shall promptly present us with the respective updated
         information and documents. You can update the information and documents
-        presented to us by email at legal@novasphereltd.com and we may ask you
-        at any time to confirm the accuracy of your information and/or provide
-        additional supporting documents.
+        presented to us by email at{" "}
+        <span className="text-[#0015FF]">legal@novasphereltd.com</span> and we
+        may ask you at any time to confirm the accuracy of your information
+        and/or provide additional supporting documents.
         <br />
         <br />
         We may also contact third parties to collect and/or verify the
@@ -795,7 +807,8 @@ export default function Legals() {
         “Nominated Account”). This is in addition to any other information
         requested by us. If, after being accepted by us, you wish to change your
         Nominated Account, you must notify us by submitting the new Nominated
-        Account details via PayyMe or by email at Support@payymenow.com. We will
+        Account details via PayyMe or by email at{" "}
+        <span className="text-[#0015FF]">Support@payymenow.com</span>. We will
         review the new Nominated Account details and will confirm if the change
         is accepted. The change of Nominated Account will only be effective
         following the express confirmation from us. Once we have activated the
@@ -803,11 +816,9 @@ export default function Legals() {
         Wallet via PayyMe services.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 7. HOW TO USE OUR SERVICES</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        7. HOW TO USE OUR SERVICES
       </h4>
-      <br />
       <br />
       <h6>
         Our service operates through SMS short codes that you can dial from your
@@ -835,11 +846,9 @@ export default function Legals() {
         unexpected interruptions.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 8. KEEPING YOUR ACCOUNT SAFE</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        8. KEEPING YOUR ACCOUNT SAFE
       </h4>
-      <br />
       <br />
       <h6>
         You must take all reasonable precautions to keep your E-Wallet, any
@@ -847,8 +856,8 @@ export default function Legals() {
         to your E-Wallet safe and to prevent fraudulent use of them. You must
         use reasonable endeavours to prevent any unauthorized access to, or use
         of, your E-Wallet and should notify us immediately by email at
-        Support@payymenow.com, of any such unauthorized access or use, or any
-        suspicion of access or use.
+        <span className="text-[#0015FF]">Support@payymenow.com</span>, of any
+        such unauthorized access or use, or any suspicion of access or use.
         <br />
         <br />
         Your login for your Account should not be disclosed to anybody or kept
@@ -896,14 +905,14 @@ export default function Legals() {
         media or any website. If your Account login details are lost or stolen,
         or if you suspect that someone else knows your login details or your
         verified mobile phone and/or e-mail are compromised, you must contact us
-        by email at Support@payymenow.com without undue delay
+        by email at{" "}
+        <span className="text-[#0015FF]">Support@payymenow.com</span> without
+        undue delay
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 9. FUNDING YOUR E-WALLET</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        9. FUNDING YOUR E-WALLET
       </h4>
-      <br />
       <br />
       <h6>
         Once your Account has been opened, E-Money can be issued to you and
@@ -994,11 +1003,9 @@ export default function Legals() {
         obligations under Applicable Law.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 10. EXECUTING PAYMENT TRANSACTIONS</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        10. EXECUTING PAYMENT TRANSACTIONS
       </h4>
-      <br />
       <br />
       <h6>
         You can use your E-Money balance to execute Payment Transactions,
@@ -1128,11 +1135,9 @@ export default function Legals() {
         be issued with E-Money equivalent to the sum refunded.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 11. REDEMPTIONS</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        11. REDEMPTIONS
       </h4>
-      <br />
       <br />
       <h6>
         Any redemptions requested by you from your E-Wallet will be made to a
@@ -1145,10 +1150,10 @@ export default function Legals() {
         We reserve the right to request any additional documents concerning you
         or a specific Redemption or Payment Transaction
       </h6>
-      <h4>
-        <span className="font-medium"> 12. EXECUTION TIMEFRAMES</span>
-      </h4>
       <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        12. EXECUTION TIMEFRAMES
+      </h4>
       <br />
       <h6>
         Where a Payment Order is not refused or delayed, a Payment Order is
@@ -1159,26 +1164,34 @@ export default function Legals() {
         ● Where you agree that execution of the Payment Transaction is to take
         place;
         <br />
-        o On a specific day;
+        <span className="ps-4">o On a specific day;</span>
         <br />
-        o On the last day of a certain period; or
+        <span className="ps-4">o On the last day of a certain period; or</span>
         <br />
-        o On the day on which you have put funds at our disposal, the time of
-        receipt is deemed to be the day so agreed, unless it is not a Business
-        Day in which case it will be deemed to be received on the next
-        applicable Business Day.
+        <span className="ps-4">
+          o On the day on which you have put funds at our disposal, the time of
+          receipt is deemed to be the day so agreed, unless it is not a Business
+          Day in which case it will be deemed to be received on the next
+          applicable Business Day.
+        </span>
         <br />
         <br />
         ● in all other Payment Transactions:
         <br />
-        o if a Payment Order is submitted before 15:00 on a Business Day, it
-        will be deemed to be received on that Business Day;
+        <span className="ps-4">
+          o if a Payment Order is submitted before 15:00 on a Business Day, it
+          will be deemed to be received on that Business Day;
+        </span>
         <br />
-        o if a Payment Order is submitted after 15:00 on a Business Day, it will
-        be deemed to be received on the next applicable Business Day; and
+        <span className="ps-4">
+          o if a Payment Order is submitted after 15:00 on a Business Day, it
+          will be deemed to be received on the next applicable Business Day; and
+        </span>
         <br />
-        o if a Payment Order is submitted on a day that is not a Business Day,
-        it will be deemed to be received on the next applicable Business Day.
+        <span className="ps-4">
+          o if a Payment Order is submitted on a day that is not a Business Day,
+          it will be deemed to be received on the next applicable Business Day.
+        </span>
         <br />
         <br />
         If you have submitted a Payment Order which is deemed to be received on
@@ -1212,14 +1225,9 @@ export default function Legals() {
         time of receipt of the Payment Order.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium">
-          {" "}
-          13. REFUSING/DELAYING PAYMENT TRANSACTIONS
-        </span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        13. REFUSING/DELAYING PAYMENT TRANSACTIONS
       </h4>
-      <br />
       <br />
       <h6>
         We review Account and Payment Transaction activity at various times,
@@ -1319,11 +1327,9 @@ export default function Legals() {
         after.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 14. PAYMENT LIMIT</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        14. PAYMENT LIMIT
       </h4>
-      <br />
       <br />
       <h6>
         From time to time, we may set payment limits on the value of Payment
@@ -1343,7 +1349,8 @@ export default function Legals() {
         <br />
         <br />
         If you wish to increase or decrease payment limit, then you should
-        contact us at Support@payymenow.com
+        contact us at{" "}
+        <span className="text-[#0015FF]">Support@payymenow.com</span>
         <br />
         <br />
         We shall increase any payment limits only at our sole discretion and
@@ -1352,11 +1359,9 @@ export default function Legals() {
         certify the need for increasing a payment limit.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 15. UNAUTHORIZED PAYMENTS</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        15. UNAUTHORIZED PAYMENTS
       </h4>
-      <br />
       <br />
       <h6>
         <span className="underline font-medium">User Responsibility:</span> You
@@ -1431,14 +1436,9 @@ export default function Legals() {
         full liability.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium">
-          {" "}
-          16. UNEXECUTED AND INCORRECTLY EXECUTED PAYMENTS
-        </span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        16. UNEXECUTED AND INCORRECTLY EXECUTED PAYMENTS
       </h4>
-      <br />
       <br />
       <h6>
         We will not be liable for any loss or costs you may suffer as a result
@@ -1477,9 +1477,9 @@ export default function Legals() {
         the Fee Schedule.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium">17. TERM AND TERMINATION</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        17. TERM AND TERMINATION
+      </h4>
       <br />
       <h6>
         Term: Once this Agreement is effective, there is no minimum contract
@@ -1491,8 +1491,9 @@ export default function Legals() {
         <br />
         <br />
         You may terminate this Agreement at any time, subject to you emailing us
-        at Support@payymenow.com and requesting that we close your Account. It
-        may take up to 30 days for your Account closure to be complete.
+        at <span className="text-[#0015FF]">Support@payymenow.com</span> and
+        requesting that we close your Account. It may take up to 30 days for
+        your Account closure to be complete.
         <br />
         <br />
         If you are an Individual or Micro Enterprise, we may terminate this
@@ -1683,11 +1684,9 @@ export default function Legals() {
         termination of this Agreement.
       </h6>
       <br />
-      <br />
-      <h4>
-        <span className="font-medium"> 18. STATEMENTS</span>
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        18. STATEMENTS
       </h4>
-      <br />
       <br />
       <h6>
         You may at any time view or download a statement of E-Money issuances,
@@ -1696,12 +1695,10 @@ export default function Legals() {
         available to you a monthly account statement for the previous 12 months
         from the date of your request. If this statement shows any transaction
         which was not made by you, please report this by reaching out to us at
-        Support@payymenow.com.
+        <span className="text-[#0015FF]"> Support@payymenow.com</span>.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 19. FEES</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">19. FEES</h4>
       <br />
       <h6>
         You are obliged to pay us the fees outlined in the Fee Schedule for the
@@ -1742,12 +1739,9 @@ export default function Legals() {
         our discretion.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium">
-        {" "}
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
         20. TRANSACTION LIMITS AND REGULATORY COMPLIANCE
       </h4>
-      <br />
       <br />
       <h6>
         o ensure security and comply with Nigerian financial regulations,
@@ -1770,9 +1764,9 @@ export default function Legals() {
         our regulatory obligations.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 21. AMENDING THIS AGREEMENT</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        21. AMENDING THIS AGREEMENT
+      </h4>
       <br />
       <h6>
         The valid versions of this Agreement and the Fee Schedule shall be
@@ -1799,11 +1793,12 @@ export default function Legals() {
         you may, at any time prior to the entry into force of the amendments,
         terminate the Agreement without any additional fees effective
         immediately by notifying us via the Website or other PayyMe services or
-        by email to Support@payymenow.com. If you have not, prior to the entry
-        into force of the amendments, notified us that you do not agree to the
-        amendments, then it shall be deemed that you have agreed to the
-        amendments and you will no longer be able to terminate the Agreement
-        under this clause.
+        by email to{" "}
+        <span className="text-[#0015FF]">Support@payymenow.com</span>. If you
+        have not, prior to the entry into force of the amendments, notified us
+        that you do not agree to the amendments, then it shall be deemed that
+        you have agreed to the amendments and you will no longer be able to
+        terminate the Agreement under this clause.
         <br />
         <br />
         If you are a Large Enterprise, we will use reasonable endeavours to
@@ -1824,9 +1819,7 @@ export default function Legals() {
         with the above clause.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 22. NOTICES</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">22. NOTICES</h4>
       <br />
       <h6>
         General All notices / communications made in respect of the Agreement,
@@ -1878,7 +1871,8 @@ export default function Legals() {
         <br />
         <br />
         Any notice to us must be sent by post to: FAO: Legal Department, Abuja
-        FCT Nigeria or by email to legal@novasphereltd.com.
+        FCT Nigeria or by email to{" "}
+        <span className="text-[#0015FF]">legal@novasphereltd.com</span>.
         <br />
         <br />
         If you notify us of any event orally, we may require that you send us
@@ -1887,9 +1881,9 @@ export default function Legals() {
         from you.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 23 . PRIVACY AND DATA PROTECTION</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        23 . PRIVACY AND DATA PROTECTION
+      </h4>
       <br />
       <h6>
         Protecting your privacy is very important to us. Please review our
@@ -1905,9 +1899,9 @@ export default function Legals() {
         purposes without that user’s express consent.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 24 . RESPONSIBILITIES AND RESTRICTIONS</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        24 . RESPONSIBILITIES AND RESTRICTIONS
+      </h4>
       <br />
       <h6>
         While using our services, you agree to use them only for lawful purposes
@@ -1931,9 +1925,7 @@ export default function Legals() {
         forms part of these Terms
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 25 . PAYYME</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">25 . PAYYME</h4>
       <br />
       <h6>
         <span className="font-medium">SMS SERVICE INFRASTRUCTURE</span>
@@ -2217,9 +2209,9 @@ export default function Legals() {
         beyond providing the required SMS service infrastructure.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 26 . NTELLECTUAL PROPERTY</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        26 . NTELLECTUAL PROPERTY
+      </h4>
       <br />
       <h6>
         Our SMS service design, workflows, and proprietary technologies are
@@ -2296,9 +2288,9 @@ export default function Legals() {
         you must delete all of your copies of the Software.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 27 . LIABILITY</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        27 . LIABILITY
+      </h4>
       <br />
       <h6>
         If we incur any damages because you violate our policies, break any
@@ -2386,12 +2378,9 @@ export default function Legals() {
         connected with such disputes.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium">
-        {" "}
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
         28 . APPLICABLE LAW AND DISPUTE RESOLUTION
       </h4>
-      <br />
       <br />
       <h6>
         his Agreement will be governed by Nigerian law and the courts of Nigeria
@@ -2424,7 +2413,6 @@ export default function Legals() {
         them directly with us.
       </h6>
       <br />
-      <br />
       <h4 className="font-medium"> 29 . SURVIVAL AND FORCE MAJEURE</h4>
       <br />
       <br />
@@ -2447,9 +2435,9 @@ export default function Legals() {
         not similar to those enumerated herein.
       </h6>
       <br />
-      <br />
-      <h4 className="font-medium"> 30 . GENERAL PROVISIONS</h4>
-      <br />
+      <h4 className="font-medium lg:text-[22px] text-xl ps-4">
+        30 . GENERAL PROVISIONS
+      </h4>
       <br />
       <h6>
         You acknowledge and agree that this Agreement is between you and us, not
@@ -2546,9 +2534,152 @@ export default function Legals() {
         <br />
         If you are dissatisfied with any aspect of the Services that you have
         received from PayyMe, you can send a complaint to
-        legal@novasphereltd.com, or lodge a complaint using the PayyMe service
-        or website customer support chat.
+        <span className="text-[#0015FF]"> legal@novasphereltd.com</span>, or
+        lodge a complaint using the PayyMe service or website customer support
+        chat.
       </h6>
+      <h4 className="underline font-medium text-[2.25rem] mb-8 text-center xl:mt-[60px] lg:mt-[40px] mt-[2rem]">
+        SCHEDULE A: THE FEE SCHEDULE
+      </h4>
+      <div className="flex justify-center items-center">
+        <table className="w-full border border-black text-sm text-left max-w-[808px]">
+          <thead>
+            <tr className="bg-[#FFED2B] text-black font-semibold">
+              <th className="border border-black px-3 py-2 w-[40px]">S/N</th>
+              <th className="border border-black px-3 py-2">Charges Type</th>
+              <th className="border border-black px-3 py-2">Range</th>
+              <th className="border border-black px-3 py-2">Charge ₦</th>
+            </tr>
+          </thead>
+          <tbody className="text-[#000000]">
+            <tr>
+              <td className="border border-black px-3 py-2">1</td>
+              <td className="border border-black px-3 py-2" rowSpan="3">
+                Outflow
+              </td>
+              <td className="border border-black px-3 py-2">0-5000</td>
+              <td className="border border-black px-3 py-2">30.00</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">2</td>
+              <td className="border border-black px-3 py-2">5000–50,000</td>
+              <td className="border border-black px-3 py-2">30</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">3</td>
+              <td className="border border-black px-3 py-2">50,000</td>
+              <td className="border border-black px-3 py-2">20</td>
+            </tr>
+
+            <tr>
+              <td className="border border-black px-3 py-2">4</td>
+              <td className="border border-black px-3 py-2" rowSpan="1">
+                Inflow
+              </td>
+              <td className="border border-black px-3 py-2">Any amount</td>
+              <td className="border border-black px-3 py-2">0</td>
+            </tr>
+
+            <tr>
+              <td className="border border-black px-3 py-2">5</td>
+              <td className="border border-black px-3 py-2" rowSpan="4">
+                Airtime/Data
+              </td>
+              <td className="border border-black px-3 py-2">Mtn</td>
+              <td className="border border-black px-3 py-2">10</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">6</td>
+              <td className="border border-black px-3 py-2">Airtel</td>
+              <td className="border border-black px-3 py-2">10</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">7</td>
+              <td className="border border-black px-3 py-2">Glo</td>
+              <td className="border border-black px-3 py-2">10</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">8</td>
+              <td className="border border-black px-3 py-2">Etisalat</td>
+              <td className="border border-black px-3 py-2">10</td>
+            </tr>
+
+            <tr>
+              <td className="border border-black px-3 py-2">9</td>
+              <td className="border border-black px-3 py-2" rowSpan="10">
+                Power
+              </td>
+              <td className="border border-black px-3 py-2">
+                Ekoelectricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">10</td>
+              <td className="border border-black px-3 py-2">
+                Port Harcourt Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">11</td>
+              <td className="border border-black px-3 py-2">
+                Kano Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">12</td>
+              <td className="border border-black px-3 py-2">
+                Ibadan electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">13</td>
+              <td className="border border-black px-3 py-2">
+                Kaduna Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">14</td>
+              <td className="border border-black px-3 py-2">
+                Ikeja Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">15</td>
+              <td className="border border-black px-3 py-2">
+                Abuja Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">16</td>
+              <td className="border border-black px-3 py-2">
+                Jos Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">17</td>
+              <td className="border border-black px-3 py-2">
+                Enugu Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+            <tr>
+              <td className="border border-black px-3 py-2">18</td>
+              <td className="border border-black px-3 py-2">
+                Benin Electricity Disco
+              </td>
+              <td className="border border-black px-3 py-2">50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
