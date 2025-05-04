@@ -46,7 +46,9 @@ export default function Blog() {
             ) : (
               <div>
                 <BlogSlide data={blogsContentData?.items[0]} />
-                <News data={blogsContentData?.items.slice(1)} />
+                {blogsContentData?.items.length > 1 && (
+                  <News data={blogsContentData?.items.slice(1)} />
+                )}
               </div>
             )}
           </>
