@@ -5,6 +5,8 @@ import Layout from "@/layout";
 import BlogSlide from "@/components/BlogSlider";
 import { useGetBlogPosts } from "@/service/blog";
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInbox } from "@fortawesome/free-solid-svg-icons";
 
 export default function Blog() {
   const [fetchData, setFetchData] = useState(false);
@@ -32,13 +34,21 @@ export default function Blog() {
         {blogsContentData?.items && (
           <>
             {blogsContentData?.items?.length < 1 ? (
-              <p className="font-bold text-center pt-6 text-4xl text-black">
-                Oopz! No content...
-              </p>
+              <div className="h-[50vh] flex flex-col items-center justify-center text-black">
+                <FontAwesomeIcon
+                  icon={faInbox}
+                  className="text-6xl mb-4 text-gray-400"
+                />
+                <p className="font-bold text-center lg:text-4xl text-[3xl]">
+                  Oopz! No blog content...
+                </p>
+              </div>
             ) : (
               <div>
                 <BlogSlide data={blogsContentData?.items[0]} />
-                <News data={blogsContentData?.items.slice(1)} />
+                {blogsContentData?.items.length > 1 && (
+                  <News data={blogsContentData?.items.slice(1)} />
+                )}
               </div>
             )}
           </>
