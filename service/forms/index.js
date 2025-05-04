@@ -14,7 +14,7 @@ export const useContactForm = (handleSuccess) => {
       handleSuccess(resData);
     },
     onError: (error) => {
-      toast.error(error?.response?.statusText || "An error occured!");
+      toast.error(error?.response?.data?.message || "An error occured!");
     },
   });
 
@@ -34,7 +34,7 @@ export const useSubscribe = (handleSuccess) => {
       handleSuccess(resData);
     },
     onError: (error) => {
-      toast.error(error?.response?.statusText || "An error occured!");
+      toast.error(error?.response?.data?.message || "An error occured!");
     },
   });
 
