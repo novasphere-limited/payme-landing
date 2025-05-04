@@ -49,12 +49,6 @@ p {
   font-family: "Nunito, sans-serif";
 }
 
-#__next img,
-#__next video {
-  max-width: none !important; /* Override max-width */
-  /* height: auto !important; Override height */
-}
-
 input:focus {
   border: none;
   outline: none;
