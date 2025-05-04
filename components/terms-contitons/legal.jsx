@@ -150,19 +150,19 @@ export default function Legals() {
       <h6>
         Welcome to{" "}
         <spa className="font-medium">
-          NOVASPHERE TECHNOLOGY SOLUTIONS LTD's{" "}
+          NOVASPHERE TECHNOLOGY SOLUTIONS LTD&apos;{" "}
         </spa>{" "}
-        SMS-based mobile financial service. We're pleased to offer you our
+        SMS-based mobile financial service. We&apos;re pleased to offer you our
         SMS-based financial service platform that enables convenient money
         transfers and other financial transactions right from your mobile phone
         with no internet access requirement.
       </h6>
       <br />
       <h6>
-        These Terms of Use ("Terms") create a binding agreement between you (the
-        "User") and NOVASPHERE TECHNOLOGY SOLUTIONS LTD ("we," "us," or "our"),
-        governing your access to and use of PayyMe, our SMS-based financial
-        service in Nigeria
+        These Terms of Use (&quot;Terms&quot;) create a binding agreement
+        between you (the &quot;User&quot;) and NOVASPHERE TECHNOLOGY SOLUTIONS
+        LTD (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;), governing your
+        access to and use of PayyMe, our SMS-based financial service in Nigeria
       </h6>
       <br />
       <h6>
@@ -194,13 +194,13 @@ export default function Legals() {
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"PayyMe" </span> refers to our SMS-based
-        financial technology infrastructure that enables the provision of
-        financial services
+        <span className="font-medium">&quot;PayyMe&quot; </span> refers to our
+        SMS-based financial technology infrastructure that enables the provision
+        of financial services
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"Account" </span> refers to your
+        <span className="font-medium">&quot;Account&quot; </span> refers to your
         registered profile within our system that enables you to access and use
         our SMS-based financial service, including a payment account, electronic
         money account, or any other applicable definition of an account record
@@ -208,113 +208,126 @@ export default function Legals() {
       <br />
       <h6>
         {" "}
-        <span className="font-medium"> "BVN" </span> means Bank Verification
-        Number, a unique identifier issued by the Central Bank of Nigeria that
-        links all your bank accounts and serves as your banking industry
-        identity.
+        <span className="font-medium"> &quot;BVN&quot; </span> means Bank
+        Verification Number, a unique identifier issued by the Central Bank of
+        Nigeria that links all your bank accounts and serves as your banking
+        industry identity.
       </h6>
       <br />
       <h6>
-        <span className="font-medium"> "CBN" </span>refers to the Central Bank
-        of Nigeria, the primary regulatory authority overseeing financial
-        services in Nigeria.
+        <span className="font-medium"> &quot;CBN&quot; </span>refers to the
+        Central Bank of Nigeria, the primary regulatory authority overseeing
+        financial services in Nigeria.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"Charges" or "Fees" </span> refer to any
-        amounts payable by you for using our services, as outlined in our fee
-        schedule.
+        <span className="font-medium">
+          &quot;Charges&quot; or &quot;Fees&quot;{" "}
+        </span>{" "}
+        refer to any amounts payable by you for using our services, as outlined
+        in our fee schedule.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"Customer" or "User" </span> refers to any
-        individual or entity that has registered to use our SMS- based financial
-        services.
+        <span className="font-medium">
+          &quot;Customer&quot; or &quot;User&quot;{" "}
+        </span>{" "}
+        refers to any individual or entity that has registered to use our SMS-
+        based financial services.
       </h6>
       <br />
       <h6>
-        <span className="font-medium"> "KYC" </span> means Know Your Customer,
-        the process of verifying the identity of our users in compliance with
-        regulatory requirements.
+        <span className="font-medium"> &quot;KYC&quot; </span> means Know Your
+        Customer, the process of verifying the identity of our users in
+        compliance with regulatory requirements.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"Mobile Money Wallet" </span>"Mobile Money
-        Wallet" refers to the electronic account linked to your phone number
-        that holds your funds within our system
+        <span className="font-medium">&quot;Mobile Money Wallet&quot; </span>
+        &quot;Mobile Money Wallet&quot; refers to the electronic account linked
+        to your phone number that holds your funds within our system
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"NIN" </span>means National Identification
-        Number, a unique identifier issued by the National Identity Management
-        Commission of Nigeria.
+        <span className="font-medium">&quot;NIN&quot; </span>means National
+        Identification Number, a unique identifier issued by the National
+        Identity Management Commission of Nigeria.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"PIN" </span> refers to your Personal
-        Identification Number, a secret numeric code you create to authorize
-        transactions and access your account
+        <span className="font-medium">&quot;PIN&quot; </span> refers to your
+        Personal Identification Number, a secret numeric code you create to
+        authorize transactions and access your account
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"Service" or "Services"</span> refer to
-        any financial or related offerings provided through PayyMe, including
-        but not limited to money transfers, bill payments, airtime purchases,
-        account management, and other services as contained in Clause 3
+        <span className="font-medium">
+          &quot;Service&quot; or &quot;Services&quot;
+        </span>{" "}
+        refer to any financial or related offerings provided through PayyMe,
+        including but not limited to money transfers, bill payments, airtime
+        purchases, account management, and other services as contained in Clause
+        3
       </h6>
       <br />
       <h6>
-        <span className="font-medium"> "Transaction" </span> refers to any
-        activity conducted through our platform that involves the movement of
-        funds or account updates.
+        <span className="font-medium"> &quot;Transaction&quot; </span> refers to
+        any activity conducted through our platform that involves the movement
+        of funds or account updates.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"SMS" </span> means Short Message Service
-        protocol that enables text-based communication between mobile phones and
-        our service platform without requiring internet access.
+        <span className="font-medium">&quot;SMS&quot; </span> means Short
+        Message Service protocol that enables text-based communication between
+        mobile phones and our service platform without requiring internet
+        access.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">“SMS Short Code” </span> means a short
-        numerical sequence used to send and receive text messages (SMS) between
-        mobile users and our platform. This SMS Short code will be used for
-        authentication, customer engagement, notifications, transactions, and
-        any other purpose and functionality offered by the company through
+        <span className="font-medium">&quot;SMS Short Code&quot; </span> means a
+        short numerical sequence used to send and receive text messages (SMS)
+        between mobile users and our platform. This SMS Short code will be used
+        for authentication, customer engagement, notifications, transactions,
+        and any other purpose and functionality offered by the company through
         PayyMe without requiring internet access
       </h6>
       <br />
       <h6>
-        <span className="font-medium">"Wallet-to-Wallet Transfer" </span> refers
-        to the movement of funds from one user's mobile money wallet to another
-        user's wallet within our system.
+        <span className="font-medium">
+          &quot;Wallet-to-Wallet Transfer&quot;{" "}
+        </span>{" "}
+        refers to the movement of funds from one user&apos;s mobile money wallet
+        to another user&apos;s wallet within our system.
       </h6>
       <br />
       <h6>
-        <span className="font-medium">“Applicable Law” </span> means any and all
-        applicable laws, legislation, bye-laws, decisions, notices, statutes,
-        orders, rules (including any rules or decisions of court), regulations,
-        directives, edicts, schemes, warrants, local government rules, statutory
-        instruments or other delegated or subordinate legislation and any
-        directions, codes of practice issued pursuant to any legislation,
-        voluntary codes, other instruments made or to be made under any statute
-        and codes of conduct and mandatory guidelines (including in all cases
-        those that relate to audit, accounting, or financial reporting) and
-        which have legal effect, whether local, national, international or
-        otherwise existing from time to time, together with any similar
-        instrument having legal effect in the relevant circumstances;
+        <span className="font-medium">&quot;Applicable Law&quot; </span> means
+        any and all applicable laws, legislation, bye-laws, decisions, notices,
+        statutes, orders, rules (including any rules or decisions of court),
+        regulations, directives, edicts, schemes, warrants, local government
+        rules, statutory instruments or other delegated or subordinate
+        legislation and any directions, codes of practice issued pursuant to any
+        legislation, voluntary codes, other instruments made or to be made under
+        any statute and codes of conduct and mandatory guidelines (including in
+        all cases those that relate to audit, accounting, or financial
+        reporting) and which have legal effect, whether local, national,
+        international or otherwise existing from time to time, together with any
+        similar instrument having legal effect in the relevant circumstances;
       </h6>
       <br />
       <h6>
-        <span className="font-medium"> “Authentication” </span>means the
-        performance of operations which enable us to verify your identity;
+        <span className="font-medium"> &quot;Authentication&quot; </span>means
+        the performance of operations which enable us to verify your identity;
       </h6>
       <br />
       <h6>
         {" "}
-        <span className="font-medium"> “Authentication Instrument” </span>means
-        an item, feature, information or other instrument that enables you to
-        Authenticate yourself to us, and / or to Authorize certain operations
+        <span className="font-medium">
+          {" "}
+          &quot;Authentication Instrument&quot;{" "}
+        </span>
+        means an item, feature, information or other instrument that enables you
+        to Authenticate yourself to us, and / or to Authorize certain operations
         for us (for example personalized security details for the App, a
         password, a one-time authentication code, a PIN, a mobile phone, a
         mobile phone number, a fingerprint or personalized security questions);
@@ -510,7 +523,7 @@ export default function Legals() {
         requiring internet access. Through simple SMS short codes, you can
         transfer money, check balances, pay bills, purchase airtime, and access
         other financial services we may introduce over time. <br /> <br />
-        We've designed our service to be accessible to all Nigerians with a
+        We&apos;ve designed our service to be accessible to all Nigerians with a
         mobile phone, regardless of whether you have a smartphone or internet
         connectivity. Our mission is to make financial services more inclusive
         and to bring the convenience of digital payments to everyone, everywhere
@@ -571,7 +584,7 @@ export default function Legals() {
       <br />
       <h6>
         Creating an account with us is straightforward and can be completed
-        entirely through SMS commands. During registration, you'll select a
+        entirely through SMS commands. During registration, you&apos;ll select a
         secure PIN that will protect your account and authorize transactions.
         This PIN is your digital signature, and you are responsible for
         maintaining its confidentiality.
@@ -580,16 +593,17 @@ export default function Legals() {
         We take security seriously but need your cooperation to keep your
         account safe. Never share your PIN with anyone, including our staff
         members, who will never ask for your complete PIN. Be vigilant about
-        responding to SMS prompts only after confirming you've dialled our
+        responding to SMS prompts only after confirming you&apos;ve dialled our
         official SMS short code. If you suspect unauthorized access to your
         account or if your phone is lost or stolen, contact our customer service
         immediately so we can help protect your funds.
         <br />
         <br />
-        Remember that you're responsible for all activities that occur under
-        your account. We've implemented multiple security layers to protect you,
-        but your diligence in safeguarding your PIN and promptly reporting
-        suspicious activities is essential to maintaining account security.
+        Remember that you&apos;re responsible for all activities that occur
+        under your account. We&apos;ve implemented multiple security layers to
+        protect you, but your diligence in safeguarding your PIN and promptly
+        reporting suspicious activities is essential to maintaining account
+        security.
       </h6>
       <br />
       <h4 className="font-medium lg:text-[22px] text-xl ps-4">
@@ -604,16 +618,17 @@ export default function Legals() {
         We take security seriously but need your cooperation to keep your
         account safe. Never share your PIN with anyone, including our staff
         members, who will never ask for your complete PIN. Be vigilant about
-        responding to SMS prompts only after confirming you've dialled our
+        responding to SMS prompts only after confirming you&apos;ve dialled our
         official SMS short code. If you suspect unauthorized access to your
         account or if your phone is lost or stolen, contact our customer service
         immediately so we can help protect your funds.
         <br />
         <br />
-        Remember that you're responsible for all activities that occur under
-        your account. We've implemented multiple security layers to protect you,
-        but your diligence in safeguarding your PIN and promptly reporting
-        suspicious activities is essential to maintaining account security.
+        Remember that you&apos;re responsible for all activities that occur
+        under your account. We&apos;ve implemented multiple security layers to
+        protect you, but your diligence in safeguarding your PIN and promptly
+        reporting suspicious activities is essential to maintaining account
+        security.
         <br />
         <br />
         ● Personal Account – for use in person-to-person transfers with friends
@@ -758,7 +773,7 @@ export default function Legals() {
         <br />
         <span className="ps-4">
           o extract from your jurisdiction of the establishment of the
-          establishment's relevant commercial register;
+          establishment&apos;s relevant commercial register;
         </span>
         <br />
         <span className="ps-4">o lease contract;</span>
@@ -823,27 +838,28 @@ export default function Legals() {
       <h6>
         Our service operates through SMS short codes that you can dial from your
         mobile phone. To access our main menu, dial [our SMS short code] from
-        your registered phone number. You'll then navigate through menu options
-        using your keypad to select the service you need.
+        your registered phone number. You&apos;ll then navigate through menu
+        options using your keypad to select the service you need.
         <br />
         <br />
-        For money transfers, you'll need the recipient's phone number or account
-        details. Our system will guide you through the necessary steps to
-        complete your transaction securely. After confirming transaction
-        details, you'll authorize the transaction using your PIN.
+        For money transfers, you&apos;ll need the recipient&apos;s phone number
+        or account details. Our system will guide you through the necessary
+        steps to complete your transaction securely. After confirming
+        transaction details, you&apos;ll authorize the transaction using your
+        PIN.
         <br />
         <br />
         Each transaction is confirmed with a unique transaction reference, which
-        you should retain until you're certain the transaction has been
+        you should retain until you&apos;re certain the transaction has been
         completed successfully. This reference will help us assist you quickly
         should you need support with any transaction.
         <br />
         <br />
-        We've designed our service to be available 24/7, but please understand
-        that system maintenance, network issues, or regulatory requirements may
-        occasionally affect service availability. We strive to provide advance
-        notice of any planned downtime and to restore service promptly during
-        unexpected interruptions.
+        We&apos;ve designed our service to be available 24/7, but please
+        understand that system maintenance, network issues, or regulatory
+        requirements may occasionally affect service availability. We strive to
+        provide advance notice of any planned downtime and to restore service
+        promptly during unexpected interruptions.
       </h6>
       <br />
       <h4 className="font-medium lg:text-[22px] text-xl ps-4">
@@ -1216,13 +1232,14 @@ export default function Legals() {
         <br />
         ● Where the recipient’s account or your Nominated Account is outside
         Nigeria - the Payment Transaction will be credited to the recipient’s
-        payment service provider's account or your Nominated Account by the end
-        of the Business Day following the time of receipt of the Payment Order.
+        payment service provider&apos;s account or your Nominated Account by the
+        end of the Business Day following the time of receipt of the Payment
+        Order.
         <br />
         <br />● Any other circumstances - the Payment Transaction will be
-        credited to the recipient’s payment service provider's account or your
-        Nominated Account by the end of the fourth Business Day following the
-        time of receipt of the Payment Order.
+        credited to the recipient’s payment service provider&apos;s account or
+        your Nominated Account by the end of the fourth Business Day following
+        the time of receipt of the Payment Order.
       </h6>
       <br />
       <h4 className="font-medium lg:text-[22px] text-xl ps-4">
@@ -1776,9 +1793,9 @@ export default function Legals() {
         <br />
         As our services evolve and regulations change, we may update these
         Terms. We shall have the right to unilaterally amend this Agreement
-        including the Fee Schedule. We'll notify you of any material changes
-        through SMS notifications, or other appropriate channels at least 30
-        days before they take effect.
+        including the Fee Schedule. We&apos;ll notify you of any material
+        changes through SMS notifications, or other appropriate channels at
+        least 30 days before they take effect.
         <br />
         <br />
         Your continued use of our services after such notifications constitutes
@@ -1915,11 +1932,11 @@ export default function Legals() {
         not to use our platform for any illegal activities, including money
         laundering, fraud, terrorism financing, or any violation of Nigerian
         laws. You also agree not to attempt to reverse-engineer our SMS short
-        codes or bypass any security measures we've implemented.
+        codes or bypass any security measures we&apos;ve implemented.
         <br />
         <br />
-        We respect your privacy and expect you to respect others' privacy as
-        well. You agree not to use our service to collect information about
+        We respect your privacy and expect you to respect others&apos; privacy
+        as well. You agree not to use our service to collect information about
         other users or to send unsolicited commercial messages. Our commitment
         to protecting your information is detailed in our Privacy Policy, which
         forms part of these Terms
@@ -2507,14 +2524,14 @@ export default function Legals() {
         the services under this Agreement.
         <br />
         <br />
-        The Company may arrange for Bank PLC ("BANK") to provide you with access
-        to a debit card (a PayyMe Card”). By using the PayyMe Card, you agree to
-        the bank’s Prepaid Card Terms and Conditions, as applicable (each the
-        “PayyMe Card Terms”). For avoidance of doubt, the applicable PayyMe Card
-        Terms are between you and the bank, not the Company, and in the event of
-        any inconsistency between this Agreement and the applicable PayyMe Card
-        Terms, the applicable PayyMe Card Terms shall govern your use of the
-        PayyMe Card and your relationship with the bank.
+        The Company may arrange for Bank PLC (&quot;BANK&quot;) to provide you
+        with access to a debit card (a PayyMe Card”). By using the PayyMe Card,
+        you agree to the bank’s Prepaid Card Terms and Conditions, as applicable
+        (each the “PayyMe Card Terms”). For avoidance of doubt, the applicable
+        PayyMe Card Terms are between you and the bank, not the Company, and in
+        the event of any inconsistency between this Agreement and the applicable
+        PayyMe Card Terms, the applicable PayyMe Card Terms shall govern your
+        use of the PayyMe Card and your relationship with the bank.
         <br />
         <br />
         <span className="font-medium">Service Update: </span>The Service is
