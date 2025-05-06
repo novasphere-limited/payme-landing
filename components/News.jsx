@@ -26,7 +26,7 @@ export default function News({ data }) {
             <div className="mb-2 flex justify-center">
               <Image
                 src={
-                  // news?.fileUrl ||
+                  news?.fileUrl ||
                   "https://res.cloudinary.com/dstqfrcxx/image/upload/v1712336242/69167AEF-7DBD-4C08-8D0F-E18C31D87AE1_odut8b.png"
                 }
                 width={333}
