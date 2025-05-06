@@ -20,7 +20,6 @@ export default function BlogSlide({ data }) {
 
   return (
     <div className="xl:mb-[120px] md:mb-[50px] mb-8">
-      <NavTab />
       <div className="xl:mx-[100px] lg:mx-[70px] md:mx-[35px] sm:mx-[20px] mx-3">
         <h3 className="flex items-center gap-2 xl:text-5xl text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium xl:mb-[42px] md:mb-[32px] mb-[20px]">
           <div

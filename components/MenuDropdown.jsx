@@ -9,8 +9,8 @@ export default function BasicMenu({ popText, popArray }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
+    console.log("Clicked bro!!!");
     setAnchorEl(event.currentTarget);
-    setAnchorEl(null);
   };
   const handleClose = () => {
     setAnchorEl(null);

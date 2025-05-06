@@ -7,6 +7,8 @@ import FeaturedSlide from "@/components/featuredSlide";
 import FeaturedNews from "@/components/featuredNews";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInbox } from "@fortawesome/free-solid-svg-icons";
+import NavTab from "@/components/NavTab";
+import Image from "next/image";
 
 export default function Blog() {
   const [fetchData, setFetchData] = useState(false);
@@ -31,13 +33,18 @@ export default function Blog() {
     <Layout>
       <div className="navbar-margin">
         <BlogHerosection />
+
+        <NavTab />
+
         {featuredContentsData?.items && (
           <>
             {featuredContentsData?.items?.length < 1 ? (
               <div className="h-[50vh] flex flex-col items-center justify-center text-black">
-                <FontAwesomeIcon
-                  icon={faInbox}
-                  className="text-6xl mb-4 text-gray-400"
+                <Image
+                  height={100}
+                  width={100}
+                  alt="EMpty icon"
+                  src="/asset/empty-post.png"
                 />
                 <p className="font-bold text-center lg:text-4xl text-[3xl]">
                   Oopz! No featured-in content...

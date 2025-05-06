@@ -19,7 +19,7 @@ export default function Faq() {
             to fostering financial inclusion. Here are must frequent asked
             questions from our visitor’s
           </p>
-          <div
+          {/* <div
             className="px-2 py-1 flex items-center rounded-md w-[322px] mx-auto"
             style={{ border: "1px solid #fff" }}
           >
@@ -46,7 +46,7 @@ export default function Faq() {
                 className="w-full bg-transparent"
               />
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
