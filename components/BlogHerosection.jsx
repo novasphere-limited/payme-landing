@@ -5,8 +5,8 @@ export default function BlogHerosection() {
     <div>
       <div className="bg-[#033A08]">
         <div className="blog-bg_image">
-          <div className="xl:px-[100px] lg:px-[75px] md:px-[50px] sm:px-[35px] px-4 py-[21px] bg-[#171717B2] xl:py-[120px] sm:py-[40px] md:py-[75px] lg:py-[100px]">
-            <h1 className="font-semibold xl:text-[48px] lg:text-[44px]  text-2xl sm:text-4xl md:text-6xl lg:mb-4 sm:mb-2 mb-1 text-[#FEFCFC] font-rope">
+          <div className="xl:px-[100px] flex flex-col items-start justify-center lg:px-[75px] md:px-[50px] sm:px-[35px] px-4 py-[21px] bg-[#171717B2] md:h-[50vh] h-[25vh]">
+            <h1 className="font-semibold xl:text-[48px] lg:text-[44px] text-4xl md:text-6xl lg:mb-4 sm:mb-2 mb-1 text-[#FEFCFC] font-rope">
               <span className="text-warning600">Payyme</span> in the news
             </h1>
 
@@ -14,7 +14,7 @@ export default function BlogHerosection() {
               The latest news, announcements from PayyMe
             </p>
 
-            <div
+            {/* <div
               className="px-2 py-1 flex items-center rounded-md "
               style={{ border: "1px solid #fff", maxWidth: "322px" }}
             >
@@ -40,7 +40,7 @@ export default function BlogHerosection() {
                   }}
                 />
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
