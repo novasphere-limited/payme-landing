@@ -52,7 +52,7 @@ export default function Navbar() {
     },
     {
       id: 3,
-      text: "Airtime & Data",
+      text: "Create Account",
       href: "/how?tab=create-account",
       icon: "/favicon_io/pop-img-3.svg",
     },
