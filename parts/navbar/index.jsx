@@ -72,7 +72,7 @@ export default function Navbar() {
       icon: "/asset/pop-img-4.png",
     },
     {
-      id: 8,
+      id: 9,
       text: "Careers",
       href: "/career",
       icon: "/asset/pop-img-7.png",
