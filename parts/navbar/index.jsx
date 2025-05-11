@@ -50,12 +50,12 @@ export default function Navbar() {
       href: "/how?tab=pay-bills",
       icon: "/favicon_io/pop-img-2.svg",
     },
-    {
-      id: 3,
-      text: "Create Account",
-      href: "/how?tab=create-account",
-      icon: "/favicon_io/pop-img-3.svg",
-    },
+    // {
+    //   id: 3,
+    //   text: "Create Account",
+    //   href: "/how?tab=create-account",
+    //   icon: "/favicon_io/pop-img-3.svg",
+    // },
   ];
 
   const companyArray = [
@@ -72,19 +72,25 @@ export default function Navbar() {
       icon: "/asset/pop-img-4.png",
     },
     {
-      id: 2,
-      text: "Company Core Value",
-      href: "/about?tab=core-values",
-      icon: "/favicon_io/pop-img-5.svg",
+      id: 8,
+      text: "Careers",
+      href: "/career",
+      icon: "/asset/pop-img-7.png",
     },
+    // {
+    //   id: 2,
+    //   text: "Company Core Value",
+    //   href: "/about?tab=core-values",
+    //   icon: "/favicon_io/pop-img-5.svg",
+    // },
     {
       id: 3,
       text: "Featured In",
       href: "/featured-in",
       icon: "/favicon_io/pop-img-6.svg",
     },
-    { id: 4, text: "FAQ's ", href: "/faq", icon: "/asset/pop-img-7.png" },
-    { id: 5, text: "Blog", href: "/blog", icon: "/favicon_io/faq-icon-1.svg" },
+    // { id: 4, text: "FAQ's ", href: "/faq", icon: "/asset/pop-img-7.png" },
+    // { id: 5, text: "Blog", href: "/blog", icon: "/favicon_io/faq-icon-1.svg" },
   ];
 
   return (
